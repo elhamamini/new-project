@@ -1,0 +1,1473 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Creating an Environment in AWS Cloud9 - AWS Cloud9</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="home" href="#top" />
+      <link rel="up" href="environments.html" title="Working with Environments in AWS Cloud9" />
+      <link rel="prev" href="environments.html" title="Working with Environments in AWS Cloud9" />
+      <link rel="next" href="open-environment.html" title="Opening an Environment in AWS Cloud9" />
+      <meta name="description" content="Describes how to create an environment in AWS Cloud9." />
+      <meta name="deployment_region" content="IAD" />
+      <meta name="product" content="AWS Cloud9" />
+      <meta name="guide" content="User Guide" />
+      <meta name="guide-locale" content="en_us" />
+      <link rel="icon" type="image/ico" href="/images/favicon.ico" />
+      <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+      <link rel="canonical" href="https://docs.aws.amazon.com/cloud9/latest/user-guide/create-environment.html" />
+      <link rel="stylesheet" type="text/css" href="/css/jquery-ui.min.css" />
+      <link rel="stylesheet" type="text/css" href="/font/css/font-awesome.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/google-font.css" />
+      <link id="code-style" rel="stylesheet" type="text/css" href="/css/code/light.css" />
+      <link rel="stylesheet" type="text/css" href="/css/jquery-ui.theme.css" />
+      <link rel="stylesheet" type="text/css" href="/css/colorbox.css" />
+      <link rel="stylesheet" type="text/css" href="/css/awsdocs.css?v=20170615" /><script type="text/javascript" src="/js/highlight.pack.js"></script><script type="text/javascript" src="/js/jquery.min.js"></script><script type="text/javascript" src="/js/jquery-ui.min.js"></script><script type="text/javascript" src="/js/jquery.colorbox.js"></script><script type="text/javascript" src="/js/awsdocs.min.js?v=20170615"></script></head>
+   <body id="top">
+      <div xmlns:db="http://docbook.org/ns/docbook" id="aws-nav" class="aws-nav-header">
+         <div class="aws-nav-header-left">
+            <div class="aws-nav-logo">
+               <!--aws_logo_105x39.png--><a href="http://aws.amazon.com"><img src="/images/aws_logo_105x39.png" alt="Amazon Web Services" /></a></div>
+         </div>
+         <div id="aws-nav-header-right" class="aws-nav-header-right">
+            <div class="aws-nav-cta-button-outer"><a id="aws-nav-cta-button" class="aws-nav-button" href="https://console.aws.amazon.com/console/home">Sign In to the Console</a></div>
+            <div class="aws-nav-popover-trigger" data-dropdown="aws-nav-dropdown-lang"><select id="languageSelection" onchange="SelectLanguage()">
+                  <option value="/de_de/cloud9/latest/user-guide/create-environment.html">Deutsch</option>
+                  <option value="/en_us/cloud9/latest/user-guide/create-environment.html" selected="selected">English</option>
+                  <option value="/es_es/cloud9/latest/user-guide/create-environment.html">Español</option>
+                  <option value="/fr_fr/cloud9/latest/user-guide/create-environment.html">Français</option>
+                  <option value="/it_it/cloud9/latest/user-guide/create-environment.html">Italiano</option>
+                  <option value="/ja_jp/cloud9/latest/user-guide/create-environment.html">日本語</option>
+                  <option value="/ko_kr/cloud9/latest/user-guide/create-environment.html">한국어</option>
+                  <option value="/pt_br/cloud9/latest/user-guide/create-environment.html">Português</option>
+                  <option value="/zh_cn/cloud9/latest/user-guide/create-environment.html">中文 (简体)</option>
+                  <option value="/zh_tw/cloud9/latest/user-guide/create-environment.html">中文 (繁體)</option></select></div><a class="btn btn-kindle-link" id="kindle-link-top" target="_blank" href="http://www.amazon.com/dp/B078XBZMWS" title="Open Kindle"></a><a class="btn btn-pdf-link" id="pdf-link-top" href="aws-cloud9-ug.pdf#create-environment" target="_blank" title="Open PDF"></a><a class="btn btn-github-link" id="github-link-top" href="https://github.com/awsdocs/aws-cloud9-user-guide/tree/master/doc_source/create-environment.rst" target="_blank" title="Edit on GitHub"></a><div id="aws-nav-quicklinks-separator" class="aws-nav-quicklinks-separator">
+               <div class="aws-nav-left"></div>
+               <div class="aws-nav-right"></div>
+            </div>
+         </div>
+      </div>
+      <div id="content-container">
+         <div id="left-column">
+            <div id="left-col-header">
+               <div xmlns:db="http://docbook.org/ns/docbook" id="left-col-top-content">
+                  <div id="service-name">AWS Cloud9 </div>
+                  <div id="search"><i id="search-icon" class="fa fa-search fa-2x"></i></div>
+                  <div id="guide-info">User Guide
+                     <div id="content-button"><i id="toggle-contents" class="fa fa-bars"></i></div>
+                  </div>
+               </div>
+               <form id="finegrainedSearch" method="get" onsubmit="return searchFormSubmit(this);" action="/search/doc-search.html">
+                  <div id="search-form"><select id="search-select" name="searchPath">
+                        <option value="all">Entire Site</option>
+                        <option value="AWSMarketplace">AMIs from AWS Marketplace</option>
+                        <option value="amis">AMIs from All Sources</option>
+                        <option value="articles">Articles &amp; Tutorials</option>
+                        <option value="products_and_info">AWS Product Information</option>
+                        <option value="case_studies">Case Studies</option>
+                        <option value="customerapps">Customer Apps</option>
+                        <option value="documentation">Documentation</option>
+                        <option value="documentation-product">Documentation - This Product</option>
+                        <option value="documentation-guide" selected="selected">Documentation - This Guide</option>
+                        <option value="datasets">Public Data Sets</option>
+                        <option value="releasenotes">Release Notes</option>
+                        <option value="solution_providers">Partners</option>
+                        <option value="code">Sample Code &amp; Libraries</option></select><br /><input id="search-query" name="searchQuery" type="text" placeholder="Search" /><input id="search-button" src="/images/search-button.png" alt="Go" type="image" /></div><input type="hidden" name="this_doc_product" id="this_doc_product" value="AWS Cloud9" /><input type="hidden" name="this_doc_guide" id="this_doc_guide" value="User Guide" /><input type="hidden" name="doc_locale" value="en_us" /></form>
+            </div>
+            <div id="toc">
+               <ul class="awstoc">
+                  <li class="awstoc leaf"><a class="awstoc" href="welcome.html">What Is AWS Cloud9?</a></li>
+                  <li class="awstoc closed"><a class="awstoc" href="get-started.html">Getting Started</a><ul class="awstoc">
+                        <li class="awstoc leaf"><a class="awstoc" href="setup-express.html">Express Setup</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="setup.html">Team Setup</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="setup-teams.html">Advanced Team Setup</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="tutorial.html">IDE Tutorial</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="tutorial-lambda.html">AWS Lambda Tutorial</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="tutorial-lambda-advanced.html">Advanced AWS Lambda Tutorial</a></li>
+                     </ul>
+                  </li>
+                  <li class="awstoc opened"><a class="awstoc" href="environments.html">Working with Environments</a><ul class="awstoc">
+                        <li class="awstoc leaf"><a class="awstoc selected" href="create-environment.html">Creating an Environment</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="open-environment.html">Opening an Environment</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="credentials.html">Call AWS Services from an Environment</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="change-environment.html">Changing Environment Settings</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="share-environment.html">Working with Shared Environments</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="move-environment.html">Moving or Resizing an Environment</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="delete-environment.html">Deleting an Environment</a></li>
+                     </ul>
+                  </li>
+                  <li class="awstoc closed"><a class="awstoc" href="ide.html">Working with the IDE</a><ul class="awstoc">
+                        <li class="awstoc leaf"><a class="awstoc" href="language-support.html">Language Support</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="menu-commands.html">Menu Commands Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="find-replace-text.html">Finding and Replacing Text</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="file-preview.html">Previewing Files</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="app-preview.html">Previewing Running Applications</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="file-revisions.html">Working with File Revisions</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="images.html">Working with Image Files</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="build-run-debug.html">Working with Builders, Runners, and Debuggers</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="projects.html">Working with Language Projects</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="env-vars.html">Working with Custom Environment Variables</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="settings-project.html">Working with Project Settings</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="settings-user.html">Working with User Settings</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="settings-aws.html">Working with AWS Project and User Settings</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="settings-keybindings.html">Working with Keybindings</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="settings-theme.html">Working with Themes</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="settings-init-script.html">Working with Initialization Scripts</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-default-apple-osx.html">MacOS Default Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-vim-apple-osx.html">MacOS Vim Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-emacs-apple-osx.html">MacOS Emacs Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-sublime-apple-osx.html">MacOS Sublime Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-default-windows-linux.html">Windows / Linux Default Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-vim-windows-linux.html">Windows / Linux Vim Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-emacs-windows-linux.html">Windows / Linux Emacs Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-sublime-windows-linux.html">Windows / Linux Sublime Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="commands.html">Commands Reference</a></li>
+                     </ul>
+                  </li>
+                  <li class="awstoc leaf"><a class="awstoc" href="lightsail-instances.html">Working with Amazon Lightsail Instances</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="codestar-projects.html">Working with AWS CodeStar Projects</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="lambda-functions.html">Working with AWS Lambda Functions</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="codepipeline-repos.html">Working with AWS CodePipeline</a></li>
+                  <li class="awstoc closed"><a class="awstoc" href="samples.html">Samples</a><ul class="awstoc">
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-aws-cli.html">AWS CLI and aws-shell Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-codecommit.html">AWS CodeCommit Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-github.html">GitHub Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-dynamodb.html">Amazon DynamoDB Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-cdk.html">AWS CDK Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-java.html">Java Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-cplusplus.html">C++ Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-python.html">Python Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-dotnetcore.html">.NET Core Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-nodejs.html">Node.js Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-php.html">PHP Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-ruby.html">Ruby Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-go.html">Go Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-typescript.html">TypeScript Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-docker.html">Docker Sample</a></li>
+                     </ul>
+                  </li>
+                  <li class="awstoc leaf"><a class="awstoc" href="vpc-settings.html">Amazon VPC Settings</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="ssh-settings.html">SSH Environment Host Requirements</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="ip-ranges.html">Inbound SSH IP Address Ranges</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="ami-contents.html">AMI Contents</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="auth-and-access-control.html">Authentication and Access Control</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="using-service-linked-roles.html">Using Service-Linked Roles</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="troubleshooting.html">Troubleshooting</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="browsers.html">Supported Browsers</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="limits.html">Limits</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="history.html">Document History</a></li>
+                  <li id="toc-additional-links"><a class="btn btn-pdf-link" id="pdf-link-alt" href="aws-cloud9-ug.pdf#index" target="_blank" title="Open PDF"></a><a class="btn btn-kindle-link" id="kindle-link-alt" target="_blank" href="http://www.amazon.com/dp/B078XBZMWS" title="Open Kindle"></a></li>
+               </ul>
+            </div>
+         </div>
+         <div id="main-column">
+            <div id="main">
+               <div id="main-content">
+                  <div id="main-col-body">
+                     <table summary="Breadcrumbs">
+                        <tr>
+                           <td>
+                              <div class="breadcrumb"><a href="/index.html">AWS Documentation</a> » <a href="/cloud9/index.html">AWS Cloud9</a> » <a href="index.html">User Guide</a> » <a href="environments.html">Working with Environments in AWS Cloud9</a> » <span class="breadcrumb">Creating an Environment in AWS Cloud9</span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <div id="language-notice">
+                        <div class="language-notice-text"></div>
+                     </div>
+                     <div></div>
+                     <h1 class="topictitle" id="create-environment">Creating an Environment in AWS Cloud9</h1>
+                     <p>To create an AWS Cloud9 development environment, follow one of these sets of procedures,
+                        depending on how you plan to use AWS Cloud9.
+                     </p>
+                     <div class="table">
+                        <p class="title"><b></b></p>
+                        <div class="table-contents">
+                           <table id="w86aab9c15b5">
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>If you're not sure what to choose, we recommend <a href="create-environment.html#create-environment-main">creating an EC2 environment</a>.
+                                    </p>
+                                    
+                                    <p>Creating an EC2 environment is the easiest option. AWS Cloud9 automatically creates
+                                       and sets up a new Amazon EC2 instance in your AWS account.
+                                       AWS Cloud9 then automatically connects that new instance to the environment for you.
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                           </table>
+                        </div>
+                     </div>
+                     <div class="table">
+                        <p class="title"><b></b></p>
+                        <div class="table-contents">
+                           <table id="w86aab9c15b7">
+                              
+                              <tr>
+                                 
+                                 <th>
+                                    <b>Source code provided by</b>
+                                    
+                                 </th>
+                                 
+                                 <th>
+                                    <b>Development environment host provided by</b>
+                                    
+                                 </th>
+                                 
+                                 <th>
+                                    <b>Follow these procedures</b>
+                                    
+                                 </th>
+                                 
+                              </tr>
+                              
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>You</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS Cloud9</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>This topic (<a href="create-environment.html#create-environment-main">create an EC2 environment</a>)
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>You</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>You</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>This topic (<a href="create-environment.html#create-environment-ssh">create an SSH environment</a>)
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="https://aws.amazon.com/lightsail" target="_blank">Amazon Lightsail</a> or you
+                                    </p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>You, by using Lightsail</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="lightsail-instances.html">Working with Amazon Lightsail Instances</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="https://aws.amazon.com/codestar" target="_blank">AWS CodeStar</a> or you
+                                    </p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS Cloud9, by using AWS CodeStar</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="codestar-projects.html">Working with AWS CodeStar Projects</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>You, by using <a href="https://aws.amazon.com/codepipeline" target="_blank">AWS CodePipeline</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS Cloud9 or you</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>This topic (create an <a href="create-environment.html#create-environment-main">EC2</a> or <a href="create-environment.html#create-environment-ssh">SSH</a> environment), and then see <a href="codepipeline-repos.html">Working with AWS CodePipeline</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>You, by using <a href="https://aws.amazon.com/codecommit" target="_blank">AWS CodeCommit</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS Cloud9 or you</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="sample-codecommit.html">AWS CodeCommit Sample</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>You, by using <a href="https://github.com/" target="_blank">GitHub</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS Cloud9 or you</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>This topic (create an <a href="create-environment.html#create-environment-main">EC2</a> or <a href="create-environment.html#create-environment-ssh">SSH</a> environment), and then see the <a href="sample-github.html">GitHub Sample</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                           </table>
+                        </div>
+                     </div>
+                     <h2 id="create-environment-main">Creating an EC2 Environment</h2>
+                     
+                     
+                     <div class="aws-note">
+                        <p class="aws-note">Note</p>
+                        <p>Completing this procedure might result in charges to your AWS account. These include
+                           possible charges for Amazon EC2. For more information, see
+                           <a href="https://aws.amazon.com/ec2/pricing/" target="_blank">Amazon EC2 Pricing</a>.
+                        </p>
+                     </div>
+                     
+                     <p>In this procedure, AWS Cloud9 creates an EC2 environment, creates a new Amazon EC2
+                        instance, and then connects the environment to this newly-created instance.
+                        AWS Cloud9 manages this instance's lifecycle, including starting, stopping, and restarting
+                        the instance as needed. If you ever delete this environment, AWS Cloud9 automatically
+                        terminates this instance.
+                     </p>
+                     
+                     <p>You can create an AWS Cloud9 EC2 development environment with the <a href="create-environment.html#create-environment-console">AWS Cloud9 console</a> or with <a href="create-environment.html#create-environment-code">code</a>.
+                     </p>
+                     
+                     <h3 id="create-environment-console">Creating an EC2 Environment with the Console</h3>
+                     
+                     
+                     <div class="orderedlist">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <ol>
+                           <li>
+                              
+                              <p>Make sure you completed the steps in <a href="setup-express.html">Express Setup</a> or <a href="setup.html">Team Setup</a> first, so that you can sign in to the AWS Cloud9 console and create environments.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Sign in to the AWS Cloud9 console, at <a href="https://console.aws.amazon.com/cloud9/" target="_blank">https://console.aws.amazon.com/cloud9/</a>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>After you sign in to the AWS Cloud9 console, in the top navigation bar, choose an
+                                 AWS Region to create the environment in. For a list of available AWS Regions, see
+                                 <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#cloud9_region" target="_blank">AWS Cloud9</a> in the <em>Amazon Web Services General Reference</em>.
+                              </p>
+                              
+                              <div class="mediaobject">
+                                 
+                                 <img src="images/console-region.png" alt="&#xA;                     AWS Region selector in the AWS Cloud9 console&#xA;                  " style="max-width:100%" />
+                                 
+                                 
+                                 
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>If a welcome page is displayed, for <b>New AWS Cloud9 environment</b>, choose <b>Create environment</b>.
+                                 Otherwise, choose <b>Create environment</b>.
+                              </p>
+                              
+                              <div class="mediaobject">
+                                 
+                                 <img src="images/console-welcome-new-env.png" alt="&#xA;                     Choosing the Next step button if welcome page is displayed&#xA;                  " />
+                                 
+                                 
+                                 
+                              </div>
+                              
+                              <p>Or:</p>
+                              
+                              <div class="mediaobject">
+                                 
+                                 <img src="images/console-new-env.png" alt="&#xA;                     Choosing the Create environment button if welcome page is not displayed&#xA;                  " style="max-width:100%" />
+                                 
+                                 
+                                 
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>On the <b>Name environment</b> page, for <b>Name</b>, type a name for your environment.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>To add a description to your environment, type it in <b>Description</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Next step</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>On the <b>Configure settings</b> page, for <b>Environment type</b>, choose <b>Create a new instance for environment (EC2)</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>For <b>Instance type</b>, choose an instance type with the amount of RAM and vCPUs you think you need for
+                                 the kinds of tasks you want to do. Or leave the default choice.
+                              </p>
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>Choosing instance types with more RAM and vCPUs might result in additional charges
+                                    to your AWS account for Amazon EC2.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>For <b>Cost-saving setting</b>, choose the amount of time until AWS Cloud9 shuts down the Amazon EC2 instance for
+                                 the
+                                 environment after all web browser instances that are connect to the IDE for the environment
+                                 have been closed. Or leave the default choice.
+                              </p>
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>Choosing a shorter time period might result in fewer charges to your AWS account.
+                                    Likewise, choosing a longer time might result in more charges.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Expand <b>Network settings (advanced)</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>AWS Cloud9 uses Amazon Virtual Private Cloud (Amazon VPC) in your AWS account to communicate
+                                 with the Amazon EC2 instance that AWS Cloud9 creates for this environment. Depending
+                                 on how Amazon VPC is set up in your AWS account, do one of the following.
+                              </p>
+                              
+                              <div class="table">
+                                 <p class="title"><b></b></p>
+                                 <div class="table-contents">
+                                    <table id="w86aab9c15b9b8b2c23b3">
+                                       
+                                       <tr>
+                                          
+                                          <td>
+                                             
+                                             <p>If you're not sure what to choose, we recommend that you skip ahead to step 13 in
+                                                this procedure.
+                                             </p>
+                                             
+                                             <p>When you skip past <b>Network settings (advanced)</b> and leave the preselected default settings,
+                                                AWS Cloud9 attempts to automatically use the default VPC in your account with its
+                                                single subnet.
+                                             </p>
+                                             
+                                          </td>
+                                          
+                                       </tr>
+                                       
+                                    </table>
+                                 </div>
+                              </div>
+                              
+                              <div class="table">
+                                 <p class="title"><b></b></p>
+                                 <div class="table-contents">
+                                    <table id="w86aab9c15b9b8b2c23b5">
+                                       
+                                       <tr>
+                                          
+                                          <th>
+                                             <b>Does your AWS account have a VPC with at least one subnet in that VPC?</b>
+                                             
+                                          </th>
+                                          
+                                          <th>
+                                             <b>Is the VPC you want AWS Cloud9 to use the default VPC in your account?</b>
+                                             
+                                          </th>
+                                          
+                                          <th>
+                                             <b>Does the VPC have a single subnet?</b>
+                                             
+                                          </th>
+                                          
+                                          <th>
+                                             <b>Do this</b>
+                                             
+                                          </th>
+                                          
+                                       </tr>
+                                       
+                                       
+                                       <tr>
+                                          
+                                          <td>
+                                             
+                                             <p>No</p>
+                                             
+                                          </td>
+                                          
+                                          <td>
+                                             
+                                             <p>—</p>
+                                             
+                                          </td>
+                                          
+                                          <td>
+                                             
+                                             <p>—</p>
+                                             
+                                          </td>
+                                          
+                                          <td>
+                                             
+                                             <p>If no VPC exists, create one. To do this, choose <b>Create new VPC</b>, and then follow the
+                                                on-screen directions. For more information, see <a href="vpc-settings.html#vpc-settings-create-vpc">Create an Amazon VPC for AWS Cloud9</a>.
+                                             </p>
+                                             
+                                             <p>If a VPC exists but has no subnet, create one. To do this, choose <b>Create new subnet</b>,
+                                                and then follow the on-screen directions. For more information, see <a href="vpc-settings.html#vpc-settings-create-subnet">Create a Subnet for AWS Cloud9</a>.
+                                             </p>
+                                             
+                                          </td>
+                                          
+                                       </tr>
+                                       
+                                       <tr>
+                                          
+                                          <td>
+                                             
+                                             <p>Yes</p>
+                                             
+                                          </td>
+                                          
+                                          <td>
+                                             
+                                             <p>Yes</p>
+                                             
+                                          </td>
+                                          
+                                          <td>
+                                             
+                                             <p>Yes</p>
+                                             
+                                          </td>
+                                          
+                                          <td>
+                                             
+                                             <p>Skip ahead to the step 13 in this procedure.</p>
+                                             
+                                             <p>When you skip past <b>Network settings (advanced)</b> and leave the preselected default settings,
+                                                AWS Cloud9 attempts to automatically use the default VPC in your account with its
+                                                single subnet.
+                                             </p>
+                                             
+                                          </td>
+                                          
+                                       </tr>
+                                       
+                                       <tr>
+                                          
+                                          <td>
+                                             
+                                             <p>Yes</p>
+                                             
+                                          </td>
+                                          
+                                          <td>
+                                             
+                                             <p>Yes</p>
+                                             
+                                          </td>
+                                          
+                                          <td>
+                                             
+                                             <p>No</p>
+                                             
+                                          </td>
+                                          
+                                          <td>
+                                             
+                                             <p>For <b>Subnet</b>, choose the subnet you want AWS Cloud9 to use in the preselected default VPC.
+                                             </p>
+                                             
+                                          </td>
+                                          
+                                       </tr>
+                                       
+                                       <tr>
+                                          
+                                          <td>
+                                             
+                                             <p>Yes</p>
+                                             
+                                          </td>
+                                          
+                                          <td>
+                                             
+                                             <p>No</p>
+                                             
+                                          </td>
+                                          
+                                          <td>
+                                             
+                                             <p>—</p>
+                                             
+                                          </td>
+                                          
+                                          <td>
+                                             
+                                             <p>For <b>Network (VPC)</b>, choose the VPC that you want AWS Cloud9 to use.
+                                                For <b>Subnet</b>, choose the subnet you want AWS Cloud9 to use in that VPC.
+                                             </p>
+                                             
+                                          </td>
+                                          
+                                       </tr>
+                                       
+                                    </table>
+                                 </div>
+                              </div>
+                              
+                              <p>For more information about these choices, see <a href="vpc-settings.html">Amazon VPC Settings</a>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Next step</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>On the <b>Review</b> page, choose <b>Create environment</b>. Wait while AWS Cloud9 creates your environment.
+                                 This can take several minutes.
+                              </p>
+                              
+                           </li>
+                        </ol>
+                     </div>
+                     
+                     <p>After AWS Cloud9 creates your environment, it displays the AWS Cloud9 IDE for the
+                        environment.
+                     </p>
+                     
+                     <p>If AWS Cloud9 doesn't display the IDE after at least five minutes, there might be
+                        a problem with your web browser, your AWS access permissions, the instance, or the
+                        associated
+                        virtual private cloud (VPC). For possible fixes, see
+                        <a href="troubleshooting.html#troubleshooting-env-loading">Cannot Open an Environment</a> in <em>Troubleshooting</em>.
+                     </p>
+                     
+                     
+                     <h3 id="create-environment-code">Creating an EC2 Environment with Code</h3>
+                     
+                     
+                     <p>To use code to create an EC2 environment in AWS Cloud9, call the AWS Cloud9 create
+                        EC2 environment operation, as follows.
+                     </p>
+                     
+                     <div class="aws-note">
+                        <p class="aws-note">Note</p>
+                        <p>Make sure you completed the steps in <a href="setup-express.html">Express Setup</a> or <a href="setup.html">Team Setup</a> first, so that you can create environments.
+                        </p>
+                     </div>
+                     
+                     <div class="table">
+                        <p class="title"><b></b></p>
+                        <div class="table-contents">
+                           <table id="w86aab9c15b9c10b6">
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS CLI</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="https://docs.aws.amazon.com/cli/latest/reference/cloud9/create-environment-ec2.html" target="_blank">create-environment-ec2</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS SDK for C++</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="https://sdk.amazonaws.com/cpp/api/LATEST/class_aws_1_1_cloud9_1_1_model_1_1_create_environment_e_c2_request.html" target="_blank">CreateEnvironmentEC2Request</a>,
+                                       <a href="https://sdk.amazonaws.com/cpp/api/LATEST/class_aws_1_1_cloud9_1_1_model_1_1_create_environment_e_c2_result.html" target="_blank">CreateEnvironmentEC2Result</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS SDK for Go</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="https://docs.aws.amazon.com/sdk-for-go/api/service/cloud9/#Cloud9.CreateEnvironmentEC2" target="_blank">CreateEnvironmentEC2</a>,
+                                       <a href="https://docs.aws.amazon.com/sdk-for-go/api/service/cloud9/#Cloud9.CreateEnvironmentEC2Request" target="_blank">CreateEnvironmentEC2Request</a>,
+                                       <a href="https://docs.aws.amazon.com/sdk-for-go/api/service/cloud9/#Cloud9.CreateEnvironmentEC2WithContext" target="_blank">CreateEnvironmentEC2WithContext</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS SDK for Java</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/cloud9/model/CreateEnvironmentEC2Request.html" target="_blank">CreateEnvironmentEC2Request</a>,
+                                       <a href="https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/cloud9/model/CreateEnvironmentEC2Result.html" target="_blank">CreateEnvironmentEC2Result</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS SDK for JavaScript</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Cloud9.html#createEnvironmentEC2-property" target="_blank">createEnvironmentEC2</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS SDK for .NET</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="https://docs.aws.amazon.com/sdkfornet/v3/apidocs/items/Cloud9/TCreateEnvironmentEC2Request.html" target="_blank">CreateEnvironmentEC2Request</a>,
+                                       <a href="https://docs.aws.amazon.com/sdkfornet/v3/apidocs/items/Cloud9/TCreateEnvironmentEC2Response.html" target="_blank">CreateEnvironmentEC2Response</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS SDK for PHP</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="https://docs.aws.amazon.com/aws-sdk-php/v3/api/api-cloud9-2017-09-23.html#createenvironmentec2" target="_blank">createEnvironmentEC2</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS SDK for Python (Boto)</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="https://boto3.readthedocs.io/en/latest/reference/services/cloud9.html#Cloud9.Client.create_environment_ec2" target="_blank">create_environment_ec2</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS SDK for Ruby</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="https://docs.aws.amazon.com/sdk-for-ruby/v3/api/Aws/Cloud9/Client.html#create_environment_ec2-instance_method" target="_blank">create_environment_ec2</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS Tools for Windows PowerShell</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="https://docs.aws.amazon.com/powershell/latest/reference/items/New-C9EnvironmentEC2.html" target="_blank">New-C9EnvironmentEC2</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>AWS Cloud9 API</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="https://docs.aws.amazon.com/cloud9/latest/APIReference/API_CreateEnvironmentEC2.html" target="_blank">CreateEnvironmentEC2</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                           </table>
+                        </div>
+                     </div>
+                     
+                     
+                     <h2 id="create-environment-ssh">Creating an SSH Environment</h2>
+                     
+                     
+                     <p>You create an AWS Cloud9 SSH development environment with the AWS Cloud9 console.
+                        (You cannot create an SSH environment with code.)
+                     </p>
+                     
+                     <h3 id="prerequisites">Prerequisites</h3>
+                     
+                     
+                     <div class="itemizedlist">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <ul class="itemizedlist" type="disc">
+                           <li class="listitem">
+                              
+                              <p>Make sure you completed the steps in <a href="setup-express.html">Express Setup</a> or <a href="setup.html">Team Setup</a>, so that you can sign in to the AWS Cloud9 console and create environments.
+                              </p>
+                              
+                           </li>
+                           <li class="listitem">
+                              
+                              <p>Identify an existing cloud compute instance (for example an Amazon EC2 instance in
+                                 your AWS account), or your own server, that you want AWS Cloud9 to connect to the
+                                 environment.
+                              </p>
+                              
+                           </li>
+                           <li class="listitem">
+                              
+                              <p>The existing instance or your own server must be running Linux. AWS Cloud9 doesn't
+                                 support Windows.
+                              </p>
+                              
+                           </li>
+                           <li class="listitem">
+                              
+                              <p>You must be able to reach the existing instance or your own server over the public
+                                 Internet by using SSH. You cannot use this procedure if you
+                                 can only reach the instance or your own server through a virtual private cloud (VPC)
+                                 or virtual private network (VPN) <b>and</b> that VPC or VPN doesn't have access to the public internet.
+                              </p>
+                              
+                           </li>
+                           <li class="listitem">
+                              
+                              <p>If the existing AWS instance is part of an Amazon Virtual Private Cloud (Amazon VPC),
+                                 the VPC must meet AWS Cloud9 requirements.
+                                 For details, see <a href="vpc-settings.html">Amazon VPC Settings</a>.
+                              </p>
+                              
+                           </li>
+                           <li class="listitem">
+                              
+                              <p>The existing instance or server must have Python installed, and the <b>version must be 2.7</b>. To check your version, from your instance's or server's terminal, run the command
+                                 <b>
+                                    <code class="code">python --version</code>
+                                    </b>. To install Python 2.7 on your server, see one of the following.
+                              </p>
+                              
+                              <div class="itemizedlist">
+                                 
+                                 
+                                 
+                                 <ul class="itemizedlist" type="disc">
+                                    <li class="listitem">
+                                       
+                                       <p>
+                                          <a href="sample-python.html#sample-python-install">Step 1: Install Required Tools</a> in the <em>Python Sample</em>.
+                                       </p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>
+                                          <a href="https://www.python.org/downloads/" target="_blank">Download Python</a> from the Python website and see <a href="https://packaging.python.org/installing/" target="_blank">Installing
+                                             Packages</a> in the <em>Python Packaging User Guide</em>.
+                                       </p>
+                                       
+                                    </li>
+                                 </ul>
+                              </div>
+                              
+                           </li>
+                           <li class="listitem">
+                              
+                              <p>The existing instance or server must have Node.js installed, and the <b>version must be 0.6.16 or later</b>. To check your version, from your instance's or server's terminal, run the command
+                                 <b>
+                                    <code class="code">node --version</code>
+                                    </b>. To install Node.js on your server, see one of the following.
+                              </p>
+                              
+                              <div class="itemizedlist">
+                                 
+                                 
+                                 
+                                 
+                                 <ul class="itemizedlist" type="disc">
+                                    <li class="listitem">
+                                       
+                                       <p>
+                                          <a href="sample-nodejs.html#sample-nodejs-install">Step 1: Install Required Tools</a> in the <em>Node.js Sample</em>.
+                                       </p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>
+                                          <a href="https://nodejs.org/en/download/package-manager/" target="_blank">Installing Node.js via package manager</a> on the Node.js website.
+                                       </p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>
+                                          <a href="http://nvm.sh" target="_blank">Node Version Manager</a> on GitHub.
+                                       </p>
+                                       
+                                    </li>
+                                 </ul>
+                              </div>
+                              
+                           </li>
+                           <li class="listitem">
+                              
+                              <p>The directory that you want AWS Cloud9 to start from after login on the existing instance
+                                 or server must have its access permissions set to <code class="code">rwxr-xr-x</code>. This means read-write-execute permissions for the owner,
+                                 read-execute permissions for the group, and read-execute permissions for others. For
+                                 example, if the directory's path is <code class="code">~</code>, you can set
+                                 these permissions on the directory by running the <b>
+                                    <code class="code">chmod</code>
+                                    </b> command on the instance or server, as follows.
+                              </p>
+                              <pre class="programlisting"><div class="code-btn-container"><div class="btn-copy-code" title="Copy"></div><div class="btn-dark-theme" title="Dark theme" title-dark="Dark theme" title-light="Light theme"></div></div><code class="sh ">sudo chmod u=rwx,g=rx,o=rx ~</code></pre>
+                              </li>
+                        </ul>
+                     </div>
+                     
+                     
+                     <h3 id="create-the-envsshtitle">Create the SSH Environment</h3>
+                     
+                     
+                     <div class="orderedlist">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <ol>
+                           <li>
+                              
+                              <p>Make sure you completed the preceding prerequisites.</p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Sign in to the AWS Cloud9 console, at <a href="https://console.aws.amazon.com/cloud9/" target="_blank">https://console.aws.amazon.com/cloud9/</a>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>After you sign in to the AWS Cloud9 console, in the top navigation bar, choose an
+                                 AWS Region to create the environment in. For a list of available AWS Regions, see
+                                 <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#cloud9_region" target="_blank">AWS Cloud9</a> in the <em>Amazon Web Services General Reference</em>.
+                              </p>
+                              
+                              <div class="mediaobject">
+                                 
+                                 <img src="images/console-region.png" alt="&#xA;                     AWS Region selector in the AWS Cloud9 console&#xA;                  " style="max-width:100%" />
+                                 
+                                 
+                                 
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>If a welcome page is displayed, for <b>New AWS Cloud9 environment</b>, choose <b>Create environment</b>.
+                                 Otherwise, choose <b>Create environment</b>.
+                              </p>
+                              
+                              <div class="mediaobject">
+                                 
+                                 <img src="images/console-welcome-new-env.png" alt="&#xA;                     Choosing the Next step button if welcome page is displayed&#xA;                  " />
+                                 
+                                 
+                                 
+                              </div>
+                              
+                              <p>Or:</p>
+                              
+                              <div class="mediaobject">
+                                 
+                                 <img src="images/console-new-env.png" alt="&#xA;                     Choosing the Create environment button if welcome page is not displayed&#xA;                  " style="max-width:100%" />
+                                 
+                                 
+                                 
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>On the <b>Name environment</b> page, for <b>Name</b>, type a name for your environment.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>To add a description to your environment, type it in <b>Description</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Next step</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>For <b>Environment type:</b>, choose <b>Connect and run in remote server (SSH)</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Copy key to clipboard</b>. (This is between <b>View public SSH key</b> and <b>Advanced settings</b>.)
+                                 Paste the public SSH key value that was copied into the <code>~/.ssh/authorized_keys</code> file on the existing instance or server.
+                              </p>
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>To see the public SSH key value that was copied, expand <b>View public SSH key</b>.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>After you paste the public SSH key value, back on the <b>Configure settings</b> page in the AWS Cloud9 console,
+                                 for <b>User</b>, type the login name you use for the instance or server.
+                                 For example, for an Amazon EC2 instance running Amazon Linux, it might be <code class="code">ec2-user</code>. For another type of server, it might be <code class="code">root</code>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>For <b>Host</b>, type the public IP address (preferred) or the hostname of the instance or server.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>For <b>Port</b>, type the port that you want AWS Cloud9 to use to try to connect to the instance
+                                 or server, or leave the default port.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>To specify the path to the directory on the instance or server that you want AWS Cloud9
+                                 to start from after login, which you identified earlier in this procedure's prerequisites,
+                                 expand <b>Advanced settings</b>,
+                                 and then type the path in <b>Environment path</b>. If you leave this blank, AWS Cloud9 uses the directory that your instance or server
+                                 typically starts with after login. This is usually a home or default directory.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>To specify the path to the Node.js binary on the instance or server, expand
+                                 <b>Advanced settings</b>, and then type the path in <b>Node.js binary path</b>.
+                                 To get the path, you can run the command <b>
+                                    <code class="code">which node</code>
+                                    </b> (or
+                                 <b>
+                                    <code class="code">nvm which node</code>
+                                    </b> if you're using nvm) on your instance or server.
+                                 For example, the path might be <code class="code">/usr/bin/node</code>.
+                                 If you leave this blank, AWS Cloud9 will try to guess where the Node.js binary is
+                                 when it tries to connect.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>To specify a jump host that the instance or server uses, expand <b>Advanced settings</b>, and then type information about the jump host
+                                 in <b>SSH jump host</b>, using the format <code class="code">USER_NAME@HOSTNAME:PORT_NUMBER</code> (for example,
+                                 <code class="code">ec2-user@:ip-192-0-2-0:22</code>)
+                              </p>
+                              
+                              <p>The jump host must meet the following requirements.</p>
+                              
+                              <div class="itemizedlist">
+                                 
+                                 
+                                 
+                                 
+                                 <ul class="itemizedlist" type="disc">
+                                    <li class="listitem">
+                                       
+                                       <p>It must be reachable over the public Internet using SSH.</p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>It must allow inbound access by any IP address over the specified port.</p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>The public SSH key value that was copied into the <code>~/.ssh/authorized_keys</code> file on the existing instance or server must also be copied into the <code>~/.ssh/authorized_keys</code> file on the jump host.
+                                       </p>
+                                       
+                                    </li>
+                                 </ul>
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Next step</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>On the <b>Review</b> page, choose <b>Create environment</b>. Wait while AWS Cloud9 creates your environment.
+                                 This can take several minutes.
+                              </p>
+                              
+                              <p>After AWS Cloud9 creates the environment, it displays the AWS Cloud9 IDE for the environment,
+                                 and the <b>AWS Cloud9 installer</b> dialog box displays.
+                                 Choose <b>Next</b> on each of these confirmation pages to complete the environment setup process.
+                              </p>
+                              
+                           </li>
+                        </ol>
+                     </div>
+                     
+                     <p>If AWS Cloud9 doesn't display the IDE after at least five minutes, there might be
+                        a problem with your web browser, your AWS access permissions, the instance, or the
+                        associated
+                        network. For possible fixes, see <a href="troubleshooting.html#troubleshooting-env-loading">Cannot Open an Environment</a> in <em>Troubleshooting</em>.
+                     </p>
+                     
+                     
+                  </div>
+                  <noscript>
+                     <div>
+                        <div>
+                           <div>
+                              <div id="js_error_message">
+                                 <p><img src="https://d1ge0kk1l5kms0.cloudfront.net/images/G/01/webservices/console/warning.png" alt="Warning" /> <strong>Javascript is disabled or is unavailable in your browser.</strong></p>
+                                 <p>To use the AWS Documentation, Javascript must be enabled. Please refer to your browser's
+                                    Help pages for instructions.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </noscript>
+                  <div id="main-col-footer">
+                     <div id="doc-conventions"><a target="_top" href="/general/latest/gr/docconventions.html">Document Conventions</a></div>
+                     <div id="next"><a class="awstoc" accesskey="p" href="environments.html">« Previous </a><a class="awstoc" accesskey="n" href="open-environment.html">Next »</a></div>
+                     <div id="copyright-main-footer">© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</div>
+                  </div>
+               </div>
+            </div>
+            <div id="right-expanded">
+               <div id="right-content-wrapper">
+                  <div id="pagetoc">
+                     <p>On this page:</p>
+                     <ul class="pagetoc">
+                        <li class="pagetoc" name="Creating an EC2 Environment"><a class="pagetoc" href="#create-environment-main">Creating an EC2 Environment</a></li>
+                        <li class="pagetoc" name="Creating an SSH Environment"><a class="pagetoc" href="#create-environment-ssh">Creating an SSH Environment</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="cookie-notice">
+         <div class="cookie-notice-text">We use cookies to provide and improve our services. By using our site, you consent
+            to cookies. <a href="http://aws.amazon.com/legal/cookies">Learn more</a></div>
+      </div>
+      <div id="footer">
+         <div id="footer_short_fb" class="hide" title="Feedback"><a target="_blank" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?feedback_destination_id=ea85bca2-658d-40f4-900f-65193653578a&amp;topic_url=http://docs.aws.amazon.com/en_us/cloud9/latest/user-guide/create-environment.html&amp;hidden_guide_name=User Guide&amp;hidden_api_version=&amp;hidden_file_name=create-environment"><i class="awsdocs-footer-text fa fa-envelope-o"></i></a></div>
+         <div id="footer_toggle" class="mediaobject">
+            <div id="footer_toggle_img" class="awsdocs-footer-text fa fa-caret-down"></div>
+            <div id="footer_toggle_img_collapse" class="hide awsdocs-footer-text fa fa-caret-right"></div>
+         </div>
+         <div id="footer-left"><a class="awsdocs-footer-text" target="_top" href="http://aws.amazon.com/terms">Terms of Use</a><span class="awsdocs-footer-text"> | </span><a class="awsdocs-footer-text" target="_top" href="http://aws.amazon.com/privacy">Privacy</a><span class="awsdocs-footer-text"> | </span><span class="awsdocs-footer-text">© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</span></div>
+         <div id="footer-right">
+            <div id="feedback">
+               <div id="forums"><a id="forum_link" target="_blank" href="http://forums.aws.amazon.com/forum.jspa?forumID=268" class="awsdocs-footer-text">Have a question? Try the Forums.</a></div>
+               <div id="feedback-message" class="awsdocs-footer-text">Did this page help you?</div>
+               <div id="feedback-yesno-buttons"><a class="awstoc btn btn-default" target="_blank" href="feedbackyes.html?topic_url=http://docs.aws.amazon.com/en_us/cloud9/latest/user-guide/create-environment.html">Yes</a><a class="awstoc btn btn-default" target="_blank" href="feedbackno.html?topic_url=http://docs.aws.amazon.com/en_us/cloud9/latest/user-guide/create-environment.html">No</a></div>
+               <div id="feedback-feedback-button"><a class="awstoc btn btn-default" target="_blank" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?feedback_destination_id=ea85bca2-658d-40f4-900f-65193653578a&amp;topic_url=http://docs.aws.amazon.com/en_us/cloud9/latest/user-guide/create-environment.html&amp;hidden_guide_name=User Guide&amp;hidden_api_version=&amp;hidden_file_name=create-environment">Feedback</a></div>
+            </div>
+         </div>
+      </div>
+      <!-- SiteCatalyst code version: H.25.2.
+            Copyright 1996-2012 Adobe, Inc. All Rights Reserved
+            More info available at http://www.omniture.com --><script language="JavaScript" type="text/javascript" src="https://a0.awsstatic.com/s_code/js/1.0/awshome_s_code.js"></script><script language="JavaScript" type="text/javascript">
+         <!--
+
+            // Documentation Service Name
+            s.prop66='AWS Cloud9';
+            s.eVar66='D=c66';
+  
+            // Documentation Guide Name                                                                 
+            s.prop65='User Guide';
+            s.eVar65='D=c65';
+
+            var s_code=s.t();if(s_code)document.write(s_code)//--></script><script language="JavaScript" type="text/javascript">
+         <!--
+                if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+                //--></script><noscript><img src="https://amazonwebservices.d2.sc.omtrdc.net/b/ss/awsamazondev/1/H.25.2--NS/0" height="1" width="1" border="0" alt="" /></noscript>
+      <!--/DO NOT REMOVE/-->
+      <!-- End SiteCatalyst code version: H.25.2. -->
+   </body>
+</html>

@@ -1,0 +1,1477 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Team Setup for AWS Cloud9 - AWS Cloud9</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="home" href="#top" />
+      <link rel="up" href="get-started.html" title="Getting Started with AWS Cloud9" />
+      <link rel="prev" href="setup-express.html" title="Express Setup for AWS Cloud9" />
+      <link rel="next" href="setup-teams.html" title="Advanced Team Setup for AWS Cloud9" />
+      <meta name="description" content="Describes how to set up a team to start using AWS Cloud9." />
+      <meta name="deployment_region" content="IAD" />
+      <meta name="product" content="AWS Cloud9" />
+      <meta name="guide" content="User Guide" />
+      <meta name="guide-locale" content="en_us" />
+      <link rel="icon" type="image/ico" href="/images/favicon.ico" />
+      <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+      <link rel="canonical" href="https://docs.aws.amazon.com/cloud9/latest/user-guide/setup.html" />
+      <link rel="stylesheet" type="text/css" href="/css/jquery-ui.min.css" />
+      <link rel="stylesheet" type="text/css" href="/font/css/font-awesome.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/google-font.css" />
+      <link id="code-style" rel="stylesheet" type="text/css" href="/css/code/light.css" />
+      <link rel="stylesheet" type="text/css" href="/css/jquery-ui.theme.css" />
+      <link rel="stylesheet" type="text/css" href="/css/colorbox.css" />
+      <link rel="stylesheet" type="text/css" href="/css/awsdocs.css?v=20170615" /><script type="text/javascript" src="/js/highlight.pack.js"></script><script type="text/javascript" src="/js/jquery.min.js"></script><script type="text/javascript" src="/js/jquery-ui.min.js"></script><script type="text/javascript" src="/js/jquery.colorbox.js"></script><script type="text/javascript" src="/js/awsdocs.min.js?v=20170615"></script></head>
+   <body id="top">
+      <div xmlns:db="http://docbook.org/ns/docbook" id="aws-nav" class="aws-nav-header">
+         <div class="aws-nav-header-left">
+            <div class="aws-nav-logo">
+               <!--aws_logo_105x39.png--><a href="http://aws.amazon.com"><img src="/images/aws_logo_105x39.png" alt="Amazon Web Services" /></a></div>
+         </div>
+         <div id="aws-nav-header-right" class="aws-nav-header-right">
+            <div class="aws-nav-cta-button-outer"><a id="aws-nav-cta-button" class="aws-nav-button" href="https://console.aws.amazon.com/console/home">Sign In to the Console</a></div>
+            <div class="aws-nav-popover-trigger" data-dropdown="aws-nav-dropdown-lang"><select id="languageSelection" onchange="SelectLanguage()">
+                  <option value="/de_de/cloud9/latest/user-guide/setup.html">Deutsch</option>
+                  <option value="/en_us/cloud9/latest/user-guide/setup.html" selected="selected">English</option>
+                  <option value="/es_es/cloud9/latest/user-guide/setup.html">Español</option>
+                  <option value="/fr_fr/cloud9/latest/user-guide/setup.html">Français</option>
+                  <option value="/it_it/cloud9/latest/user-guide/setup.html">Italiano</option>
+                  <option value="/ja_jp/cloud9/latest/user-guide/setup.html">日本語</option>
+                  <option value="/ko_kr/cloud9/latest/user-guide/setup.html">한국어</option>
+                  <option value="/pt_br/cloud9/latest/user-guide/setup.html">Português</option>
+                  <option value="/zh_cn/cloud9/latest/user-guide/setup.html">中文 (简体)</option>
+                  <option value="/zh_tw/cloud9/latest/user-guide/setup.html">中文 (繁體)</option></select></div><a class="btn btn-kindle-link" id="kindle-link-top" target="_blank" href="http://www.amazon.com/dp/B078XBZMWS" title="Open Kindle"></a><a class="btn btn-pdf-link" id="pdf-link-top" href="aws-cloud9-ug.pdf#setup" target="_blank" title="Open PDF"></a><a class="btn btn-github-link" id="github-link-top" href="https://github.com/awsdocs/aws-cloud9-user-guide/tree/master/doc_source/setup.rst" target="_blank" title="Edit on GitHub"></a><div id="aws-nav-quicklinks-separator" class="aws-nav-quicklinks-separator">
+               <div class="aws-nav-left"></div>
+               <div class="aws-nav-right"></div>
+            </div>
+         </div>
+      </div>
+      <div id="content-container">
+         <div id="left-column">
+            <div id="left-col-header">
+               <div xmlns:db="http://docbook.org/ns/docbook" id="left-col-top-content">
+                  <div id="service-name">AWS Cloud9 </div>
+                  <div id="search"><i id="search-icon" class="fa fa-search fa-2x"></i></div>
+                  <div id="guide-info">User Guide
+                     <div id="content-button"><i id="toggle-contents" class="fa fa-bars"></i></div>
+                  </div>
+               </div>
+               <form id="finegrainedSearch" method="get" onsubmit="return searchFormSubmit(this);" action="/search/doc-search.html">
+                  <div id="search-form"><select id="search-select" name="searchPath">
+                        <option value="all">Entire Site</option>
+                        <option value="AWSMarketplace">AMIs from AWS Marketplace</option>
+                        <option value="amis">AMIs from All Sources</option>
+                        <option value="articles">Articles &amp; Tutorials</option>
+                        <option value="products_and_info">AWS Product Information</option>
+                        <option value="case_studies">Case Studies</option>
+                        <option value="customerapps">Customer Apps</option>
+                        <option value="documentation">Documentation</option>
+                        <option value="documentation-product">Documentation - This Product</option>
+                        <option value="documentation-guide" selected="selected">Documentation - This Guide</option>
+                        <option value="datasets">Public Data Sets</option>
+                        <option value="releasenotes">Release Notes</option>
+                        <option value="solution_providers">Partners</option>
+                        <option value="code">Sample Code &amp; Libraries</option></select><br /><input id="search-query" name="searchQuery" type="text" placeholder="Search" /><input id="search-button" src="/images/search-button.png" alt="Go" type="image" /></div><input type="hidden" name="this_doc_product" id="this_doc_product" value="AWS Cloud9" /><input type="hidden" name="this_doc_guide" id="this_doc_guide" value="User Guide" /><input type="hidden" name="doc_locale" value="en_us" /></form>
+            </div>
+            <div id="toc">
+               <ul class="awstoc">
+                  <li class="awstoc leaf"><a class="awstoc" href="welcome.html">What Is AWS Cloud9?</a></li>
+                  <li class="awstoc opened"><a class="awstoc" href="get-started.html">Getting Started</a><ul class="awstoc">
+                        <li class="awstoc leaf"><a class="awstoc" href="setup-express.html">Express Setup</a></li>
+                        <li class="awstoc leaf"><a class="awstoc selected" href="setup.html">Team Setup</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="setup-teams.html">Advanced Team Setup</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="tutorial.html">IDE Tutorial</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="tutorial-lambda.html">AWS Lambda Tutorial</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="tutorial-lambda-advanced.html">Advanced AWS Lambda Tutorial</a></li>
+                     </ul>
+                  </li>
+                  <li class="awstoc closed"><a class="awstoc" href="environments.html">Working with Environments</a><ul class="awstoc">
+                        <li class="awstoc leaf"><a class="awstoc" href="create-environment.html">Creating an Environment</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="open-environment.html">Opening an Environment</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="credentials.html">Call AWS Services from an Environment</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="change-environment.html">Changing Environment Settings</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="share-environment.html">Working with Shared Environments</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="move-environment.html">Moving or Resizing an Environment</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="delete-environment.html">Deleting an Environment</a></li>
+                     </ul>
+                  </li>
+                  <li class="awstoc closed"><a class="awstoc" href="ide.html">Working with the IDE</a><ul class="awstoc">
+                        <li class="awstoc leaf"><a class="awstoc" href="language-support.html">Language Support</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="menu-commands.html">Menu Commands Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="find-replace-text.html">Finding and Replacing Text</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="file-preview.html">Previewing Files</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="app-preview.html">Previewing Running Applications</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="file-revisions.html">Working with File Revisions</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="images.html">Working with Image Files</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="build-run-debug.html">Working with Builders, Runners, and Debuggers</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="projects.html">Working with Language Projects</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="env-vars.html">Working with Custom Environment Variables</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="settings-project.html">Working with Project Settings</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="settings-user.html">Working with User Settings</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="settings-aws.html">Working with AWS Project and User Settings</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="settings-keybindings.html">Working with Keybindings</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="settings-theme.html">Working with Themes</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="settings-init-script.html">Working with Initialization Scripts</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-default-apple-osx.html">MacOS Default Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-vim-apple-osx.html">MacOS Vim Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-emacs-apple-osx.html">MacOS Emacs Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-sublime-apple-osx.html">MacOS Sublime Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-default-windows-linux.html">Windows / Linux Default Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-vim-windows-linux.html">Windows / Linux Vim Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-emacs-windows-linux.html">Windows / Linux Emacs Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="keybindings-sublime-windows-linux.html">Windows / Linux Sublime Keybindings Reference</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="commands.html">Commands Reference</a></li>
+                     </ul>
+                  </li>
+                  <li class="awstoc leaf"><a class="awstoc" href="lightsail-instances.html">Working with Amazon Lightsail Instances</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="codestar-projects.html">Working with AWS CodeStar Projects</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="lambda-functions.html">Working with AWS Lambda Functions</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="codepipeline-repos.html">Working with AWS CodePipeline</a></li>
+                  <li class="awstoc closed"><a class="awstoc" href="samples.html">Samples</a><ul class="awstoc">
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-aws-cli.html">AWS CLI and aws-shell Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-codecommit.html">AWS CodeCommit Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-github.html">GitHub Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-dynamodb.html">Amazon DynamoDB Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-cdk.html">AWS CDK Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-java.html">Java Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-cplusplus.html">C++ Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-python.html">Python Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-dotnetcore.html">.NET Core Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-nodejs.html">Node.js Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-php.html">PHP Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-ruby.html">Ruby Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-go.html">Go Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-typescript.html">TypeScript Sample</a></li>
+                        <li class="awstoc leaf"><a class="awstoc" href="sample-docker.html">Docker Sample</a></li>
+                     </ul>
+                  </li>
+                  <li class="awstoc leaf"><a class="awstoc" href="vpc-settings.html">Amazon VPC Settings</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="ssh-settings.html">SSH Environment Host Requirements</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="ip-ranges.html">Inbound SSH IP Address Ranges</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="ami-contents.html">AMI Contents</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="auth-and-access-control.html">Authentication and Access Control</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="using-service-linked-roles.html">Using Service-Linked Roles</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="troubleshooting.html">Troubleshooting</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="browsers.html">Supported Browsers</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="limits.html">Limits</a></li>
+                  <li class="awstoc leaf"><a class="awstoc" href="history.html">Document History</a></li>
+                  <li id="toc-additional-links"><a class="btn btn-pdf-link" id="pdf-link-alt" href="aws-cloud9-ug.pdf#index" target="_blank" title="Open PDF"></a><a class="btn btn-kindle-link" id="kindle-link-alt" target="_blank" href="http://www.amazon.com/dp/B078XBZMWS" title="Open Kindle"></a></li>
+               </ul>
+            </div>
+         </div>
+         <div id="main-column">
+            <div id="main">
+               <div id="main-content">
+                  <div id="main-col-body">
+                     <table summary="Breadcrumbs">
+                        <tr>
+                           <td>
+                              <div class="breadcrumb"><a href="/index.html">AWS Documentation</a> » <a href="/cloud9/index.html">AWS Cloud9</a> » <a href="index.html">User Guide</a> » <a href="get-started.html">Getting Started with AWS Cloud9</a> » <span class="breadcrumb">Team Setup for AWS Cloud9</span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <div id="language-notice">
+                        <div class="language-notice-text"></div>
+                     </div>
+                     <div></div>
+                     <h1 class="topictitle" id="setup">Team Setup for AWS Cloud9</h1>
+                     <p>To start using AWS Cloud9, follow one of these sets of procedures, depending on how
+                        you plan to use AWS Cloud9.
+                     </p>
+                     <div class="table">
+                        <p class="title"><b></b></p>
+                        <div class="table-contents">
+                           <table id="w86aab7c15b5">
+                              
+                              <tr>
+                                 
+                                 <th>
+                                    <b>Usage pattern</b>
+                                    
+                                 </th>
+                                 
+                                 <th>
+                                    <b>Follow these procedures</b>
+                                    
+                                 </th>
+                                 
+                              </tr>
+                              
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>I want to start using AWS Cloud9 quickly.</p>
+                                    
+                                    <p>—Or—</p>
+                                    
+                                    <p>I will be the only one using AWS Cloud9 in my AWS account.</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="setup-express.html">Express Setup</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>I want multiple users in my AWS account to use AWS Cloud9.</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <b>This topic</b>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>I want multiple users in my AWS account to use AWS Cloud9, and I want to restrict
+                                       their usage to control costs.
+                                    </p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="setup-teams.html">Advanced Setup for Teams</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                           </table>
+                        </div>
+                     </div>
+                     <p>To enable multiple users in your AWS account to start using AWS Cloud9, start with
+                        one of the following steps, depending on which AWS resources you already have.
+                     </p>
+                     <div class="table">
+                        <p class="title"><b></b></p>
+                        <div class="table-contents">
+                           <table id="w86aab7c15b9">
+                              
+                              <tr>
+                                 
+                                 <th>
+                                    <b>Do you have an AWS account?</b>
+                                    
+                                 </th>
+                                 
+                                 <th>
+                                    <b>Do you have an IAM group and user in that account?</b>
+                                    
+                                 </th>
+                                 
+                                 <th>
+                                    <b>Start with this step</b>
+                                    
+                                 </th>
+                                 
+                              </tr>
+                              
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>No</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>—</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="setup.html#setup-create-account">Step 1: Create an AWS Account</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>Yes</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>No</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="setup.html#setup-create-iam-resources">Step 2: Create an IAM Group and User, and Add the User to the Group</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>Yes</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>Yes</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="setup.html#setup-give-user-access">Step 3: Add AWS Cloud9 Access Permissions to the Group</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                           </table>
+                        </div>
+                     </div>
+                     <h2 id="setup-create-account">Step 1: Create an AWS Account</h2>
+                     
+                     
+                     <div class="aws-note">
+                        <p class="aws-note">Note</p>
+                        <p>Your organization might already have an AWS account set up for you. If your organization
+                           has an AWS account
+                           administrator, check with that person before starting the following procedure. If
+                           you already have
+                           an AWS account, skip ahead to <a href="setup.html#setup-create-iam-resources">Step 2: Create an IAM Group and User, and Add the User to the Group</a>.
+                        </p>
+                     </div>
+                     
+                     <p>To watch a 4-minute video related to the following procedure, see <a href="https://www.youtube.com/watch?v=WviHsoz8yHk" target="_blank">Creating an Amazon Web Services Account</a> on the YouTube website.
+                     </p>
+                     
+                     <p class="title"><b>To create an AWS account</b></p>
+                     <ol>
+                        <li>
+                           
+                           <p>Go to <a href="https://aws.amazon.com" target="_blank">https://aws.amazon.com</a>.
+                           </p>
+                           
+                        </li>
+                        <li>
+                           
+                           <p>Choose <b>Sign In to the Console</b>.
+                           </p>
+                           
+                        </li>
+                        <li>
+                           
+                           <p>Choose <b>Create a new AWS account</b>.
+                           </p>
+                           
+                        </li>
+                        <li>
+                           
+                           <p>Complete the process by following the on-screen directions. This includes giving AWS
+                              your email address and
+                              credit card information. You must also use your phone to enter a code that AWS gives
+                              you.
+                           </p>
+                           
+                        </li>
+                     </ol>
+                     
+                     <p>After you finish creating the account, AWS will send you a confirmation email. Do
+                        not go to the next
+                        step until you get this confirmation.
+                     </p>
+                     
+                     <h2 id="setup-create-iam-resources">Step 2: Create an IAM Group and User, and Add the User to the Group</h2>
+                     
+                     
+                     <p>In this step, you will create a group and a user in AWS Identity and Access Management
+                        (IAM), add the user to the group, and then use the user to access
+                        AWS Cloud9. This is an AWS security best practice. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html" target="_blank">IAM Best Practices</a> in the <em>IAM User Guide</em>.
+                     </p>
+                     
+                     <p>If you already have an IAM group and user, skip ahead to <a href="setup.html#setup-give-user-access">Step 3: Add AWS Cloud9 Access Permissions to the Group</a>.
+                     </p>
+                     
+                     <div class="aws-note">
+                        <p class="aws-note">Note</p>
+                        <p>Your organization might already have an IAM group and user set up for you. If your
+                           organization has an AWS account
+                           administrator, check with that person before starting the following procedures.
+                        </p>
+                     </div>
+                     
+                     <p>You can complete these tasks using the <a href="setup.html#setup-create-iam-resources-group-console">AWS Management Console</a> or the <a href="setup.html#setup-create-iam-resources-group-cli">AWS Command Line Interface (AWS CLI)</a>.
+                     </p>
+                     
+                     <p>To watch a 9-minute video related to the following console procedures, see <a href="https://www.youtube.com/watch?v=XMi5fXL2Hes" target="_blank">How do I set up an IAM user and sign in to the AWS Management Console using IAM credentials</a> on the YouTube website.
+                     </p>
+                     
+                     <h3 id="setup-create-iam-resources-group-console">Step 2.1: Create an IAM Group with the Console</h3>
+                     
+                     
+                     <div class="orderedlist">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <ol>
+                           <li>
+                              
+                              <p>Sign in to the AWS Management Console, if you are not already signed in, at <a href="https://console.aws.amazon.com" target="_blank">https://console.aws.amazon.com</a>.
+                              </p>
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>Although it's possible to sign in to the AWS Management Console using the credentials
+                                    for an AWS account root user, this isn't an AWS security
+                                    best practice. Instead, we recommend you sign in using credentials for an IAM administrator
+                                    user in your AWS account. An IAM administrator user has similar AWS access permissions
+                                    to
+                                    an AWS account root user and avoids some of the associated security risks. If you
+                                    cannot
+                                    sign in as an IAM administrator user, check with your AWS account administrator. For
+                                    more information, see the following in the <em>IAM User Guide</em>.
+                                 </p>
+                                 <div class="itemizedlist">
+                                    
+                                    
+                                    
+                                    <ul class="itemizedlist" type="disc">
+                                       <li class="listitem">
+                                          
+                                          <p>
+                                             <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html" target="_blank">Creating Your First IAM Admin User and Group</a>
+                                             
+                                          </p>
+                                          
+                                       </li>
+                                       <li class="listitem">
+                                          
+                                          <p>
+                                             <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/console.html#user-sign-in-page" target="_blank">The IAM User Sign-in Page</a>
+                                             
+                                          </p>
+                                          
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Open the IAM console. To do this, in the AWS navigation bar, choose <b>Services</b>. Then choose <b>IAM</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>In the IAM console's navigation pane, choose <b>Groups</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Create New Group</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>On the <b>Set Group Name</b> page, for <b>Group Name</b>, type a name for the new group.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Next Step</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>On the <b>Attach Policy</b> page, choose <b>Next Step</b> without attaching any policies. (You will attach a policy in <a href="setup.html#setup-give-user-access">Step 3: Add AWS Cloud9 Access Permissions to the Group</a>.)
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Create Group</b>.
+                              </p>
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>We recommend that you repeat this procedure to create 2 groups: one group for AWS
+                                    Cloud9 users, and another group for AWS Cloud9 administrators.
+                                    This AWS security best practice can help you better control, track,
+                                    and troubleshoot issues with AWS resource access.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                        </ol>
+                     </div>
+                     
+                     <p>Skip ahead to <a href="setup.html#setup-create-iam-resources-user-console">Step 2.2: Create an IAM User and Add the User to the Group with the Console</a>.
+                     </p>
+                     
+                     
+                     <h3 id="setup-create-iam-resources-group-cli">Step 2.1: Create an IAM Group with the AWS CLI</h3>
+                     
+                     
+                     <div class="orderedlist">
+                        
+                        
+                        
+                        <ol>
+                           <li>
+                              
+                              <p>Install and configure the AWS CLI on your computer, if you have not done so already.
+                                 To do this, see the following in the <em>AWS CLI User Guide</em>.
+                              </p>
+                              
+                              <div class="itemizedlist">
+                                 
+                                 
+                                 
+                                 <ul class="itemizedlist" type="disc">
+                                    <li class="listitem">
+                                       
+                                       <p>
+                                          <a href="https://docs.aws.amazon.com/cli/latest/userguide/installing.html" target="_blank">Installing the AWS Command Line Interface</a>
+                                          
+                                       </p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>
+                                          <a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-quick-configuration" target="_blank">Quick Configuration</a>
+                                          
+                                       </p>
+                                       
+                                    </li>
+                                 </ul>
+                              </div>
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>Although it's possible to configure the AWS CLI using the credentials for an AWS account
+                                    root user, this isn't an AWS security
+                                    best practice. Instead, we recommend you configure the AWS CLI using credentials for
+                                    an IAM administrator user in your AWS account. An IAM administrator user has similar
+                                    AWS access permissions to
+                                    an AWS account root user and avoids some of the associated security risks. If you
+                                    cannot
+                                    configure the AWS CLI as an IAM administrator user, check with your AWS account administrator.
+                                    For more information, see
+                                    <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html" target="_blank">Creating Your First IAM Admin User and Group</a> in the <em>IAM User Guide</em>.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Run the IAM <code class="code">create-group</code> command, specifying the new group's name (for example, <code class="code">MyCloud9Group</code>).
+                              </p>
+                              <pre class="programlisting"><div class="code-btn-container"><div class="btn-copy-code" title="Copy"></div><div class="btn-dark-theme" title="Dark theme" title-dark="Dark theme" title-light="Light theme"></div></div><code class="sh ">aws iam create-group --group-name MyCloud9Group</code></pre>
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>We recommend that you repeat this procedure to create 2 groups: one group for AWS
+                                    Cloud9 users, and another group for AWS Cloud9 administrators.
+                                    This AWS security best practice can help you better control, track,
+                                    and troubleshoot issues with AWS resource access.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                        </ol>
+                     </div>
+                     
+                     <p>Skip ahead to <a href="setup.html#setup-create-iam-resources-user-cli">Step 2.2: Create an IAM User and Add the User to the Group with the AWS CLI</a>.
+                     </p>
+                     
+                     
+                     <h3 id="setup-create-iam-resources-user-console">Step 2.2: Create an IAM User and Add the User to the Group with the Console</h3>
+                     
+                     
+                     <div class="orderedlist">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <ol>
+                           <li>
+                              
+                              <p>With the IAM console open from the previous procedure, in the navigation pane, choose
+                                 <b>Users</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Add user</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>For <b>User name</b>, type a name for the new user.
+                              </p>
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>You can create multiple users at the same time by choosing <b>Add another user</b>. The other settings in this procedure apply to each of these new users.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Select the <b>Programmatic access</b> and <b>AWS Management Console access</b> check boxes. This allows the new user to use various AWS developer tools and service
+                                 consoles.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Leave the default choice of <b>Autogenerated password</b>, which creates a random password for the new user to sign in to the console. Or choose
+                                 <b>Custom password</b>
+                                 and type a specific password for the new user.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Leave the default choice of <b>Require password reset</b>, which prompts the new user to change their password after they sign in to the console
+                                 for the first time.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Next: Permissions</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Leave the default choice of <b>Add user to group</b> (or <b>Add users to group</b> for multiple users).
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>In the list of groups, select the check box (not the name) next to the group you want
+                                 to add the user to.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Next: Review</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Create user</b> (or <b>Create users</b> for multiple users).
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>On the last page of the wizard, do one of the following.</p>
+                              
+                              <div class="itemizedlist">
+                                 
+                                 
+                                 
+                                 
+                                 <ul class="itemizedlist" type="disc">
+                                    <li class="listitem">
+                                       
+                                       <p>Next to each new user, choose <b>Send email</b>, and follow the on-screen directions to email the new user their console sign in
+                                          URL and user name. Then communicate to
+                                          each new user their console sign in password, AWS access key ID, and AWS secret access
+                                          key separately.
+                                       </p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>Choose <b>Download .csv</b>. Then communicate to each new user their console sign in URL, console sign in password,
+                                          AWS access key ID, and AWS secret access key that is in the downloaded file.
+                                       </p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>Next to each new user, choose <b>Show</b> for both <b>Secret access key</b> and <b>Password</b>. Then communicate to each new user their console sign in URL, console sign in
+                                          password, AWS access key ID, and AWS secret access key.
+                                       </p>
+                                       
+                                    </li>
+                                 </ul>
+                              </div>
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>If you do not choose <b>Download .csv</b>, this is the only time you can view the new user's AWS secret access key and console
+                                    sign in
+                                    password. To generate a new AWS secret access key or console sign in password for
+                                    the new user, see the following in the <em>IAM User Guide</em>.
+                                 </p>
+                                 <div class="itemizedlist">
+                                    
+                                    
+                                    
+                                    <ul class="itemizedlist" type="disc">
+                                       <li class="listitem">
+                                          
+                                          <p>
+                                             <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey" target="_blank">Creating, Modifying, and Viewing Access Keys (Console)</a>
+                                             
+                                          </p>
+                                          
+                                       </li>
+                                       <li class="listitem">
+                                          
+                                          <p>
+                                             <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_admin-change-user.html#id_credentials_passwords_admin-change-user_console" target="_blank">Creating, Changing, or Deleting an IAM User Password (Console)</a>
+                                             
+                                          </p>
+                                          
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              
+                           </li>
+                        </ol>
+                     </div>
+                     
+                     <p>Skip ahead to <a href="setup.html#setup-give-user-access">Step 3: Add AWS Cloud9 Access Permissions to the Group</a>.
+                     </p>
+                     
+                     
+                     <h3 id="setup-create-iam-resources-user-cli">Step 2.2: Create an IAM User and Add the User to the Group with the AWS CLI</h3>
+                     
+                     
+                     <div class="orderedlist">
+                        
+                        
+                        
+                        
+                        
+                        
+                        <ol>
+                           <li>
+                              
+                              <p>Run the IAM <code class="code">create-user</code> command to create the user, specifying the new user's name (for example, <code class="code">MyCloud9User</code>).
+                              </p>
+                              <pre class="programlisting"><div class="code-btn-container"><div class="btn-copy-code" title="Copy"></div><div class="btn-dark-theme" title="Dark theme" title-dark="Dark theme" title-light="Light theme"></div></div><code class="sh ">aws iam create-user --user-name MyCloud9User</code></pre>
+                              </li>
+                           <li>
+                              
+                              <p>Run the IAM <code class="code">create-login-profile</code> command to create a new console sign in password for the user, specifying the user's
+                                 name and
+                                 initial sign in password (for example, <code class="code">MyC10ud9Us3r!</code>). After the user signs in, AWS asks the user to change their sign in password.
+                              </p>
+                              <pre class="programlisting"><div class="code-btn-container"><div class="btn-copy-code" title="Copy"></div><div class="btn-dark-theme" title="Dark theme" title-dark="Dark theme" title-light="Light theme"></div></div><code class="sh ">aws iam create-login-profile --user-name MyCloud9User --password MyC10ud9Us3r! --password-reset-required</code></pre>
+                              <p>To generate a replacement console sign in password for the user later if needed, see
+                                 <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_admin-change-user.html#Using_ManagingPasswordsCLIAPI" target="_blank">Creating, Changing, or Deleting an IAM User Password (API, CLI, PowerShell)</a>
+                                 in the <em>IAM User Guide</em>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Run the IAM <code class="code">create-access-key</code> command to create a new AWS access key and corresponding AWS secret access key for
+                                 the user.
+                              </p>
+                              <pre class="programlisting"><div class="code-btn-container"><div class="btn-copy-code" title="Copy"></div><div class="btn-dark-theme" title="Dark theme" title-dark="Dark theme" title-light="Light theme"></div></div><code class="sh ">aws iam create-access-key --user-name MyCloud9User</code></pre>
+                              <p>Make a note of the <code class="code">AccessKeyId</code> and <code class="code">SecretAccessKey</code> values that are displayed.
+                                 After you run the IAM <code class="code">create-access-key</code> command, this is the only time you can view the user's AWS secret access key.
+                                 To generate a new AWS secret access key for the user later if needed, see
+                                 <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey_CLIAPI" target="_blank">Creating, Modifying, and Viewing Access Keys (API, CLI, PowerShell)</a>
+                                 in the <em>IAM User Guide</em>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Run the IAM <code class="code">add-user-to-group</code> command to add the user to the group, specifying the group's and user's names.
+                              </p>
+                              <pre class="programlisting"><div class="code-btn-container"><div class="btn-copy-code" title="Copy"></div><div class="btn-dark-theme" title="Dark theme" title-dark="Dark theme" title-light="Light theme"></div></div><code class="sh ">aws iam add-user-to-group --group-name MyCloud9Group --user-name MyCloud9User</code></pre>
+                              </li>
+                           <li>
+                              
+                              <p>Communicate to the user their console sign in URL, initial console sign in password,
+                                 AWS access key ID, and AWS secret access key.
+                              </p>
+                              
+                           </li>
+                        </ol>
+                     </div>
+                     
+                     
+                     <h2 id="setup-give-user-access">Step 3: Add AWS Cloud9 Access Permissions to the Group</h2>
+                     
+                     
+                     <p>By default, most IAM groups and users do not have access to AWS Cloud9. (An exception
+                        is IAM administrator groups and IAM administrator users, which have access to all
+                        AWS services in their AWS account by default.)
+                        In this step, you use IAM to add AWS Cloud9 access permissions directly to an IAM
+                        group to which one or more users belong, so that you can ensure
+                        those users can access AWS Cloud9.
+                     </p>
+                     
+                     <p>If you already have an IAM user you want to use, and that user belongs to an IAM administrator
+                        group,
+                        skip ahead to <a href="setup.html#setup-sign-in-ide">Step 4: Sign in to the AWS Cloud9 Console</a>.
+                     </p>
+                     
+                     <div class="aws-note">
+                        <p class="aws-note">Note</p>
+                        <p>Your organization might already have a group set up for you with the appropriate access
+                           permissions.
+                           If your organization has an AWS account administrator, check with that person before
+                           starting the following procedure.
+                        </p>
+                     </div>
+                     
+                     <p>You can complete this task using the <a href="setup.html#setup-give-user-access-console">AWS Management Console</a> or the <a href="setup.html#setup-give-user-access-cli">AWS CLI</a>.
+                     </p>
+                     
+                     <h3 id="setup-give-user-access-console">Add AWS Cloud9 Access Permissions to the Group with the Console</h3>
+                     
+                     
+                     <div class="orderedlist">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <ol>
+                           <li>
+                              
+                              <p>Sign in to the AWS Management Console, if you are not already signed in, at <a href="https://console.aws.amazon.com/" target="_blank">https://console.aws.amazon.com/</a>.
+                              </p>
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>Although it's possible to sign in to the AWS Management Console using the credentials
+                                    for an AWS account root user, this isn't an AWS security
+                                    best practice. Instead, we recommend you sign in using credentials for an IAM administrator
+                                    user in your AWS account. If you cannot
+                                    do this, check with your AWS account administrator.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Open the IAM console. To do this, in the AWS navigation bar, choose <b>Services</b>. Then choose <b>IAM</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Groups</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose the group's name.</p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Decide whether you want to add AWS Cloud9 user or AWS Cloud9 administrator access
+                                 permissions to the group. These permissions will apply to each user in the group.
+                              </p>
+                              
+                              <p>AWS Cloud9 user access permissions allow each user in the group to do the following
+                                 things within their AWS account:
+                              </p>
+                              
+                              <div class="itemizedlist">
+                                 
+                                 
+                                 
+                                 
+                                 <ul class="itemizedlist" type="disc">
+                                    <li class="listitem">
+                                       
+                                       <p>Create their own AWS Cloud9 development environments.</p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>Get information about their own environments.</p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>Change the settings for their own environments.</p>
+                                       
+                                    </li>
+                                 </ul>
+                              </div>
+                              
+                              <p>AWS Cloud9 administrator access permissions allow each user in the group to do additional
+                                 things within their AWS account, such as:
+                              </p>
+                              
+                              
+                              <div class="itemizedlist">
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 <ul class="itemizedlist" type="disc">
+                                    <li class="listitem">
+                                       
+                                       <p>Create environments for themselves or others.</p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>Get information about environments for themselves or others.</p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>Delete environments for themselves or others.</p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>Change the settings of environments for themselves or others.</p>
+                                       
+                                    </li>
+                                 </ul>
+                              </div>
+                              
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>We recommend that you add only a limited number of users to the AWS Cloud9 administrators
+                                    group.
+                                    This AWS security best practice can help you better control, track,
+                                    and troubleshoot issues with AWS resource access.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>On the <b>Permissions</b> tab, for <b>Managed Policies</b>, choose <b>Attach Policy</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>In the list of policy names, choose the box next to <b>AWSCloud9User</b> for AWS Cloud9 user access permissions
+                                 or <b>AWSCloud9Administrator</b> for AWS Cloud9 administrator access permissions.
+                                 (If you don't see either of these policy names in the list, type the policy name
+                                 in the <b>Filter</b> box to display it.)
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Choose <b>Attach Policy</b>.
+                              </p>
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>If you have more than one group you want to add AWS Cloud9 access permissions to,
+                                    repeat this procedure for each of those groups.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                        </ol>
+                     </div>
+                     
+                     <p>To see the list of access permissions that these AWS managed policies give to a group,
+                        see <a href="auth-and-access-control.html#auth-and-access-control-managed-policies">AWS Managed (Predefined) Policies</a>.
+                     </p>
+                     
+                     <p>Skip ahead to <a href="setup.html#setup-sign-in-ide">Step 4: Sign in to the AWS Cloud9 Console</a>.
+                     </p>
+                     
+                     
+                     <h3 id="setup-give-user-access-cli">Add AWS Cloud9 Access Permissions to the Group with the AWS CLI</h3>
+                     
+                     
+                     <div class="orderedlist">
+                        
+                        
+                        
+                        
+                        <ol>
+                           <li>
+                              
+                              <p>Install and configure the AWS CLI on your computer, if you have not done so already.
+                                 To do this, see the following in the <em>AWS CLI User Guide</em>.
+                              </p>
+                              
+                              <div class="itemizedlist">
+                                 
+                                 
+                                 
+                                 <ul class="itemizedlist" type="disc">
+                                    <li class="listitem">
+                                       
+                                       <p>
+                                          <a href="https://docs.aws.amazon.com/cli/latest/userguide/installing.html" target="_blank">Installing the AWS Command Line Interface</a>
+                                          
+                                       </p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>
+                                          <a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-quick-configuration" target="_blank">Quick Configuration</a>
+                                          
+                                       </p>
+                                       
+                                    </li>
+                                 </ul>
+                              </div>
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>Although it's possible to configure the AWS CLI using the credentials for an AWS account
+                                    root user, this isn't an AWS security
+                                    best practice. Instead, we recommend you configure the AWS CLI using credentials for
+                                    an IAM administrator user in your AWS account. An IAM administrator user has similar
+                                    AWS access permissions to
+                                    an AWS account root user and avoids some of the associated security risks. If you
+                                    cannot
+                                    configure the AWS CLI as an IAM administrator user, check with your AWS account administrator.
+                                    For more information, see
+                                    <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html" target="_blank">Creating Your First IAM Admin User and Group</a> in the <em>IAM User Guide</em>.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Decide whether you want to add AWS Cloud9 user or AWS Cloud9 administrator access
+                                 permissions to the group. These permissions will apply to each user in the group.
+                              </p>
+                              
+                              <p>AWS Cloud9 user access permissions allow each user in the group to do the following
+                                 things within their AWS account.
+                              </p>
+                              
+                              <div class="itemizedlist">
+                                 
+                                 
+                                 
+                                 
+                                 <ul class="itemizedlist" type="disc">
+                                    <li class="listitem">
+                                       
+                                       <p>Create their own AWS Cloud9 development environments.</p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>Get information about their own environments.</p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>Change the settings for their own environments.</p>
+                                       
+                                    </li>
+                                 </ul>
+                              </div>
+                              
+                              <p>AWS Cloud9 administrator access permissions allow each user in the group to do additional
+                                 things within their AWS account, such as the following.
+                              </p>
+                              
+                              
+                              <div class="itemizedlist">
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 <ul class="itemizedlist" type="disc">
+                                    <li class="listitem">
+                                       
+                                       <p>Create environments for themselves or others.</p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>Get information about environments for themselves or others.</p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>Delete environments for themselves or others.</p>
+                                       
+                                    </li>
+                                    <li class="listitem">
+                                       
+                                       <p>Change the settings of environments for themselves or others.</p>
+                                       
+                                    </li>
+                                 </ul>
+                              </div>
+                              
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>We recommend that you add only a limited number of users to the AWS Cloud9 administrators
+                                    group.
+                                    This AWS security best practice can help you better control, track,
+                                    and troubleshoot issues with AWS resource access.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Run the IAM <code class="code">attach-group-policy</code> command, specifying the group's name and the Amazon Resource Name (ARN) for the AWS
+                                 Cloud9 access permissions policy
+                                 to add.
+                              </p>
+                              
+                              <p>For AWS Cloud9 user access permissions, specify the following ARN.</p>
+                              <pre class="programlisting"><div class="code-btn-container"><div class="btn-copy-code" title="Copy"></div><div class="btn-dark-theme" title="Dark theme" title-dark="Dark theme" title-light="Light theme"></div></div><code class="sh ">aws iam attach-group-policy --group-name MyCloud9Group --policy-arn arn:aws:iam::aws:policy/AWSCloud9User</code></pre>
+                              <p>For AWS Cloud9 administrator access permissions, specify the following ARN.</p>
+                              <pre class="programlisting"><div class="code-btn-container"><div class="btn-copy-code" title="Copy"></div><div class="btn-dark-theme" title="Dark theme" title-dark="Dark theme" title-light="Light theme"></div></div><code class="sh ">aws iam attach-group-policy --group-name MyCloud9Group --policy-arn arn:aws:iam::aws:policy/AWSCloud9Administrator</code></pre>
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>If you have more than one group you want to add AWS Cloud9 access permissions to,
+                                    repeat this procedure for each of those groups.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                        </ol>
+                     </div>
+                     
+                     <p>To see the list of access permissions that these AWS managed policies give to a group,
+                        see <a href="auth-and-access-control.html#auth-and-access-control-managed-policies">AWS Managed (Predefined) Policies</a>.
+                     </p>
+                     
+                     
+                     <h2 id="setup-sign-in-ide">Step 4: Sign in to the AWS Cloud9 Console</h2>
+                     
+                     
+                     <p>After you complete the previous steps in this topic, you and your users are ready
+                        to sign in to the AWS Cloud9 console and start using it.
+                     </p>
+                     
+                     <div class="orderedlist">
+                        
+                        
+                        
+                        
+                        
+                        
+                        <ol>
+                           <li>
+                              
+                              <p>If you are already signed in to the AWS Management Console as an AWS account root
+                                 user, sign out of the console.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>Open the AWS Cloud9 console, at <a href="https://console.aws.amazon.com/cloud9/" target="_blank">https://console.aws.amazon.com/cloud9/</a>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>If prompted, type the AWS account number for the IAM user you created or identified
+                                 earlier, and then choose <b>Next</b>.
+                              </p>
+                              
+                              <div class="aws-note">
+                                 <p class="aws-note">Note</p>
+                                 <p>If you do not see an option for typing the AWS account number, choose <b>Sign in to a different account</b>. Type the AWS account number on the next page, and then choose <b>Next</b>.
+                                 </p>
+                              </div>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>If prompted, type the user name and password of the IAM user you created or identified
+                                 earlier, and then choose <b>Sign In</b>.
+                              </p>
+                              
+                           </li>
+                           <li>
+                              
+                              <p>If prompted, follow the on-screen directions to change your user's initial sign-in
+                                 password. Save your new sign-in password in a secure location.
+                              </p>
+                              
+                           </li>
+                        </ol>
+                     </div>
+                     
+                     <p>You have now successfully signed in, and the AWS Cloud9 console is displayed.</p>
+                     
+                     <h2 id="setup-next-steps">Next Steps</h2>
+                     
+                     
+                     <div class="table">
+                        <p class="title"><b></b></p>
+                        <div class="table-contents">
+                           <table id="w86aab7c15c19b2">
+                              
+                              <tr>
+                                 
+                                 <th>
+                                    <b>Task</b>
+                                    
+                                 </th>
+                                 
+                                 <th>
+                                    <b>See this topic</b>
+                                    
+                                 </th>
+                                 
+                              </tr>
+                              
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>Restrict AWS Cloud9 usage for others in your AWS account, to control costs.</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="setup-teams.html">Advanced Team Setup</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>Create an AWS Cloud9 development environment, and then use the AWS Cloud9 IDE to work
+                                       with code in your new environment.
+                                    </p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="create-environment.html">Creating an Environment</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>Learn how to use the AWS Cloud9 IDE.</p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="tutorial.html">IDE Tutorial</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                              <tr>
+                                 
+                                 <td>
+                                    
+                                    <p>Invite others to use your new environment along with you, in real time and with text
+                                       chat support.
+                                    </p>
+                                    
+                                 </td>
+                                 
+                                 <td>
+                                    
+                                    <p>
+                                       <a href="share-environment.html">Working with Shared Environments</a>
+                                       
+                                    </p>
+                                    
+                                 </td>
+                                 
+                              </tr>
+                              
+                           </table>
+                        </div>
+                     </div>
+                     
+                  </div>
+                  <noscript>
+                     <div>
+                        <div>
+                           <div>
+                              <div id="js_error_message">
+                                 <p><img src="https://d1ge0kk1l5kms0.cloudfront.net/images/G/01/webservices/console/warning.png" alt="Warning" /> <strong>Javascript is disabled or is unavailable in your browser.</strong></p>
+                                 <p>To use the AWS Documentation, Javascript must be enabled. Please refer to your browser's
+                                    Help pages for instructions.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </noscript>
+                  <div id="main-col-footer">
+                     <div id="doc-conventions"><a target="_top" href="/general/latest/gr/docconventions.html">Document Conventions</a></div>
+                     <div id="next"><a class="awstoc" accesskey="p" href="setup-express.html">« Previous </a><a class="awstoc" accesskey="n" href="setup-teams.html">Next »</a></div>
+                     <div id="copyright-main-footer">© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</div>
+                  </div>
+               </div>
+            </div>
+            <div id="right-expanded">
+               <div id="right-content-wrapper">
+                  <div id="pagetoc">
+                     <p>On this page:</p>
+                     <ul class="pagetoc">
+                        <li class="pagetoc" name="Step 1: Create an AWS Account"><a class="pagetoc" href="#setup-create-account">Step 1: Create an AWS Account</a></li>
+                        <li class="pagetoc" name="Step 2: Create an IAM Group and User, and Add the User to the Group"><a class="pagetoc" href="#setup-create-iam-resources">Step 2: Create an IAM Group and User, and Add the User to the Group</a></li>
+                        <li class="pagetoc" name="Step 3: Add AWS Cloud9 Access Permissions to the Group"><a class="pagetoc" href="#setup-give-user-access">Step 3: Add AWS Cloud9 Access Permissions to the Group</a></li>
+                        <li class="pagetoc" name="Step 4: Sign in to the AWS Cloud9 Console"><a class="pagetoc" href="#setup-sign-in-ide">Step 4: Sign in to the AWS Cloud9 Console</a></li>
+                        <li class="pagetoc" name="Next Steps"><a class="pagetoc" href="#setup-next-steps">Next Steps</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="cookie-notice">
+         <div class="cookie-notice-text">We use cookies to provide and improve our services. By using our site, you consent
+            to cookies. <a href="http://aws.amazon.com/legal/cookies">Learn more</a></div>
+      </div>
+      <div id="footer">
+         <div id="footer_short_fb" class="hide" title="Feedback"><a target="_blank" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?feedback_destination_id=ea85bca2-658d-40f4-900f-65193653578a&amp;topic_url=http://docs.aws.amazon.com/en_us/cloud9/latest/user-guide/setup.html&amp;hidden_guide_name=User Guide&amp;hidden_api_version=&amp;hidden_file_name=setup"><i class="awsdocs-footer-text fa fa-envelope-o"></i></a></div>
+         <div id="footer_toggle" class="mediaobject">
+            <div id="footer_toggle_img" class="awsdocs-footer-text fa fa-caret-down"></div>
+            <div id="footer_toggle_img_collapse" class="hide awsdocs-footer-text fa fa-caret-right"></div>
+         </div>
+         <div id="footer-left"><a class="awsdocs-footer-text" target="_top" href="http://aws.amazon.com/terms">Terms of Use</a><span class="awsdocs-footer-text"> | </span><a class="awsdocs-footer-text" target="_top" href="http://aws.amazon.com/privacy">Privacy</a><span class="awsdocs-footer-text"> | </span><span class="awsdocs-footer-text">© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</span></div>
+         <div id="footer-right">
+            <div id="feedback">
+               <div id="forums"><a id="forum_link" target="_blank" href="http://forums.aws.amazon.com/forum.jspa?forumID=268" class="awsdocs-footer-text">Have a question? Try the Forums.</a></div>
+               <div id="feedback-message" class="awsdocs-footer-text">Did this page help you?</div>
+               <div id="feedback-yesno-buttons"><a class="awstoc btn btn-default" target="_blank" href="feedbackyes.html?topic_url=http://docs.aws.amazon.com/en_us/cloud9/latest/user-guide/setup.html">Yes</a><a class="awstoc btn btn-default" target="_blank" href="feedbackno.html?topic_url=http://docs.aws.amazon.com/en_us/cloud9/latest/user-guide/setup.html">No</a></div>
+               <div id="feedback-feedback-button"><a class="awstoc btn btn-default" target="_blank" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?feedback_destination_id=ea85bca2-658d-40f4-900f-65193653578a&amp;topic_url=http://docs.aws.amazon.com/en_us/cloud9/latest/user-guide/setup.html&amp;hidden_guide_name=User Guide&amp;hidden_api_version=&amp;hidden_file_name=setup">Feedback</a></div>
+            </div>
+         </div>
+      </div>
+      <!-- SiteCatalyst code version: H.25.2.
+            Copyright 1996-2012 Adobe, Inc. All Rights Reserved
+            More info available at http://www.omniture.com --><script language="JavaScript" type="text/javascript" src="https://a0.awsstatic.com/s_code/js/1.0/awshome_s_code.js"></script><script language="JavaScript" type="text/javascript">
+         <!--
+
+            // Documentation Service Name
+            s.prop66='AWS Cloud9';
+            s.eVar66='D=c66';
+  
+            // Documentation Guide Name                                                                 
+            s.prop65='User Guide';
+            s.eVar65='D=c65';
+
+            var s_code=s.t();if(s_code)document.write(s_code)//--></script><script language="JavaScript" type="text/javascript">
+         <!--
+                if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+                //--></script><noscript><img src="https://amazonwebservices.d2.sc.omtrdc.net/b/ss/awsamazondev/1/H.25.2--NS/0" height="1" width="1" border="0" alt="" /></noscript>
+      <!--/DO NOT REMOVE/-->
+      <!-- End SiteCatalyst code version: H.25.2. -->
+   </body>
+</html>

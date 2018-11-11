@@ -1,0 +1,1329 @@
+
+  
+  
+<div class='customer-ratings'>
+  <h4>Customer Ratings</h4>
+  <div class="ratings-container">
+    <div class="histogram-container">
+      
+      
+<div class="ratings-histogram">
+  <a href="#" aria-label='3 stars, Summary rating: '>Summary rating: </a>
+
+  
+    <div class='rating' role='img' tabindex='-1' aria-label='3 stars, 2238 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">2238 Ratings</span>
+</div>
+
+  
+
+  <div class="vote" role="text" aria-label='5 stars, 875 ratings'>
+    <div class='stars' role='img' tabindex='-1' aria-label='5 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 100%;"></span>
+    </div>
+    <span class="total">875</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='4 stars, 190 ratings'>
+    <div class='stars' role='img' tabindex='-1' aria-label='4 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 21%;"></span>
+    </div>
+    <span class="total">190</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='3 stars, 143 ratings'>
+    <div class='stars' role='img' tabindex='-1' aria-label='3 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 16%;"></span>
+    </div>
+    <span class="total">143</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='2 stars, 188 ratings'>
+    <div class='stars' role='img' tabindex='-1' aria-label='2 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 21%;"></span>
+    </div>
+    <span class="total">188</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='1 star, 842 ratings'>
+    <div class='stars' role='img' tabindex='-1' aria-label='1 star'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 96%;"></span>
+    </div>
+    <span class="total">842</span>
+  </div>
+
+</div>
+
+      
+        
+      
+      
+
+      
+    </div>
+
+    <div class="rating-widget-container">
+      <div rating-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/userRateContent?id=497799835&displayable-kind=30' class="rate-stars"><h5 class="rating-label">Rate this application:</h5><div role=""><span star-count="1" role="radio" aria-checked="false" aria-label="rate 1 star, hate it"></span><span star-count="2" role="radio" aria-checked="false" aria-label="rate 2 stars, don't like it"></span><span star-count="3" role="radio" aria-checked="false" aria-label="rate 3 stars, it's ok"></span><span star-count="4" role="radio" aria-checked="false" aria-label="rate 4 stars, it's good"></span><span star-count="5" role="radio" aria-checked="false" aria-label="rate 5 stars, it's great"></span></div><span class="rating-desc" aria-hidden="true"></span></div>
+
+      <div class="has-not-purchased">To rate this app, you must have purchased it from the Mac App Store.</div>
+    </div>
+  </div>
+</div>
+
+  
+
+
+
+
+<div class="customer-reviews" >
+  <div class="title hidden"><h4>Write a Review</h4></div>
+  <div class="inline-review" content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/writeUserReview?id=497799835&amp;displayable-kind=30'></div>
+  <div class="title">
+    <h4>Customer Reviews</h4>
+  </div>
+  
+    
+  
+
+  <div class="paginate all-reviews" goto-page-href='https://itunes.apple.com/us/customer-reviews?displayable-kind=30&amp;id=497799835&amp;update=1'>
+  
+  <div class="write-a-review">
+    
+    <a href='#' class="write-a-review-link see-all">Write a Review</a>
+    <div class="has-not-purchased">To review this app, you must have purchased it from the Mac App Store.</div>
+  </div>
+  
+
+
+
+  <div class="controls-container">
+
+    
+    <div class="select"><label class="select">Sort By:<select name="sort">
+      <option value='1'>Most Helpful</option><option value='2'>Most Favorable</option><option value='3'>Most Critical</option><option value='4'>Most Recent</option>
+    </select></label></div>
+    
+
+    
+    <div class="pagination-controls">
+    </div>
+    
+
+  </div>
+
+  <div class="paginated-container">
+    <div class="paginated-content" page-number='1' sort-key='1' total-number-of-pages='187' pill-identifier="0">
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Shouldn’t be out of beta</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='2 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=118510450' class="reviewer">mattpow232</a>
+     -
+     Version
+     9.0
+    
+    -
+    Sep 20, 2017
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=118510450' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Xcode in itself doesn’t change much year to year so on that end, everything is fine. However, this version of Xcode has completely ruined user interaction. I don’t actually believe that Apple even tested Xcode out using their trackpads because everything regarding storyboards is completely broken. When it comes to scripts, I have no issues. Everything just works. But when it comes to storyboards, I can resize an element or drag it to another spot without weird glitches such as the element flying off the screen and getting deleted. When I drop a textfield element and insert a default value, the text y position is so far down you can only see the top of the letter even though the font size is default and the alignment is perfectly centered horizontall and vertically. Changing between storyboard tabs such as going to the attributes inspector causes the object you are focused on to deselect. How did that even happen? <br/><br/>The worst part about this update is that Xcode 9 Beta 4 was a better build than this release and that was 6 weeks ago. I would say that I don’t recommend updating to this new version as it’s usability seems to be even less than beta to me, but unfortunately, Apple kind of puts you between a rock and a hard place. You basically have to update to this version to keep apps up to date and release those brand new apps to iOS 11 devices.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">540 
+      out of 
+      645
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1800743496'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1800743496'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Haters gonna hate</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='4 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=18126299' class="reviewer">prucSpruP</a>
+     -
+     Version
+     9.3.1
+    
+    -
+    May 25, 2018
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=18126299' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Yes, there are problems.  Lord knows.  But, seriously.  This is about as good as it gets as far as comprehensive, easy (enough) to use (/ make work) software development suites go.  What top-secret, problem-free IDE are all these 1-star reviews using?  Keep practicing auto-layout.  Curse if you have to, but man.  Our ancestors, punching holes in rolls of paper, blisters on their puncher hands bursting, taping over the (dammit) mistake they just made, entire project hanging in the balance, hot coffee boiling across their laps, would laugh at all of our iOS/Mac development “problems” in Xcode.  Cmd+R to build AND run?  C’mon.  Yeah, sometimes there are red, scary, stop-sign lookin’ errors in there.  That definitely happens.  And yeah, sometimes they’re not even your fault.  Cmd+Shift+K and pray, brother.  Nobody’s twisting your arm to use Storyboards, but you totally can.  I seen it done well.  I seen it done not so well.  I seen a lot of strange $#@% up in this mother.  Maybe I'll punch a hole through my monitor tomorrow.  But I’ll set up a new one.  Maybe that broken constraint will turn out to be my fault after all.  I doubt it, but who knows.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">315 
+      out of 
+      388
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=2592731678'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=2592731678'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Great - Despite the haters</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=28907217' class="reviewer">iOS-Dallas</a>
+     -
+     Version
+     10.1
+    
+    -
+    Nov 02, 2018
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=28907217' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  I've been writing software and using IDEs for over 20 years and XCode is probably better, overall, than anything else available on any platform.  And that list includes every major IDE you've ever heard of.  Yes it has some issues here and there.  But none of those are show stoppers, and in my career I've never seen a commercial application of any kind that didn't have room for improvement.  <br/><br/>Out of 2,096 ratings for XCode (as of this one), to see an equal number of 1-star ratings (versus 5-star) and not much in between, tells me there are a lot of trolls out there who don't use this tool to earn their living (like I do), yet they think their comments matter for some reason.<br/><br/>If you want an honest review, talk to someone who is a professional developer, and who uses this specific tool 8-hours a day to earn their living. If their full time job title does not include the words iOS Developer, then I would pretty much discount whatever they say.<br/><br/>I don't work for Apple, or even know anyone who does, but in my opinion, Apple should not let someone post a review this app unless at a minimum that person has a current paid Apple developer subscription.  At least then you'd know that the trolls had to pay $99/year in order to post their 1-star reviews, which in turn would eliminate the majority of them.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">8 
+      out of 
+      13
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=3372376644'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=3372376644'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Seems nice but isnt</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='1 star'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=156705169' class="reviewer">joost4u</a>
+     -
+     Version
+     9.3
+    
+    -
+    Mar 30, 2018
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=156705169' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  For simple projects, Xcode shines. For real world projects, Xcode is terrible. Take storyboards, there is no way you can actually use this in a collaborative environment with more than 1 developer contributing to it. How about auto layout; the super complex way Apple decided to solve this fundamental layout problem is very un-applesque. The lack of documentation for xcode internals and options is horrible. The stability of the platform is questionable - crashes on a wide variety of installations and for whatever reason.<br/><br/>I speculate that most 4-5 stars are given by happy go lucky, not so serious, not so big programmers/programming teams. For real world, or indie programming, Xcode is a big bag of hurt.<br/><br/>Most problematic; Apple and its engineers DO NOT SEEM TO CARE to listen to the development community. They simply develop what _they like_ to develop. It is an eletist, ivory tower, know it better than you, attitude. I really cant stand to work with this tool but I have to.  I can get myself to accept many failures but this attitude is kill me and I think the developer community also.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">165 
+      out of 
+      236
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=2364732724'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=2364732724'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Xcode 9.2</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='1 star'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=30160275' class="reviewer">Nick Name Stolen</a>
+     -
+     Version
+     9.2
+    
+    -
+    Dec 23, 2017
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=30160275' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  This version of Xcode, as other reviews here are saying, does not play well with High Sierra. Until I read those reviews I thought I had messed something up, although I have completely removed and re-installed Xcode twice now. The one good thing I can say is that playgrounds are crashing slightly less than in 9.1. Aside from that, this app is shockingly bad. I can’t believe Apple has done nothing to respond to all the unhappy users! It crashes, loses its mind trying to get constraints working in IB, and often if I try to set a label to &gt;1 line the entire view in storyboard just turns gray, no way out except try to find a setting for number of lines that will work - sometimes even #s work, other times only odd #s work.<br/><br/>I admit it is an extremely comprehensive app with a lot of wonderful features. But in its current state those feaures mean nothing. The reviewer who said it’s like trying to run a program on windows 95 was correct! Just plain buggy as hell. Apple, you need to do a complete rewrite of this piece of crap!
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">199 
+      out of 
+      227
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=2019237072'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=2019237072'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">A good developer tool that can be better.</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='4 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=208580803' class="reviewer">HuaTham</a>
+     -
+     Version
+     8.3.3
+    
+    -
+    Jul 08, 2017
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=208580803' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  An app so complicated like Xcode, comes with a huge stack of features, APIs, SDKs, that one wouldn’t actually use them all. Of course, an app that’s the mother of apps, so huge like this, is bound to come with imperfections and many head-scratching bugs. My biggest complain right now is how broken XCTest and its tools are (both of which I filed bug reports months ago). Accessibility Inspector, for example, fails to recognize UI elements even in the very basic setting that closely mirrors the WWDC talk. However, I appreciate many things Xcode provides, and some of them may have been underappreciated after years of its introduction, like Storyboard, Interactive Swift Playground, and continuous additions of new SDKs. Overall, I’d still rely on and recommend Xcode, but I also wish that bugs are ironed out and patched more quickly.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">191 
+      out of 
+      227
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1673539314'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1673539314'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Nice application, but remove the app id limit.</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='3 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=796993740' class="reviewer">JoshN123456789</a>
+     -
+     Version
+     9.4
+    
+    -
+    Jun 06, 2018
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=796993740' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  I downloaded Xcode (8.2.1 for old mac) recently, and it worked very well. Nice user interface, easy to learn. However, after using it for a week or two, I start getting this error telling me I can’t create more than 10 App IDs in a week. I have created maybe ten test apps, but it has been over a week since I created all of them. I am not ready to start paying $100/month to get rid of this error. This limit/error is very frustrating, and I would have given it five stars otherwise. I think this limit may cause unfinished/not ready apps to enter the app store, as newer developers may pay just to get rid of this error, and then are able to add there unfinished apps to the App Store. Or, they may create extra Apple IDs, and that is less than desirable. Please, remove this limit!
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">20 
+      out of 
+      32
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=2651953930'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=2651953930'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Lots of regressions, should not be all-in-one</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='2 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=10881455' class="reviewer">Kevin Grant</a>
+     -
+     Version
+     9.2
+    
+    -
+    Jan 08, 2018
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=10881455' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  If the instability of Xcode lately proves anything, it’s that “all in one app” is an incredibly bad idea.  I can’t update any of the components individually so every new version is pretty much guaranteed to be a mixture of good and bad changes.  Sometimes you just need a new compiler and SDK, and you shouldn’t have to risk your entire editor breaking in the process!<br/><br/>There hasn’t been a single update in recent memory that didn’t introduce some regression.  What’s worse is that the bugs are usually REALLY obvious, which makes you wonder if they even bothered to run the thing themselves for more than 5 minutes.  Worse still, there are unfixed bugs from many versions ago and rather than fix any of those they just add more.  They shouldn’t keep calling these Xcode 7.x, 8.x, 9.x...frankly it feels like about “Xcode 4.2.1 alpha 6” in quality right now.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">86 
+      out of 
+      101
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=2069860610'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=2069860610'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Worst version I have used so far</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='1 star'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=41119342' class="reviewer">EpicSyntax</a>
+     -
+     Version
+     9.1
+    
+    -
+    Nov 25, 2017
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=41119342' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  I have been a loyal iOS developer for 5 years now and with each year passing, Xcode versions are becoming worse, but this version… Oh god, it’s the worst.. it’s even far worse than worst.. it’s a TOTAL JOKE!<br/>Performance are extremely slow (especially on Interface Builder), IDE crashes while doing simple tasks like using Source Control, compiler crashes constantly, uploading builds to App Store is killing my work day.. it takes me 1.25 hours to upload a freaking 15MB build to the App Store, while it totally jams my interenet connection (I have a 10MB upload speed connection) and I even opened a bug report to Apple about this a month ago and they didn’t even take their precious time to respond!<br/>I have bought a 2017 maxed-out MBP 15” just for the sake of solving the performance speed on Xcode and it’s actually the same!<br/><br/>Apple - YOU HAVE FAILED THIS CITY 😡😡😡
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">229 
+      out of 
+      270
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1947304053'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1947304053'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Interface Builder close to unusable</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='2 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=22415003' class="reviewer">MachTurtle</a>
+     -
+     Version
+     9.0.1
+    
+    -
+    Oct 23, 2017
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=22415003' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  I’m less than pleased with this update, as there’s been an overall degradation in quality. I haven’t noticed a single beneficial change (with the exception of the simulator now having a Home button, gone are the days of cmd+shift+H hurray.), but now it takes ~30-40 seconds for IB to load each time I click on it, and making a change to any element causes my OS to beachball for 20 seconds or so while the change is implemented. These periods of lag are less common when editing .swift files, but they do still crop up with a decent amount of regularity.<br/><br/>I’m not even sure if ‘poor performance’ is classified as a bug, but I’m going to file a bug report as well since this is bizarre and definitely not how Xcode should be functioning.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">103 
+      out of 
+      119
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1870031207'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1870031207'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+
+</div>
+  </div>
+
+  <div class="footer">
+
+
+  
+  <div class="pagination-controls">
+  </div>
+  
+
+  </div>
+
+  </div>
+
+  
+  <div class="paginate current-reviews" goto-page-href='https://itunes.apple.com/us/customer-reviews?displayable-kind=30&amp;id=497799835&amp;update=1'>
+  
+  <div class="write-a-review">
+    
+    <a href='#' class="write-a-review-link see-all">Write a Review</a>
+    <div class="has-not-purchased">To review this app, you must have purchased it from the Mac App Store.</div>
+  </div>
+  
+
+  <div class="controls-container">
+
+    
+    <div class="select"><label class="select">Sort By:<select name="sort">
+      <option value='1'>Most Helpful</option><option value='2'>Most Favorable</option><option value='3'>Most Critical</option><option value='4'>Most Recent</option>
+    </select></label></div>
+    
+
+    
+    <div class="pagination-controls">
+    </div>
+    
+
+  </div>
+
+  <div class="paginated-container">
+    <div class="paginated-content" page-number='1' sort-key='1' total-number-of-pages='187' pill-identifier="0">
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Shouldn’t be out of beta</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='2 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=118510450' class="reviewer">mattpow232</a>
+     -
+     Version
+     9.0
+    
+    -
+    Sep 20, 2017
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=118510450' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Xcode in itself doesn’t change much year to year so on that end, everything is fine. However, this version of Xcode has completely ruined user interaction. I don’t actually believe that Apple even tested Xcode out using their trackpads because everything regarding storyboards is completely broken. When it comes to scripts, I have no issues. Everything just works. But when it comes to storyboards, I can resize an element or drag it to another spot without weird glitches such as the element flying off the screen and getting deleted. When I drop a textfield element and insert a default value, the text y position is so far down you can only see the top of the letter even though the font size is default and the alignment is perfectly centered horizontall and vertically. Changing between storyboard tabs such as going to the attributes inspector causes the object you are focused on to deselect. How did that even happen? <br/><br/>The worst part about this update is that Xcode 9 Beta 4 was a better build than this release and that was 6 weeks ago. I would say that I don’t recommend updating to this new version as it’s usability seems to be even less than beta to me, but unfortunately, Apple kind of puts you between a rock and a hard place. You basically have to update to this version to keep apps up to date and release those brand new apps to iOS 11 devices.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">540 
+      out of 
+      645
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1800743496'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1800743496'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Haters gonna hate</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='4 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=18126299' class="reviewer">prucSpruP</a>
+     -
+     Version
+     9.3.1
+    
+    -
+    May 25, 2018
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=18126299' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Yes, there are problems.  Lord knows.  But, seriously.  This is about as good as it gets as far as comprehensive, easy (enough) to use (/ make work) software development suites go.  What top-secret, problem-free IDE are all these 1-star reviews using?  Keep practicing auto-layout.  Curse if you have to, but man.  Our ancestors, punching holes in rolls of paper, blisters on their puncher hands bursting, taping over the (dammit) mistake they just made, entire project hanging in the balance, hot coffee boiling across their laps, would laugh at all of our iOS/Mac development “problems” in Xcode.  Cmd+R to build AND run?  C’mon.  Yeah, sometimes there are red, scary, stop-sign lookin’ errors in there.  That definitely happens.  And yeah, sometimes they’re not even your fault.  Cmd+Shift+K and pray, brother.  Nobody’s twisting your arm to use Storyboards, but you totally can.  I seen it done well.  I seen it done not so well.  I seen a lot of strange $#@% up in this mother.  Maybe I'll punch a hole through my monitor tomorrow.  But I’ll set up a new one.  Maybe that broken constraint will turn out to be my fault after all.  I doubt it, but who knows.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">315 
+      out of 
+      388
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=2592731678'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=2592731678'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Great - Despite the haters</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=28907217' class="reviewer">iOS-Dallas</a>
+     -
+     Version
+     10.1
+    
+    -
+    Nov 02, 2018
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=28907217' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  I've been writing software and using IDEs for over 20 years and XCode is probably better, overall, than anything else available on any platform.  And that list includes every major IDE you've ever heard of.  Yes it has some issues here and there.  But none of those are show stoppers, and in my career I've never seen a commercial application of any kind that didn't have room for improvement.  <br/><br/>Out of 2,096 ratings for XCode (as of this one), to see an equal number of 1-star ratings (versus 5-star) and not much in between, tells me there are a lot of trolls out there who don't use this tool to earn their living (like I do), yet they think their comments matter for some reason.<br/><br/>If you want an honest review, talk to someone who is a professional developer, and who uses this specific tool 8-hours a day to earn their living. If their full time job title does not include the words iOS Developer, then I would pretty much discount whatever they say.<br/><br/>I don't work for Apple, or even know anyone who does, but in my opinion, Apple should not let someone post a review this app unless at a minimum that person has a current paid Apple developer subscription.  At least then you'd know that the trolls had to pay $99/year in order to post their 1-star reviews, which in turn would eliminate the majority of them.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">8 
+      out of 
+      13
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=3372376644'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=3372376644'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Seems nice but isnt</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='1 star'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=156705169' class="reviewer">joost4u</a>
+     -
+     Version
+     9.3
+    
+    -
+    Mar 30, 2018
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=156705169' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  For simple projects, Xcode shines. For real world projects, Xcode is terrible. Take storyboards, there is no way you can actually use this in a collaborative environment with more than 1 developer contributing to it. How about auto layout; the super complex way Apple decided to solve this fundamental layout problem is very un-applesque. The lack of documentation for xcode internals and options is horrible. The stability of the platform is questionable - crashes on a wide variety of installations and for whatever reason.<br/><br/>I speculate that most 4-5 stars are given by happy go lucky, not so serious, not so big programmers/programming teams. For real world, or indie programming, Xcode is a big bag of hurt.<br/><br/>Most problematic; Apple and its engineers DO NOT SEEM TO CARE to listen to the development community. They simply develop what _they like_ to develop. It is an eletist, ivory tower, know it better than you, attitude. I really cant stand to work with this tool but I have to.  I can get myself to accept many failures but this attitude is kill me and I think the developer community also.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">165 
+      out of 
+      236
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=2364732724'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=2364732724'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Xcode 9.2</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='1 star'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=30160275' class="reviewer">Nick Name Stolen</a>
+     -
+     Version
+     9.2
+    
+    -
+    Dec 23, 2017
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=30160275' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  This version of Xcode, as other reviews here are saying, does not play well with High Sierra. Until I read those reviews I thought I had messed something up, although I have completely removed and re-installed Xcode twice now. The one good thing I can say is that playgrounds are crashing slightly less than in 9.1. Aside from that, this app is shockingly bad. I can’t believe Apple has done nothing to respond to all the unhappy users! It crashes, loses its mind trying to get constraints working in IB, and often if I try to set a label to &gt;1 line the entire view in storyboard just turns gray, no way out except try to find a setting for number of lines that will work - sometimes even #s work, other times only odd #s work.<br/><br/>I admit it is an extremely comprehensive app with a lot of wonderful features. But in its current state those feaures mean nothing. The reviewer who said it’s like trying to run a program on windows 95 was correct! Just plain buggy as hell. Apple, you need to do a complete rewrite of this piece of crap!
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">199 
+      out of 
+      227
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=2019237072'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=2019237072'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">A good developer tool that can be better.</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='4 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=208580803' class="reviewer">HuaTham</a>
+     -
+     Version
+     8.3.3
+    
+    -
+    Jul 08, 2017
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=208580803' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  An app so complicated like Xcode, comes with a huge stack of features, APIs, SDKs, that one wouldn’t actually use them all. Of course, an app that’s the mother of apps, so huge like this, is bound to come with imperfections and many head-scratching bugs. My biggest complain right now is how broken XCTest and its tools are (both of which I filed bug reports months ago). Accessibility Inspector, for example, fails to recognize UI elements even in the very basic setting that closely mirrors the WWDC talk. However, I appreciate many things Xcode provides, and some of them may have been underappreciated after years of its introduction, like Storyboard, Interactive Swift Playground, and continuous additions of new SDKs. Overall, I’d still rely on and recommend Xcode, but I also wish that bugs are ironed out and patched more quickly.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">191 
+      out of 
+      227
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1673539314'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1673539314'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Nice application, but remove the app id limit.</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='3 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=796993740' class="reviewer">JoshN123456789</a>
+     -
+     Version
+     9.4
+    
+    -
+    Jun 06, 2018
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=796993740' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  I downloaded Xcode (8.2.1 for old mac) recently, and it worked very well. Nice user interface, easy to learn. However, after using it for a week or two, I start getting this error telling me I can’t create more than 10 App IDs in a week. I have created maybe ten test apps, but it has been over a week since I created all of them. I am not ready to start paying $100/month to get rid of this error. This limit/error is very frustrating, and I would have given it five stars otherwise. I think this limit may cause unfinished/not ready apps to enter the app store, as newer developers may pay just to get rid of this error, and then are able to add there unfinished apps to the App Store. Or, they may create extra Apple IDs, and that is less than desirable. Please, remove this limit!
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">20 
+      out of 
+      32
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=2651953930'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=2651953930'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Lots of regressions, should not be all-in-one</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='2 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=10881455' class="reviewer">Kevin Grant</a>
+     -
+     Version
+     9.2
+    
+    -
+    Jan 08, 2018
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=10881455' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  If the instability of Xcode lately proves anything, it’s that “all in one app” is an incredibly bad idea.  I can’t update any of the components individually so every new version is pretty much guaranteed to be a mixture of good and bad changes.  Sometimes you just need a new compiler and SDK, and you shouldn’t have to risk your entire editor breaking in the process!<br/><br/>There hasn’t been a single update in recent memory that didn’t introduce some regression.  What’s worse is that the bugs are usually REALLY obvious, which makes you wonder if they even bothered to run the thing themselves for more than 5 minutes.  Worse still, there are unfixed bugs from many versions ago and rather than fix any of those they just add more.  They shouldn’t keep calling these Xcode 7.x, 8.x, 9.x...frankly it feels like about “Xcode 4.2.1 alpha 6” in quality right now.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">86 
+      out of 
+      101
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=2069860610'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=2069860610'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Worst version I have used so far</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='1 star'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=41119342' class="reviewer">EpicSyntax</a>
+     -
+     Version
+     9.1
+    
+    -
+    Nov 25, 2017
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=41119342' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  I have been a loyal iOS developer for 5 years now and with each year passing, Xcode versions are becoming worse, but this version… Oh god, it’s the worst.. it’s even far worse than worst.. it’s a TOTAL JOKE!<br/>Performance are extremely slow (especially on Interface Builder), IDE crashes while doing simple tasks like using Source Control, compiler crashes constantly, uploading builds to App Store is killing my work day.. it takes me 1.25 hours to upload a freaking 15MB build to the App Store, while it totally jams my interenet connection (I have a 10MB upload speed connection) and I even opened a bug report to Apple about this a month ago and they didn’t even take their precious time to respond!<br/>I have bought a 2017 maxed-out MBP 15” just for the sake of solving the performance speed on Xcode and it’s actually the same!<br/><br/>Apple - YOU HAVE FAILED THIS CITY 😡😡😡
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">229 
+      out of 
+      270
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1947304053'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1947304053'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Interface Builder close to unusable</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='2 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">by
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=22415003' class="reviewer">MachTurtle</a>
+     -
+     Version
+     9.0.1
+    
+    -
+    Oct 23, 2017
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=22415003' class="see-all">
+   All Reviews by This User
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  I’m less than pleased with this update, as there’s been an overall degradation in quality. I haven’t noticed a single beneficial change (with the exception of the simulator now having a Home button, gone are the days of cmd+shift+H hurray.), but now it takes ~30-40 seconds for IB to load each time I click on it, and making a change to any element causes my OS to beachball for 20 seconds or so while the change is implemented. These periods of lag are less common when editing .swift files, but they do still crop up with a decent amount of regularity.<br/><br/>I’m not even sure if ‘poor performance’ is classified as a bug, but I’m going to file a bug report as well since this is bizarre and definitely not how Xcode should be functioning.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">103 
+      out of 
+      119
+      customers found this review helpful
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1870031207'>Was this review helpful? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Yes'
+        class='helpful-vote' vote="1">Yes</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1870031207'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Report a Concern'>Report a Concern</a>
+   </div>
+ </div>
+</div>
+
+  
+
+</div>
+  </div>
+
+  <div class="footer">
+
+
+  
+  <div class="pagination-controls">
+  </div>
+  
+
+  </div>
+
+  </div>
+  
+</div>
+

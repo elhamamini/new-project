@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UDID</key>
+	<string>A6D45F47-D320-4F47-A9C2-E987EBA76E0F</string>
+	<key>deviceType</key>
+	<string>com.apple.CoreSimulator.SimDeviceType.iPad-Pro--12-9-inch---3rd-generation-</string>
+	<key>isDeleted</key>
+	<false/>
+	<key>name</key>
+	<string>iPad Pro (12.9-inch) (3rd generation)</string>
+	<key>runtime</key>
+	<string>com.apple.CoreSimulator.SimRuntime.iOS-12-1</string>
+	<key>state</key>
+	<integer>1</integer>
+</dict>
+</plist>

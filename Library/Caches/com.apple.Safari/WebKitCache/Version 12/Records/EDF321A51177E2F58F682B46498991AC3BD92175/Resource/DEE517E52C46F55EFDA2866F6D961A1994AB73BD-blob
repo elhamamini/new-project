@@ -1,0 +1,711 @@
+!function(){function getInlineDeps(fn){var deps=[]
+return fn.length&&(fn.toString().replace(commentRegExp,"").replace(cjsRequireRegExp,function(match,dep,index,str){
+for(var i=index;str.charCodeAt(i-=1)<=32;);"."!==str.charAt(i)&&deps.push(dep)}),
+deps=["require","exports","module"].concat(deps)),deps}function undefOne(module,path){
+delete define.errors[module],delete define.loaded[module],delete define.modules[module],
+delete define.loading[module],delete define.fetchedUrls[path]}function undefAll(module,hash){
+Object.keys(hash).forEach(function(key){var i=key.indexOf("!")+1
+if(0==key.lastIndexOf(module,0)&&undefOne(key,require.toUrl(key,".js")),i){
+var plugin=key.slice(0,i-1),resource=key.slice(i)
+0!=resource.lastIndexOf(module,0)&&0!=plugin.lastIndexOf(module,0)||(undefOne(key,require.toUrl(key,"")),
+undefOne(resource,require.toUrl(resource,"")))}})}function addTransform(url,moduleName){
+var transform=require.config.transform
+return Array.isArray(transform)||(transform=[transform]),("~/"+transform.map(function(part){
+return"string"==typeof part?part:-1!=moduleName.lastIndexOf(part[0],0)?part[1]:void 0
+}).filter(Boolean).join(",")+"/"+url).replace("//","/")}function loadText(path,callback){
+var xhr=new window.XMLHttpRequest
+xhr.open("GET",path,!0),xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+xhr.onload=function(e){if(xhr.status>399&&xhr.status<600)return callback(xhr)
+callback(null,xhr.responseText,xhr)},xhr.onabort=xhr.onerror=function(e){callback(e)},xhr.send("")}
+function checkCache(){var baseUrl
+return ideCachePromiss=config.useCache&&window.caches.open("ide").catch(function(e){
+console.error(e),config.useCache=ideCachePromiss=ideCache=null}).then(function(ideCache_){
+return ideCache=ideCache_,ideCache?ideCache.keys():[]}).then(function(keys){baseUrl=config.baseUrl,
+"/"==baseUrl[0]&&(baseUrl=host+baseUrl)
+var val=keys.map(function(r){var url=r.url
+if(url.startsWith(baseUrl))url=url.slice(baseUrl.length)
+else if(/^\w+:/.test(url))return""
+return r.headers.get("etag")+" "+url}).join("\n")+"\n"
+return val.length<=1?(ideCachePromiss=null,ideCache):new Promise(function(resolve){
+var checked=0,buffer="",toDelete=[]
+post(baseUrl+"__check__",val,function(t){var e=t.slice(checked)
+checked=t.length
+var parts=(buffer+e).split("\n")
+buffer=parts.pop()
+for(var i=0;i<parts.length;i++)if(parts[i]){var del=ideCache.delete(baseUrl+parts[i])
+toDelete.push(del),require.config.transform&&(del=ideCache.delete(baseUrl+"~/"+require.config.transform+parts[i]),
+toDelete.push(del))}},function(e,t){ideCachePromiss=null,Promise.all(toDelete).then(function(){
+resolve(ideCache)}),setTimeout(function(){setTimeout(function(){config.useCache=!1},5e3)},5e3)})})})
+}function post(path,val,progress,callback){var xhr=new window.XMLHttpRequest
+xhr.open("POST",path,!0),xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+xhr.onload=function(e){if(xhr.status>399&&xhr.status<600)return callback(xhr)
+callback(null,xhr.responseText,xhr)},xhr.onreadystatechange=function(e){
+progress(xhr.responseText,xhr)},xhr.onabort=xhr.onerror=function(e){callback(e)},xhr.send(val)}
+function definePlugin(plugin,p){require[plugin]=function(moduleName,processLoadQueue){
+p.load(moduleName,require,function(value){define(plugin+moduleName,[],function(){return value}),
+processLoadQueue()})}}var MODULE_LOAD_URL="/static/build/modules",global=function(){return this}()
+global||"undefined"==typeof window||(global=window),global||"undefined"==typeof self||(global=self)
+var nextModule,commentRegExp=/(\/\*([\s\S]*?)\*\/|([^:]|^)\/\/(.*)$)/gm,cjsRequireRegExp=/require\s*\(\s*["']([^'"\s]+)["']\s*\)/g,define=function(name,deps,callback){
+if("string"!=typeof name&&(callback=deps,
+deps=name,name=null),deps&&!Array.isArray(deps)&&(callback=deps,
+deps=null),nextModule&&(name&&name!=nextModule.name||(name=nextModule.name,
+deps=deps||nextModule.deps,nextModule=null)),!name)return defQueue.push([deps,callback])
+define.loaded[name]||(deps||"function"!=typeof callback||(deps=getInlineDeps(callback)),
+define.loaded[name]={id:name,deps:normalizeNames(name,deps||[]),factory:callback,exports:{},
+packaged:!0
+},define.loading[name]&&delete define.loading[name],define.lastModule?define.pending.push(name):define.lastModule=name)
+},defQueue=[],addToLoadQueue=function(missing,deps,callback,errback){
+var toLoad=missing.length,map={}
+define.queue.push({deps:deps,map:map,toLoad:toLoad,callback:callback,errback:errback})
+for(var i=0;i<missing.length;++i){var p=missing[i]
+map[p]=1,define.loading[p]||(require.load(p),define.loading[p]=1)}
+},processLoadQueue=function(err,id){var changed=!1
+if(err?(id||(id=err.id),define.errors[id]=err,define.queue.forEach(function(r){
+r.map[id]&&(r.toLoad=-1,r.errback&&r.errback(err))
+}),define.lastModule==id&&(define.lastModule=null),define.pending=define.pending.filter(function(p){
+return p!=id
+}),changed=!0):!id||defQueue.length||define.loaded[id]||(defQueue=[config.shim&&config.shim[id]||[[],null]]),
+defQueue.length){if(defQueue.length>1)throw new Error("more than one module in defqueue")
+define(id,defQueue[0][0],defQueue[0][1]),defQueue.length=0}var pending=define.pending
+define.queue.forEach(function(r){pending.forEach(function(id){r.map[id]&&r.toLoad--}),
+r.map[define.lastModule]&&r.toLoad--,r.toLoad||(changed=!0,_require("",r.deps,r.callback,r.errback))
+}),
+define.lastModule=null,pending.length&&(define.pending=[]),changed&&(define.queue=define.queue.filter(function(r){
+return r.toLoad>0}))}
+define.amd={},define.queue=[],define.loaded={},define.errors={},define.loading={},define.pending=[],
+define.modules={require:1,exports:1,module:1},define.fetchedUrls={}
+var activateModule=function(name){var module=define.loaded[name],exports=module.exports
+if("function"!=typeof module.factory)exports=module.factory
+else{var req=function(path,callback){return _require(name,path,callback)}
+req.toUrl=function(namePlusExt,_1,_2,skipBalancers){
+return require.toUrl(normalizeName(name,namePlusExt),null,null,skipBalancers)
+},req.config=require.config
+var missing=checkMissing(module.deps)
+if(missing.length)return missing
+module.define=define
+var specialModules={require:req,exports:exports,module:module}
+define.modules[name]=exports
+var args=module.deps.slice(0,module.factory.length),returnValue=args.length?module.factory.apply(module,args.map(function(name){
+return specialModules[name]||lookup(name)})):module.factory(req,exports,module)
+exports=void 0==returnValue?module.exports:returnValue}delete define.loaded[name],
+define.modules[name]=exports},checkMissing=function(deps,seen,missing){missing=missing||{},
+seen=seen||{}
+for(var i=0;i<deps.length;++i){var depName=deps[i]
+if(!define.modules[depName]){var dep=define.loaded[depName]
+dep?missing[depName]||seen[depName]||(seen[depName]=1,checkMissing(dep.deps,seen,missing)):missing[depName]=1
+}}return Object.keys(missing)},lookup=function(moduleName){var mod=define.modules[moduleName]
+return void 0===mod&&define.loaded[moduleName]&&(activateModule(moduleName),mod=define.modules[moduleName]),
+mod},_require=function(parentId,moduleName,callback,errback){if("string"==typeof moduleName){
+var depName=normalizeName(parentId,moduleName),module=lookup(depName)
+if(void 0!==module)return"function"==typeof callback&&callback(module),module
+if("undefined"!=typeof importScripts||syncLoaders.test(moduleName))return addToLoadQueue([depName],[depName]),
+lookup(depName)}else if(Array.isArray(moduleName)){
+var deps=normalizeNames(parentId,moduleName),missing=checkMissing(deps)
+if(missing.length)return addToLoadQueue(missing,deps,callback,errback)
+var args=deps.map(lookup)
+return callback&&callback.apply(null,args)}},normalizeName=function(parentId,moduleName){
+var i=moduleName.indexOf("!")
+if(-1!==i)return normalizeName(parentId,moduleName.slice(0,i))+"!"+normalizeName(parentId,moduleName.slice(i+1))
+
+if("."==moduleName.charAt(0)){var parentChunks=parentId.split("/"),parentModule=parentChunks.shift()
+"@"==parentModule.charAt(0)&&(parentModule=parentModule+"/"+parentChunks.shift())
+var path=parentChunks.slice(0,-1).join("/")
+for(moduleName=parentModule+(path?"/"+path:"")+"/"+moduleName;-1!==moduleName.indexOf(".")&&previous!=moduleName;){
+var previous=moduleName
+moduleName=moduleName.replace(/\/\.\//,"/").replace(/[^\/]+\/\.\.\//,"")}}return moduleName
+},normalizeNames=function(parentId,moduleNames){return moduleNames.map(function(name){
+return normalizeName(parentId,name)})},require=function(module,callback,errback){
+return _require("",module,callback,errback)},config=require.config=function(cfg){
+if(cfg.baseUrl&&(config.baseUrl=cfg.baseUrl.replace(/\/*$/,"/")),cfg.host&&(host=cfg.host),
+Array.isArray(cfg.packages)?cfg.packages.forEach(function(pkg){"string"==typeof pkg&&(pkg={name:pkg
+}),config.packages[pkg.name]={name:pkg.name,location:(pkg.location||pkg.name).replace(/\/*$/,"/"),
+main:(pkg.main||"main").replace(/\.js$/,"").replace(/^\.\//,"")}
+}):cfg.packages&&(config.packages=cfg.packages),
+cfg.paths&&Object.keys(cfg.paths).forEach(function(p){config.paths[p]=cfg.paths[p]}),
+cfg.useCache&&global.caches&&("https:"===location.protocol||"localhost"==location.hostname)&&(config.useCache=!0,
+checkCache()),
+cfg.transform&&(config.transform=cfg.transform),/\bes5\b/.test(cfg.transform)&&!global.shimIncluded){
+console.assert||(console.assert=function(){})
+var oldFlags=RegExp.prototype.flags
+RegExp.prototype.flags=!0,require(["js-polyfills/es6"]),RegExp.prototype.flags=oldFlags,
+global.shimIncluded=!0}cfg.MODULE_LOAD_URL&&(require.MODULE_LOAD_URL=cfg.MODULE_LOAD_URL),
+cfg.assetUrl&&(config.assetUrl=cfg.assetUrl)}
+require.resetConfig=function(cfg){
+config.packages=Object.create(null),config.paths=Object.create(null),config.baseUrl="",
+config.useCache=!1,config.transform="",cfg&&require.config(cfg)},require.getConfig=function(){
+var script=document.querySelector("script[src*=mini_require]")
+return{packages:config.packages,paths:config.paths,baseUrl:config.baseUrl,useCache:config.useCache,
+transform:config.transform,host:host,requireSourceUrl:!config.packed&&script&&script.src,
+MODULE_LOAD_URL:require.MODULE_LOAD_URL,assetUrl:config.assetUrl}},require.resetConfig(),
+define.undef=require.undef=function(module,recursive){if(module=normalizeName("",module),recursive){
+var root=(module+"/").replace(/\/+$/,"/")
+undefAll(root,define.errors),undefAll(root,define.loaded),undefAll(root,define.modules),
+undefAll(root,define.loading)}else undefOne(module,require.toUrl(module,".js"))},
+require.MODULE_LOAD_URL=MODULE_LOAD_URL,require.toUrl=function(moduleName,ext,skipExt,isStatic){
+var absRe=/^([\w\+\.\-]+:|\/)/;-1===moduleName.indexOf("!")&&ext&&!/^\//.test(moduleName)||(ext="")
+for(var paths=config.paths,pkgs=config.packages,testPath=moduleName,tail="";testPath;){
+if(paths[testPath]){moduleName=paths[testPath]+tail
+break}if(pkgs[testPath]){moduleName=pkgs[testPath].location+(tail||pkgs[testPath].main)
+break}var i=testPath.lastIndexOf("/")
+if(-1===i)break
+tail=testPath.substr(i)+tail,testPath=testPath.slice(0,i)}if(skipExt)return testPath
+var url=".js"==ext&&moduleName.slice(-3)==ext?moduleName:moduleName+ext
+if(".ts"==moduleName.slice(-3)&&(url=moduleName.slice(0,-3)+ext),!absRe.test(url)){
+".js"==ext&&require.config.transform&&(url=addTransform(url,moduleName))
+var baseUrl=config.baseUrl
+baseUrl||(baseUrl=isStatic?config.assetUrl||require.MODULE_LOAD_URL+"/../":require.MODULE_LOAD_URL),
+"/"!=baseUrl.slice(-1)&&(baseUrl+="/"),url=baseUrl+url}return"/"==url[0]&&(url=host+url),url}
+var ideCache,ideCachePromiss,loadScriptWithTag=function(path,id,callback){
+if("function"==typeof importScripts)return nextModule={name:id,deps:null
+},"/"==path[0]&&(path=host+path),importScripts(path),callback(null,id)
+var head=document.head||document.documentElement,s=document.createElement("script")
+s.src=path,s.charset="utf-8",s.async=!0,0==path.lastIndexOf(require.MODULE_LOAD_URL,0)&&"/"!=path[0]&&(s.crossOrigin=!0),
+s.onload=s.onreadystatechange=function(_,isAbort){
+!isAbort&&s.readyState&&"loaded"!=s.readyState&&"complete"!=s.readyState||(s.remove&&s.remove(),
+s=s.onload=s.onreadystatechange=null,isAbort||callback(null,id))},s.onerror=function(e){
+processLoadQueue({message:"Error loading script "+id+":"+path,id:id,path:path})},head.appendChild(s)
+},host=location.protocol+"//"+location.hostname+(location.port?":"+location.port:""),loadScript=function(path,id,callback){
+if(!config.useCache)return loadScriptWithTag(path,id,callback)
+;/^https?:/.test(path)||(path=host+path),loadCached(path,function(e,val,deps){
+return e?processLoadQueue({id:id,path:path}):(nextModule={name:id,deps:deps
+},window.eval(val+"\n//# sourceURL="+path),callback(null,id),define.loaded[id])})
+},loadCached=function(path,callback){function loadNew(){loadText(path,function(e,val,xhr){
+var m=callback(e,val)
+if(!e){var ETAG=xhr.getResponseHeader("ETAG")
+if(!ETAG)return
+var res=new Response(val)
+res.headers.set("ETAG",ETAG)
+var req=new Request(path)
+req.headers.set("ETAG",ETAG),m&&m.deps&&res.headers.set("deps",m.deps.join(",")),
+ideCache.put(req,res).catch(function(){ideCache.delete(path)})}})}
+return config.useCache?(ideCache||ideCachePromiss||checkCache(),
+ideCachePromiss?ideCachePromiss.then(function(i){i&&(ideCache=i),loadCached(path,callback)
+}):void ideCache.match(path).then(function(e){return e?e.text().then(function(val){
+var deps=e.headers.get("deps")
+"string"==typeof deps&&(deps=deps?deps.split(","):[]),callback(null,val,deps)}):loadNew()
+}).catch(function(){loadNew(),ideCache.delete(path)})):loadText(path,callback)}
+require.clearCache=function(callback){
+ideCachePromiss=window.caches.open("ide").then(function(ideCache_){return ideCache=ideCache_,
+ideCache.keys()}).then(function(keys){var toDelete=keys.map(function(i){ideCache.delete(i)})
+Promise.all(toDelete).then(function(){callback&&callback()},function(e){callback&&callback(e)})})},
+require.load=function(module){var i=module.indexOf("!")+1
+if(i){var plugin=module.substring(0,i)
+if(module=module.substr(i),"function"==typeof require[plugin])require[plugin](module,processLoadQueue)
+else if(config.baseUrl){if(require[plugin])return require[plugin][plugin+module]=1
+require[plugin]=Object.create(null),require[plugin][plugin+module]=1,require([plugin.slice(0,-1)],function(p){
+var pending=require[plugin]
+definePlugin(plugin,p),Object.keys(pending).forEach(function(p){delete define.loading[p]}),
+require(Object.keys(pending))})}else console.error("require plugin "+plugin+"missing")}else{
+var url=require.toUrl(module,".js")
+if(1&define.fetchedUrls[url])return!1
+define.fetchedUrls[url]|=1,loadScript(url,module,processLoadQueue)}}
+var syncLoaders=/^(language!|webworker!|vfs!|asset-url!)/
+require["language!"]=function(module,callback){define("language!"+module,[],module),callback()},
+require["webworker!"]=function(module,callback){var url=require.toUrl(module.split("!").pop(),".js")
+define("webworker!"+module,[],url),callback()},require["asset-url!"]=function(module,callback){
+var url=require.toUrl(module.split("!").pop(),"","",!0)
+define("asset-url!"+module,[],url),callback()},require["vfs!"]=function(module,callback){
+var url=require.MODULE_LOAD_URL+"/~node/"+module
+if(4&define.fetchedUrls[url])return!1
+define.fetchedUrls[url]|=4,define("vfs!"+module,[],{srcUrl:url,path:module}),callback()},
+require["text!"]=function(module,callback){var url=require.toUrl(module)
+if(2&define.fetchedUrls[url])return!1
+define.fetchedUrls[url]|=2,loadCached(url,function(e,val){
+e&&console.error("Couldn't load module "+module,e),define("text!"+module,[],val),callback()})},
+require["json!"]=function(module,callback){require["text!"](module,function(){
+var val=JSON.parse(require("text!"+module))
+define("json!"+module,[],val),callback()})
+},require["ace/requirejs/text!"]=function(module,callback){var url=require.toUrl(module)
+if(2&define.fetchedUrls[url])return!1
+define.fetchedUrls[url]|=2,loadCached(url,function(e,val){
+e&&console.error("Couldn't load module "+module,e),define("ace/requirejs/text!"+module,[],val),
+callback()})},global.define&&global.define.packaged||(define.original=global.define,
+global.define=define,
+global.define.packaged=!0),global.require&&global.require.packaged||(global.require=require,
+global.require.packaged=!0),global.requirejs||(global.requirejs=require),global.miniRequire=require
+}()
+
+
+/*global define*/
+
+// Callback used by the in-IDE login page
+if (window.location.search == "?loginCallback=1") {
+    if (window.opener) {
+        window.opener.focus();
+        window.opener.postMessage("vfsLoginCallbackCalled", "*");
+    }
+    window.close();
+}
+
+(function() {
+    var start = Date.now();
+
+    document.addEventListener(
+        "DOMContentLoaded",
+        function() {
+            /*** loading screen ***/
+            document.body.innerHTML =
+                '<div id="loadingcontainer" class=""> \
+            <div id="loadingide"> \
+                <div class="timeout"> \
+                    This is taking longer than expected. If you think there might be an issue, contact AWS Support. \
+                </div> \
+                <div id="dialog-overlay"></div> \
+                <div id="incompatible-browser-dialog">Microsoft Internet Explorer cannot display the AWS Cloud9 IDE.  Use a different browser instead.  <br /><a href="https://docs.aws.amazon.com/console/cloud9/browsers">Learn more</a></div> \
+                <div id="loadingideTopMargin"></div> \
+                <div id="c9logo"></div> \
+                <div id="loadingideLogoMargin"></div> \
+                <div id="loadingideSpinnerContainer"> \
+                <div class="loadingide-spinner"> \
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"> \
+                        <circle fill="none" stroke="initial" stroke-width="5" stroke-linecap="round" stroke-dasharray="180" stroke-dashoffset="90" cx="50" cy="50" r="30"></circle> \
+                    </svg> \
+                </div> \
+                </div> \
+                <div id="loadingideSpinnerMargin"></div> \
+                <div id="loadingideMessageContainer"> \
+                    <div class="cool-message"></div> \
+                </div> \
+                <div id="loadingideBottomMargin"></div> \
+                <div class="footer">\
+                    <a href="https://status.aws.amazon.com/">Status Page</a>\
+                </div> \
+            </div> \
+        </div>';
+
+            if (isInternetExplorer(window.navigator.userAgent)) {
+                var dialog = document.querySelector("#incompatible-browser-dialog");
+                var dialog_overlay = document.querySelector("#dialog-overlay");
+                if (dialog) dialog.style.display = "block";
+                if (dialog_overlay) dialog_overlay.style.display = "block";
+                return;
+            }
+
+            var loadingIde = document.querySelector("#loadingide");
+
+            var isMac = /Mac(Intel|intosh|PPC)/.test(navigator.platform);
+            var messages = [
+                "Use the Collaborate panel when collaborating for optimal teamwork.",
+                "Happy coding!",
+                "Everything as you left it.",
+                "Thank you Ada Lovelace!",
+                "POST /desktop/era",
+                "Try using VIM mode!",
+                "Press " +
+                    (isMac ? "Ctrl-Option-Right" : "Ctrl-Alt-Right") +
+                    " to select the next instance of a word.",
+                "Press " + (isMac ? "Cmd-." : "Ctrl-.") + " to show all keyboard commands.",
+                "To rename a variable, highlight it then press " +
+                    (isMac ? "Option-Cmd-R" : " Ctrl-Alt-R") +
+                    ".",
+                "Press " + (isMac ? "Option-W" : "Alt-W") + " to close your current IDE tab.",
+                "Press " + (isMac ? "Cmd-D" : "Ctrl-D") + " to delete the current line of code",
+                "Press " + (isMac ? "Option-Tab" : "Alt-`") + " to go to the next IDE tab.",
+                "Press " +
+                    (isMac ? "Option-Shift-T" : "Alt-Shift-T") +
+                    " to reopen a tab you closed.",
+                "Press " + (isMac ? "Option-T" : "Alt-T") + " to open a new terminal at any time.",
+                "Press " + (isMac ? "Cmd-E" : "Ctrl-E") + " to search for a file by name.",
+                "Press " +
+                    (isMac ? "Cmd-Shift-E" : "Ctrl-Shift-E") +
+                    " to search for a function by name.",
+                "Press " +
+                    (isMac ? "Option-S" : "Alt-S") +
+                    " to switch between a terminal and an editor.",
+            ];
+
+            var idx = Math.floor(Math.random() * messages.length);
+            if (idx == messages.length) idx = messages.length - 1;
+            var msg = messages[idx];
+
+            if (~location.hash.indexOf("create")) {
+                msg = "Creating Your New Development Environment";
+                location.hash = location.hash.replace(/&?create/, "");
+            }
+
+            document.querySelector("#loadingide .cool-message").innerHTML = msg;
+
+            setTimeout(function() {
+                var s = document.querySelector("#loadingideSpinnerContainer .loadingide-spinner");
+                if (s) s.style.display = "inline-block";
+                setTimeout(function() {
+                    var t = document.querySelector("#loadingide .timeout");
+                    if (t) t.style.display = "block";
+                }, 60000);
+            }, 2000);
+
+            window.hideLoader = function() {
+                var loader = document.getElementById("loadingcontainer");
+                loader && loader.parentNode.removeChild(loader);
+
+                document.body.className = document.body.className.replace(
+                    "loading " + loadingIde.className,
+                    ""
+                );
+            };
+
+            /*** app ***/
+
+            function getRegion(me) {
+                var regionEl = document.getElementById("aws-cloud9-region");
+                return regionEl.getAttribute("value");
+            }
+
+            function getStage() {
+                var stageEl = document.getElementById("aws-cloud9-stage");
+                var stage = stageEl ? stageEl.getAttribute("value") : "Prod";
+                return stage;
+            }
+
+            var me = document.querySelector("script[src*='bootstrap.js']");
+            var region = getRegion();
+            var stage = getStage();
+            var staticPrefix = me.src.split("/bootstrap.js")[0];
+            var url = new URL(window.location.href);
+            var packed = stage !== "Devo" || url.searchParams.get("packed") === "1";
+            var collab = url.searchParams.get("collab");
+            var defaultConfig = region
+                ? "@aws/cloud9/configs/ide/environment-default"
+                : "@aws/cloud9/configs/ide/default";
+            var errorPageRootPath = "/cloud9/home/";
+            var supportedErrorCodes = [404, 500, 503];
+
+            var defaultErrorCode = 500;
+            var debugFlag = url.searchParams.get("debug");
+            var buildPrefix = debugFlag === "1" ? "/nc-build/" : "/build/";
+            require.MODULE_LOAD_URL =
+                staticPrefix + (/\/static$/.test(staticPrefix) ? buildPrefix : "/") + "modules";
+
+            if (packed) {
+                require.resetConfig({
+                    packed: true,
+                    assetUrl: staticPrefix,
+                });
+                defaultConfig = staticPrefix + buildPrefix + "configs/ide/" + defaultConfig;
+            } else {
+                require.config({
+                    baseUrl: staticPrefix,
+                });
+            }
+
+            var es5Flag = url.searchParams.get("es5");
+            if (es5Flag === "1") require.config.transform = "es5";
+
+            if (window.AWSC && window.AWSC.Analytics && stage == "Devo") {
+                (function() {
+                    window.AWSC.Analytics.configure({
+                        debug: true,
+                    });
+                })();
+            }
+
+            // When including Mezzanine, it also includes some stylesheets that we don't want enabled
+            // sometime this year that team is planning on splitting the dependencies so we won't have to do this
+            // we feel comfortable disabling all non c9 stylesheets here because plugins have not been loaded yet
+            if (window.AWSC) {
+                var linkDocs = Array.prototype.slice.call(document.getElementsByTagName("link"));
+                linkDocs = linkDocs.filter(function(doc) {
+                    return doc.href.indexOf("c9.ide") < 0;
+                });
+                linkDocs.forEach(function(doc) {
+                    doc.parentElement.removeChild(doc);
+                });
+            }
+
+            var bundleConfigId = url.searchParams.get("bundleConfigId");
+
+            require["_c9_api!"] = function(environmentId, callback) {
+                var params = {
+                    staticPrefix: staticPrefix,
+                    environmentId: environmentId,
+                };
+
+                if (bundleConfigId) {
+                    params.bundleConfigId = bundleConfigId;
+                }
+
+                fetchConfig(params, region, function(err, val) {
+                    if (err) return showErrorPage(err);
+                    define("_c9_api!" + environmentId, [], val);
+                    callback();
+                });
+            };
+
+            var environmentId = window.location.pathname.split("/").pop();
+            var requireApiString = "_c9_api!" + environmentId;
+
+            var plugins;
+            require(packed
+                ? [requireApiString, defaultConfig]
+                : [
+                      requireApiString,
+                      defaultConfig,
+                      "lib/architect/architect",
+                      "lib/architect/requirejs-loader",
+                  ], function(settings) {
+                settings.startLoadTime = start;
+                settings.packed = packed;
+                settings.staticPrefix = staticPrefix;
+                settings.stage = stage;
+                settings.accountId = getCookie("aws-account-alias");
+                settings.themePrefix =
+                    staticPrefix +
+                    buildPrefix +
+                    "skin/@aws/cloud9/configs/ide/" +
+                    (region ? "environment-default" : settings.configName);
+                if (collab == "1") settings.collab = true;
+                else if (collab == "0") settings.collab = false;
+
+                if (settings.externalConfig) {
+                    var externalConfig = settings.externalConfig;
+                    require([
+                        "@aws/cloud9/configs/ide/" + externalConfig.basePluginConfig,
+                    ], function(config) {
+                        plugins = window.plugins = config(settings);
+                        settings.plugins = plugins;
+                        require([externalConfig.staticUrl], function(remoteConfig) {
+                            if (externalConfig.staticPrefix)
+                                settings.staticPrefix = externalConfig.staticPrefix;
+                            plugins = window.plugins = remoteConfig(settings, plugins);
+                            startArchitectApp();
+                        });
+                    });
+                } else {
+                    require(["@aws/cloud9/configs/ide/" + settings.configName], function(config) {
+                        plugins = window.plugins = config(settings);
+                        startArchitectApp();
+                    });
+                }
+            }, showErrorPage);
+
+            function showErrorPage(err) {
+                var errorCode = defaultErrorCode;
+                var message = err.message || err.Message;
+
+                if (supportedErrorCodes.indexOf(err.code) >= 0) {
+                    errorCode = err.code;
+                } else if (err.__type == "AccessDeniedException") {
+                    errorCode = 400;
+                    var userMatch = message.match(/arn:aws:iam[^\s]*/);
+                    var user = userMatch ? userMatch[0] : "";
+                    message =
+                        "User " +
+                        user +
+                        " is not authorized to open this environment. Either the environment doesn't exist or the user is not a member of this environment.";
+                } else if (err.__type === "InternalFailure") {
+                    message =
+                        message || "Internal error in frontend proxy when opening environment";
+                } else if (err.code === 500) {
+                    message = message || "Internal error when opening environment";
+                }
+
+                var url = errorPageRootPath + errorCode;
+
+                if (message) {
+                    url += "?message=" + encodeURIComponent(message);
+                }
+
+                if (url) {
+                    var iframe = document.createElement("iframe");
+                    iframe.id = "error-page";
+                    iframe.src = url;
+                    iframe.style.cssText = [
+                        "position: fixed",
+                        "z-index: 10000000",
+                        "margin: 0",
+                        "border: 0",
+                        "padding: 0",
+                        "width: 100%",
+                        "height: 100%",
+                        "background: white",
+                    ].join(";");
+                    document.body.appendChild(iframe);
+                }
+            }
+
+            function startArchitectApp() {
+                plugins.push({
+                    consumes: [],
+                    provides: ["auth.bootstrap"],
+                    setup: function(options, imports, register) {
+                        register(null, {
+                            "auth.bootstrap": {
+                                login: function(callback) {
+                                    callback();
+                                },
+                            },
+                        });
+                    },
+                });
+                var architect = require("lib/architect/architect");
+                var loader = require("lib/architect/requirejs-loader");
+                loader.resolveConfig(
+                    plugins,
+                    function(err, config) {
+                        if (err) throw err;
+
+                        var errored;
+                        var app = architect.createApp(config, function(err, app) {
+                            if (err) {
+                                errored = true;
+                                console.error(err.stack);
+                                alert(err);
+                            }
+                        });
+
+                        app.lut = {};
+
+                        app.on("error", function(err) {
+                            console.error(err.stack);
+                            if (!errored) alert(err);
+                        });
+
+                        app.on("service", function(name, plugin, options) {
+                            if (
+                                name == "plugin.loader" ||
+                                name == "plugin.installer" ||
+                                name == "plugin.debug" ||
+                                name == "plugin.manager" ||
+                                name == "plugin.test"
+                            )
+                                plugin.architect = app;
+                            if (!plugin.name) plugin.name = name;
+                            if (options)
+                                app.lut[
+                                    (options.packagePath || "").replace(/^.*\/home\/.c9\//, "")
+                                ] = options;
+                        });
+
+                        app.on("ready", function() {
+                            if (app.services.configure)
+                                app.services.configure.services = app.services;
+
+                            window.app = app.services;
+                            window.app.__defineGetter__("_ace", function() {
+                                return this.tabManager.focussedTab.editor.ace;
+                            });
+                            Object.keys(window.app).forEach(function(n) {
+                                if (/[^\w]/.test(n))
+                                    window.app[n.replace(/[^\w]/, "_") + "_"] = window.app[n];
+                            });
+
+                            done();
+                        });
+
+                        // For Development only
+                        function done() {
+                            var settings = app.services.settings;
+                            var vfs = app.services.vfs;
+                            var c9 = app.services.c9;
+
+                            c9.ready();
+                            c9.totalLoadTime = Date.now() - start;
+
+                            console.warn("Total Load Time: ", Date.now() - start);
+
+                            if (window.hideLoader) {
+                                var waitVfs = function(fn) {
+                                    vfs.connected ? fn() : vfs.once("connect", fn);
+                                };
+                                var waitSettings = function(fn) {
+                                    settings.inited ? fn() : settings.once("read", fn);
+                                };
+
+                                var waitTheme = function(fn) {
+                                    var layout = app.services.layout;
+                                    if (!layout || layout.hasTheme) return fn();
+                                    layout.once("eachTheme", fn);
+                                };
+                                waitVfs(
+                                    waitSettings.bind(null, waitTheme.bind(null, window.hideLoader))
+                                );
+                            }
+                        }
+                    },
+                    function loadError(mod) {
+                        if (mod.id === "@c9/ide/plugins/c9.ide.clipboard/html5")
+                            return alert(
+                                "Unable to load html5.js.\n\nThis may be caused by a false positive in your virus scanner. Please try reloading with ?packed=1 added to the URL."
+                            );
+                    }
+                );
+            }
+        },
+        false
+    );
+
+    function fetchConfig(params, region, callback) {
+        var called = false;
+
+        function done(err, data) {
+            if (called) return;
+            called = true;
+            callback(err, data);
+        }
+
+        function reqListener() {
+            var data;
+            try {
+                var responseJson = JSON.parse(this.responseText);
+
+                if (!responseJson.config) throw responseJson;
+
+                data = JSON.parse(responseJson.config);
+            } catch (e) {
+                if (/^Unexpected token.*in JSON at position/i.test(e.message)) {
+                    var errorToThrow = new Error("An error has occurred");
+                    errorToThrow.code = this.status;
+                    return done(errorToThrow);
+                }
+                return done(e);
+            }
+            done(null, data);
+        }
+
+        function reqError(err) {
+            done(err);
+        }
+
+        var xhr = new XMLHttpRequest();
+
+        xhr.withCredentials = true;
+        xhr.onload = reqListener;
+        xhr.onerror = reqError;
+
+        xhr.open("POST", "/cloud9/api/cloud9", true);
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.setRequestHeader("Content-Type", "application/json");
+
+        var operation = "GetEnvironmentConfig";
+
+        xhr.send(
+            JSON.stringify({
+                method: "POST",
+                path: "/",
+                region: region,
+                params: {},
+                headers: {
+                    "Content-Type": "application/x-amz-json-1.1",
+                    "X-Amz-Target": "AWSCloud9WorkspaceManagementService." + operation,
+                },
+                operation: operation,
+                contentString: JSON.stringify(params),
+            })
+        );
+    }
+
+    // TODO: figure out how to pull this out and add unit tests.
+    function isInternetExplorer(userAgent) {
+        return /Trident\/|MSIE/.test(userAgent);
+    }
+
+    function getCookie(name) {
+        var value = "; " + document.cookie;
+        var parts = value.split("; " + name + "=");
+        if (parts.length == 2)
+            return parts
+                .pop()
+                .split(";")
+                .shift();
+    }
+})();

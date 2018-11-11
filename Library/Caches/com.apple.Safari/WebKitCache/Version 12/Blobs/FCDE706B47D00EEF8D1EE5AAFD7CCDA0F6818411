@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>.async-hide { opacity: 0 !important} </style><script type="text/javascript">
+var site={'country':'','language':'en','root':'/', 'section':'Industry', 'subsection':'Public safety', 'path':'/worldwide/industry/public_sector/public_safety/index.xml', 'domain':'www.verizonenterprise.com', 'cookiedomain':'.verizonenterprise.com', 'coname':'Verizon Enterprise Solutions', 'referrer':document.referrer, 'start':new Date()
+};
+var vzb=site;
+window['adrum-start-time'] = new Date().getTime();vzInit=new function() { var init=this; this.onready=[]; this.onload=[]; this.onajax=[]; var doneready=0; var doneload=0; this.add=function(f,d,l,a) {  if (typeof(f)=="function") {   if (d>0) { init.onready.push(f) } else if (d<0) { init.onready.unshift(f) }   if (l>0) { init.onload.push(f); } else if (l<0) { init.onload.unshift(f); }   if (a>0) { init.onajax.push(f); } else if (a<0) { init.onajax.unshift(f); }  } };  this.onReady=function(f){  if (typeof(f)=="function") {   (doneready ? f() : init.onready.push(f));  } else {   while (init.onready.length) {    var f=init.onready.shift();    f();   }   doneready=1;  } }; this.onLoad=function(f){  if (typeof(f)=="function") {   (doneload ? f() : init.onload.push(f));  } else {   while (init.onload.length) {    var f=init.onload.shift();    f();   }   doneload=1;  } }; this.onAjax=function(f){   if (typeof(f)=="function") {   init.onajax.push(f);  } else {    for (i in init.onajax) { init.onajax[i](f); }  } }};
+
+dataLayer = [];
+dataLayer.push({
+ 'event': 'datalayerload'
+});
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W7S76M');
+</script><meta content="http://www.verizonenterprise.com/verizon-insights-lab/hero.png" property="og:image">
+<script insert="" src="/industry/public_sector/public_safety/insights.js"></script>
+<style type="text/css"></style><meta content="width=device-width,initial-scale=1.0" name="viewport">
+<title>Public Safety Services | Verizon Enterprise Solutions</title>
+<meta content="en" name="language">
+<meta content="Verizon has always been committed to supporting the 
+communication needs of public safety agencies. You can 
+count on our network. It&#39;s proven to deliver the best 
+performance, especially in times of critical need." name="description">
+<meta content="Verizon has always been committed to supporting the 
+communication needs of public safety agencies. You can 
+count on our network. It&#39;s proven to deliver the best 
+performance, especially in times of critical need." property="og:description">
+<meta content="Verizon Enterprise Solutions" property="og:site_name">
+<meta content="en_US" property="og:locale">
+<meta content="@VZEnterprise" property="twitter:site">
+<link href="http://www.verizonenterprise.com/industry/public_sector/public_safety/" rel="canonical">
+<meta content="http://www.verizonenterprise.com/industry/public_sector/public_safety/" property="og:url">
+<link href="/favicon.png" rel="icon" sizes="96x96" type="image/png">
+<meta content="summary" property="twitter:card">
+<meta content="website" property="og:type">
+<style data-for="template" type="text/css">body { margin:0;font-family:Arial,Sans-Serif;font-size:14px;font-weight:300;background:#fff;color:#000}
+@media (min-width:480px) { body {font-family:NeueHaasGrotesk,Arial,Sans-Serif} }
+.contain { margin:0 auto;max-width:1180px;position:relative}
+.contain.indent { padding:0 24px}
+.contain.padded { padding:24px}
+.contain.shaded, .full.shaded { background-color:#e5e4e3;color:#333;padding-top:12px;padding-bottom:12px}
+.contain::after { content:" ";display:block;clear:both}
+.wrapper { padding-bottom:24px;clear:both}
+nav.crumbs { padding:6px 0;color:#999;min-height:24px;line-height:14px}
+.crumbs a, .crumbs a:link, .crumbs a:visited { text-decoration:none;color:#666;font-size:12px}
+.crumbs a::after { content:" "}
+.crumbs span.sep { display:none}
+.crumbs span.sep:first-child { display:none}
+.crumbs a.last { display:block;margin:6px 0;text-transform:none;color:#333;font-size:14px;font-weight:500}
+div.sharepage { float:right;color:#eee}
+.sharepage a, .sharepage a:link { color:#000;text-decoration:none}
+section { clear:both}
+section>p { max-width:760px}
+ a,a:link,a:visited { color:#06c}
+ a:active { color:#00478e}
+ h1,h2,h3 { font-family:NeueHaasGroteskDisplay,Arial,Sans-Serif;font-weight:normal;line-height:125%;margin:6px 0}
+ h1, h1.title, p.h1.title { font-size:32px; margin-bottom:15px;color:#000}
+ h1.sm, .ctry-jp h1 { font-size:27px}
+ h2 { font-size:24px;margin-bottom:12px}
+ h3 { font-size:20px;margin-bottom:10px}
+ h4 { font-size:18px;margin:6px 0 8px}
+ h5 { font-size:16px;color:#666;margin:6px 0 8px}
+ p,li,dd { font-size:14px;line-height:125%;color:#000;margin-top:6px}
+ .dark p, .dark li, .dark a { color:#fff}
+ p.larger { font-size:24px;margin-bottom:15px}
+ p.large { font-size:18px;margin-bottom:15px}
+ p.small { font-size:12px;margin-bottom:8px}
+ p.smaller { font-size:11px;margin-bottom:6px}
+ p.disclaimer { clear:both;margin-top:24px;max-width:none}
+ button, .button>a, a.button { display:inline-block;background:#666;color:#fff;border:solid 2px transparent;margin:0;padding:12px 24px;cursor:pointer;font-size:14px;font-weight:700;line-height:normal;white-space:nowrap;text-align:left;text-decoration:none}
+ a.button.light, a.button.secondary { background:#eee;color:#666}
+ a.button.red, a.button.primary { background:#cd040b}
+ a img { border:none}
+ ul.plain { margin-left:0;padding-left:0}
+ ul.plain li { list-style:none}
+ ul.plain a { text-decoration:none;font-weight:normal}
+.contactbox { float:right;clear:right;width:240px;position:absolute;top:0;right:0;background:#fff;color:#333;border:0;border-left:1px solid #ddd}
+.contactbox:lang(fr), .contactbox:lang(de),.contactbox:lang(ja) { float:right;clear:right;width:240px;position:absolute;padding-top:42px;right:0;background:#e4e5e3;color:#fff;border:0;border-left:1px solid #ddd}
+.shaded .contactbox { background:none;padding:24px 0}
+.contactbox h4 { margin:0;padding:0px 20px;color:#000;font-size:16px;font-weight:normal}
+.lang-ja .contactbox h4,lang-zh-cn .contactbox h4,lang-zh-tw .contactbox h4 { font-style:normal}
+.contactbox~p { margin-right:240px}
+.contactbox ul { margin:0;padding:0 20px}
+.contactbox li { list-style:none;margin-top:12px}
+.contactbox a { text-decoration:none;color:#333}
+.contactbox i { display:inline-block;min-width:24px;font-size:14px;color:#333}
+.contactbox  #aimsChatIcon img { display:none;vertical-align:top;margin-left:-10px}
+.contactbox  #aimsChatIcon a { vertical-align:middle;color:#333;text-decoration:none}
+.contactbox  #aimsChatIcon a:before { content:"\e600";font-family:vesicons;margin-right:10px;font-size:14px}
+.contactbox  #aimsChatIcon a:after { content:"Chat with us now"}
+ul.icons { margin:0;padding:0;display:block}
+.icons>li { list-style:none;margin:8px 6px;padding:2px 6px 4px 30px;background:no-repeat left top}
+li { background-repeat:no-repeat}
+ul.c1, ul.c2, ul.c3, ul.c4, ul.c5 { margin:0;padding:0;clear:both;position:relative}
+ul.c1>li, ul.c2>li, ul.c3>li, ul.c4>li, ul.c5>li { list-style:none;display:block;float:left;padding:0;margin:0 0 0 4%;min-height:2px}
+ul.border>li { box-sizing:border-box;position:relative;margin:0 0 12px 1.4%;border:solid 1px #ccc}
+ul.equal>li { position:relative}
+ul.c1>li { width:100%;margin:0}
+ul.c2>li, ul.scroll.c2>li { width:48%} ul.border.c2>li {width:49.3%}
+ul.c3>li, ul.scroll.c3>li { width:30.6%} ul.border.c3>li {width:32.4%}
+ul.c3>li.double, ul.scroll.c3>li.double { width:65.2%} ul.border.c3>li.double {width:66%}
+ul.c4>li, ul.scroll.c4>li { width:22%} ul.border.c4>li {width:23.8%}
+ul.c5>li {width:16%} ul.scroll.c5>li { width:17%}
+ul.c2>li:nth-child(2n+1), ul.c3>li:nth-child(3n+1), ul.c4>li:nth-child(4n+1) { margin-left:0;clear:left}
+ul.c2::after, ul.c3::after, ul.c4::after, ul.c5::after { content:" ";clear:left;display:block;height:0}
+ul.c1.shaded>li, ul.c2.shaded>li, ul.c3.shaded>li, ul.c4.shaded>li, ul.c1>li.shaded, ul.c2>li.shaded { background-color:#f6f6f6;color:#333;box-sizing:border-box;padding:24px;margin-bottom:24px}
+ul.c1.padded>li, ul.c2.padded>li, ul.c3.padded>li, ul.c4.padded>li, ul.c1>li.padded, ul.c2>li.padded { box-sizing:border-box;padding:42px 42px 24px}
+ul.shaded.dark>li, ul>li.shaded.dark { background-color:#000;color:#fff}
+.c2>li>img, .c4>li img { max-width:100%;display:block}
+ul.c4.scroll>li:nth-child(n+5) { display:none}
+ul.c1.scroll>li+li { display:none}
+ul.left-tabs { margin-left:20%}
+ul.left-tabs>li:nth-child(n+2) { display:none}
+#topsignin { display:none}
+div#news, #vec, ul.wraparound, div.video { display:none}
+.inactive { display:none}
+dl.themes { display:block;background:#fff;color:#333;min-height:380px;margin:12px 0}
+.themes dt { display:none}
+.themes dd { display:none}
+div.intro { max-width:60%}
+div.box { clear:both;border:solid 1px #ddd;margin:6px 0}
+.box .gap { padding-top:24px}
+div.insights { display:none}
+.box .endbox { visibility:hidden}
+.box p, .box h4, .box h2 { margin-left:24px}
+.box .main[data-bg] { background-position:-75% 14px;background-size:68%;background-repeat:no-repeat}
+.box .main[data-bg]>* { margin-left:47.5%}
+.box .overview p { max-width:480px}
+.box ul#mtabs { margin:0;padding:0;background:#f7f7f7;color:#333;border:none;height:50px}
+.box ul#mtabs li { margin:0;padding:4px 10px 6px;float:left;list-style:none}
+.box ul#mtabs a { color:#4b4b4b;text-decoration:none}
+.box ul.subtab { display:none}
+ol#heros>li { display:none;list-style:none}
+ol#heros>li:first-child {display:table-cell}
+div.anchors { margin:0;padding:0;background:#fff;color:#333;position:relative;z-index:9;border-bottom:solid 1px #ccc}
+.anchors ul, .limp .anchors ul { display:table;margin:0 auto;padding:0;width:1000px;height:50px;max-width:100%;border-left:solid 2px #eee}
+.anchors li { display:table-cell;list-style:none;position:relative;min-height:32px;padding:0;margin:0;text-align:center;vertical-align:middle}
+.anchors a { display:block;color:#666;font-size:14px;font-weight:500;text-decoration:none !important; text-transform:uppercase}
+.anchors li.scroll { display:none}
+div.anchors.left { float:left;margin:32px 0 0 12px;padding-top:24px;top:0;width:226px;border:none;position:sticky;position:-webkit-sticky}
+.anchors.left ul, .limp .anchors.left ul { width:226px}
+.anchors.left li { display:block;margin:0 2px}
+.anchors.left a { padding:12px;text-align:left;text-transform:none}
+.podcast { visibility:hidden;margin:24px 0}
+@media all and (max-width:1278px) {
+.contain, div#topnav>.contain, div#superfooter>ul { max-width:970px}
+ul.c3.shaded>li, ul.c4.shaded>li { padding:16px}
+ul.c1.padded>li, ul.c2.padded>li, ul.c3.padded>li, ul.c4.padded>li { padding:24px 24px 12px}
+ul.scroll.c4 { width:133%}
+}
+@media all and (max-width:992px) { 
+.contain, div#topnav>.contain, div#superfooter>ul { max-width:720px}
+.anchors ul { width:100%}
+ul.c2.wide>li { float:none;margin-left:0;width:auto}
+ul.scroll.c3.wide { width:150%}
+ul.scroll.c2.wide, ul.scroll.c4 { width:200%}
+ul.scroll.c5 { width:125%}
+ul.c1.padded>li, ul.c2.padded>li, ul.c3.padded>li, ul.c4.padded>li { padding:12px}
+}
+@media all and (max-width:760px) {
+.contain.indent { padding:0 16px}
+.notablet { display:none !important}
+ul.scroll.c2 { width:200%}
+ul.scroll.c3, ul.scroll.c3.wide { width:300%}
+ul.c2>li, ul.c3>li, ul.c3>li.double, ul.c2.border>li, ul.c3.border>li, ul.c3.border>li.double, ul.c3>li.right { float:none;margin-left:0;width:auto}
+ul.c4>li, ul.xscroll.c4>li { width:48%}
+ul.c4>li:nth-child(2n+1) { clear:left;margin-left:0}
+ul.scroll.c2.narrow { width:100%}
+ul.c2.narrow>li { float:left;width:50%}
+}
+@media all and (max-width:640px) {
+.nomobile { display:none !important}
+h1, h1.title, p.h1.title { font-size:28px}
+div.anchors { display:none}
+ul.scroll.c5 { width:166.6%}
+}
+@media all and (max-width:560px) {
+.contactbox,.contactbox:lang(de),.contactbox:lang(fr),.contactbox:lang(ja) { position:absolute;z-index:9;display:block;top:0;right:0;margin:0;width:64px;-webkit-transform:translateZ(4px)}
+.contactbox>* { display:none}
+.contactbox::before { content:"\e600";cursor:pointer;font-family:vesicons;font-size:30px;text-align:center;color:#666;display:block;position:absolute;bottom:100%;top:-55px;right:40px;width:32px;height:32px;background:#fff}
+.contactbox:hover { left:0;width:auto;padding:12px 0;border-bottom:solid 1px #ccc;box-shadow:0 1px 2px #666}
+.contactbox:hover>* { display:block}
+.contactbox:hover::before { color:#cd040b}
+ul.scroll.c2.narrow { width:200%}
+ul.c2.narrow:not(.scroll)>li { float:none;width:auto}
+}
+@media all and (max-width:489px) {
+//.contactbox::before { height:54px}
+ ul.c4>li { float:none;margin-left:0;width:auto}
+ ul.scroll.c4 { width:400%}
+}
+@media all and (max-width:489px),(max-height:420px) {
+ .contain.indent { padding:0 12px}
+ nav.crumbs { display:none}
+ div.sharepage { float:none;display:none}
+ div#socialsitesicons>a { margin:6px 8px 0 0}
+}#topnav { position:relative;z-index:9;background:#fff;padding-bottom:24px;border-bottom:solid 1px #f2f2f2}
+#topnav.short {padding-bottom:0}
+#topnav .contain, #topnav.contain { margin:0 auto;max-width:1180px;min-height:100px;position:relative}
+#topnav.short .contain { min-height:64px}
+#topnav .contain::after, #topnav.contain::after {content:" ";display:block;clear:both;height:0px}
+#topnav ul.u { display:block;float:right;font-size:12px;margin:0 0 0 -20px;padding:0}
+#topnav ul.u::after {content:" ";display:block;clear:right;height:0px}
+#topnav div.t { position:absolute;bottom:0;left:160px}
+#topnav ul.t { position:absolute;bottom:0px;left:160px;right:0;margin:0;padding:0}
+#topnav.contain ul.t { bottom:5px}
+#topnav .t a.main { font-weight:700;font-size:20px;color:#000}
+#topnav li.m:hover>a, #topnav li.m.on>a { color:#cd040b;position:relative}
+#topnav li.m { display:block;float:left;list-style:none;margin:0 12px}
+#topnav li.m:first-child { margin-left:0}
+#topnav .t a.mobile, #topnav .t a.mobile-menu, #topnav a.mobile-menu { display:none;position:absolute;clear:right;top:36px;left:12px;z-index:10;color:#666;fill:#666;text-decoration:none;font-size:30px;padding:4px;background:#fff}
+#topnav .t a.mobile-contact { display:none;position:absolute;right:48px;top:26px;color:#666;text-decoration:none;padding:4px !important}
+#topnav .t a.mobile-contact.on { color:#cd040b}
+.mobilenav #topnav .t a.mobile-menu { position:fixed}
+.mobilenav .vzi-menu::before { content:"\f00d"}
+#topnav a.logo { float:left;display:block;padding:0;width:115px;height:105px;border-bottom-left-radius:15px;text-decoration:none;color:#000;font-size:32px;font-weight:500;text-indent:-1000px;background:#e22; }
+#topnav .u>li { margin:0;padding:0;display:block;float:left;position:relative;list-style:none;font-size:12px}
+#topnav nav::after { content:" ";display:block;clear:right;height:0px}
+#topnav li>a { display:block;margin:0 2px;padding:4px 8px;color:#666;text-decoration:none}
+#topnav .t a { float:left;display:block;margin:0 2px;font-size:24px;padding:16px 2px;text-decoration:none}
+#topnav li.sign-in>a { padding-left:20px}
+#topnav span.sep { display:none}
+#topnav li>div { display:none}
+#topnav div.t>a.Tsign-in { display:none}
+ul.eyebrow, #eyebrow input { display:none}
+ul.langsel, span.langsel { float:right;margin:0 12px -12px;padding:0}
+span.langsel { padding:6px 12px 18px 24px;position:relative;z-index:8}
+span.langsel ul.langsel { display:none; }
+.langsel li { list-style:none;display:block;float:left;margin:0;padding:0 }
+.langsel a, .langsel b { display:block;padding:4px 6px;color:#666;text-decoration:none;font-weight:normal}
+.langsel b { color:#999}
+#search { clear:right;float:right;position:relative;margin:48px 6px 0}
+#search form { background:#fff;border-bottom:solid 1px #999}
+#search label { display:none}
+#search .button { position:absolute;border:none;top:0px;right:0px;padding:6px;margin:0;background:none}
+#search button::after { display:none}
+#search input.q { border:none;color:#999;padding:4px 24px 4px 12px;margin:1px 0 1px 1px;width:128px;font-size:16px; }
+@media all and (max-width:1278px) {
+#search { margin-top:12px}
+}
+@media all and (max-width:992px) { 
+#topnav { padding-bottom:12px}
+#topnav div.t { left:140px;bottom:auto;top:24px}
+#topnav div.t>a { font-size:22px;margin:0 -4px}
+#topnav .t a.main { font-size:18px}
+#search { margin-top:0px}
+div#search input.q { padding-bottom:2px}
+div#search label, div#search .button { top:4px;font-size:12px}
+#topnav li.m { margin:0 0 0 4px}
+#topnav .t a.mobile-menu,#topnav a.mobile-menu  { display:block}
+#topnav ul.t, #topnav div#search { display:none}
+#topnav.short ul.u { margin-top:18px}
+}
+@media all and (max-width:800px) {
+#topnav div.t { left:12px;top:0;position:relative}
+#topnav div.t>a { padding:10px 12px;margin:-2px}
+#topnav ul.t { left:120px}
+ul.langsel { clear:right;margin:6px 12px 8px}
+div#search input.q { width:120px}
+#topnav .t a.main { font-size:18px; }
+}
+@media all and (max-width:760px) {
+#topnav .t a.mobile-menu,#topnav a.mobile-menu  { display:block}
+#topnav ul.t, #topnav div#search { display:none}
+}
+@media all and (max-width:640px) {
+.nomobile { display:none !important}
+#topnav li>a { margin:0}
+#topnav .t a.main { font-size:16px;padding:16px 4px 0}
+div#search input.q { width:100px}
+#topnav.short ul.u { margin-top:0}
+}
+@media all and (max-width:560px),(max-height:420px) {
+ #topnav { min-height:52px;padding-bottom:2px}
+ #topnav .contain, #topnav.contain, #topnav.short .contain { min-height:52px}
+ #topnav a.logo { margin-left:12px;width:58px;height:52px !important;background-size:50%;position:relative;z-index:2}
+ #topnav ul.u>li { display:none}
+ div#search form { display:none}
+ div#search { top:0;bottom:auto;right:0;z-index:0;margin:0}
+ #topnav li.sign-in>a { padding-right:0}
+ #topnav li.sign-in>a span {display:none}
+ #topnav li.sign-in>a::after { font-size:24px;display:block;padding:6px;position:relative !important}
+ div>ul.langsel { position:absolute;left:50%;width:100%;top:30px;margin:0}
+ div>ul.langsel>li { left:-25%;position:relative}
+ #topnav div.t { left:auto;right:0px;top:0;z-index:9;position:absolute}
+ #topnav div.t>a { display:none}
+ #topnav ul.t { display:none}
+ #topnav .t a.mobile-menu { display:block}
+ #topnav .t a.mobile-contact { display:block;top:6px}
+ #topnav .t a.mobile, #topnav .t a.mobile-menu, #topnav a.mobile-menu { top:12px}
+#topnav ul.u>li.ctry {display:block}
+#topnav ul.u {margin-right:-12px}
+#topnav ul.u>li.contact, #topnav ul.u>li.sign-in {display:none}
+#countryselector {padding:0;background:#f7f7f7}
+#countryselector ul {width:100%;margin:0 0 -1px}
+#countryselector h3 {width:inherit;font-weight:700;font-size:14px;padding:6px 6px 6px}
+#countryselector ul li {padding:3px 0 3px 6px}
+}
+div.footer { clear:both;background:#fff;color:#666; padding-top:12px !important}
+footer.pre { clear:both;margin:0;padding:36px 0 !important}
+footer.post { background:#f7f7f7}
+footer.post>div.footer { background:none;padding:0 !important}
+footer+footer>div.footer { border:none}
+.footer .copy { float:left;margin:0 36px 24px 0;color:#333}
+.footer .social { float:right;margin-bottom:6px;min-width:20%}
+.footer .links { clear:both;margin:0;padding:56px 24px !important;background:#f7f7f7;text-align:center;color:#666}
+.footer .links a { color:#666;font-size:11px;text-decoration:none}
+.footer .links a:hover { color:#333;text-decoration:underline}
+#hostinfo { position:absolute;top:2px;right:6px;color:#777;opacity:0.3;font-size:9px}
+#superfooter { display:none;position:relative}
+#socialsitesicons>a { margin:4px 6px;padding:4px;text-decoration:none;width:24px;font-size:18px;line-height:24px;text-align:center}
+#socialsitesicons>a::before { line-height:24px}
+.footer .signup { margin:-6px auto 0;max-width:480px}
+.footer .signup label { background:#f7f7f7;padding:9px 0;font-size:16px}
+.footer .signup label>span { position:absolute;z-index:1;margin:9px 12px;color:#b2b2b2}
+.footer .signup input { position:relative;z-index:2;background:none;border:none;width:320px;max-width:70%;padding:9px 12px}
+.footer .signup input:valid { background:#f7f7f7}
+.footer .signup p { font-size:10px;color:#666;max-width:480px;margin-left:0}
+@media all and (max-width:480px),(max-height:420px) {
+ div.footer { border:none}
+ .footer .copy { float:none;display:block;border-bottom:solid 1px #ccc;padding-bottom:6px;margin-bottom:6px}
+ .footer .social { float:none}
+ div#socialsitesicons>a { margin:6px 8px 0 0}
+}
+div#topnav a.logo,
+.vzb2013 div#GlobalNavigation a.logo { width:160px;height:128px;
+ background-color:#fff;
+ background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAAiCAMAAADvaSLMAAAAMFBMVEUAAgARExAbHRslJyTPAw8uMC06PDlHSUdhYmDkb3GJi4itq6jxtLbNzcrp5+X///+4s4PCAAAC50lEQVR42s2Y25qrIAyFUYpmggnv/7a7GpOAjLsd60XXjeVg+Fkhg9+E8m1i5rr5dYD8eDyWbwb8eTx+bnOQN91v4F2AOW6i2w28DTBsyncb+JWAbuCjfCWgG/jzpYBu4I2A0ya6z0ApkT8BMn+86vsjixrYAOKmrC9Jk+R3Gp4aQT0im0oIuDeRC7raaBniGiEhdxG2kYjrMsuysBnYA8awKrbnakWCYJpkAZRG4en5GP0MhqNm3mhi0+MREtMQRAOVIpUhBnIPiDpxE2g4HkMtqgHH0AIOPaDONg25ipCrfjIwMbADJJmIkuG0N/i4KPn+IbwDCMfObBHEWc+O/HVmeXSAPElMOSO6qynsMKC/uPbkZYptbpynao8YeqmFYmAHaLuqkpg0EPJaKmIQHsM7IKjmIILCQSMwE+xeVRFmRJss3qmBPSAJQK4zrM/mZHv4EYnZAU0QdLPQjM3awlD1O/fyNE8M7AHtdVgBJcOcBUMKR+uFLPx8cpOgV+awp0LE+h6qaZsk7ijHTw3sAN2hY4YnFqmfGj6eXHXZ6tUrT8Rze3SoNnaUAn6qnADSoG9NErarwHb/2ANK04ZbEGuP3PaDAS5uYA9oXJoJ3bCr338PSMbnx4tbwIH02ThonwlngJrRfcX5BHBUQP4NkAbn6wHz/wHlvjsHZAnO4mSW+L0UsPwCyLE5/vhHB109oOfY1wct1lbngJz0nHZXeuVoLFcBc3CBtRO/DTjbtSXiyk/nny4DlsOlS2NbrquQzgEhHHcUhaSdCdcBvSoie0rGXIfHU0DQAqa8S8dmrgpo4OuAZIBY6pCQczZ7TgHt08meVNKedMwZrMCvA/oXU7bjJqoGTgF1josKdQGm8gkgaBQ+dLizfwNUQlMqHwGS1bAKu+/hVyk+Vppk2QJ/BshzXJWyDzHE/SRGYAk/phhT6v43k1JslHYCTLu346QnR8ZZWrC1ppeA58qIgJjLZRECAGYql/UPebvUO+C/3owAAAAASUVORK5CYII=) !important;
+ background-position:0 76px;
+ background-size:auto;
+ background-repeat:no-repeat;border-radius:0;
+ position:relative;z-index:4}
+div#topnav.short a.logo { background-position:0 12px;height:64px;left:0}
+div#topnav ul.t, #GlobalNavigation #topnavz { left:256px;right:256px;z-index:1}
+div#topnav ul.t:lang(de), #GlobalNavigation #topnavz:lang(de) { left:256px;right:0px;z-index:1}
+div#topnav ul.t:lang(fr), #GlobalNavigation #topnavz:lang(fr) { left:250px;right:0px;z-index:1}
+@media all and (max-width:1280px) {
+div#topnav ul.t, #GlobalNavigation #topnavz { left:60px;right:60px;padding-left:156px } 
+div#topnav ul.t:lang(de), #GlobalNavigation #topnavz:lang(de) { left:60px;right:60px;padding-left:130px } 
+div#topnav ul.t:lang(fr), #GlobalNavigation #topnavz:lang(fr) { left:30px;right:30px;padding-left:156px } 
+div#eyebrow ul.eyebrow { left:220px}
+}
+@media all and (max-width:992px) {
+ div#topnav ul.t, #GlobalNavigation #topnavz { left:6px;right:6px;padding-left:186px }
+ div#topnav ul.t:lang(de), #GlobalNavigation #topnavz:lang(de) { left:6px;right:6px;padding-left:106px }
+ div#topnav ul.t:lang(fr), #GlobalNavigation #topnavz:lang(fr) { left:5px;right:5px;padding-left:186px }
+ div#topnav a.mobile-menu, #GlobalNavigation a.mobile { margin-top:24px}
+ div#topnav a.logo, .vzb2013 div#GlobalNavigation a.logo { height:108px;background-position:0 56px;left:48px}
+}
+@media all and (max-width:760px) {
+div#topnav a.logo, .vzb2013 div#GlobalNavigation a.logo { left:48px}
+}
+@media all and (max-width:560px),(max-height:420px) {
+ div#topnav a.logo, .vzb2013 div#GlobalNavigation a.logo { left:48px;width:120px;height:52px;background-size:120px;background-position:left center;margin:0}
+ #GlobalNavigation #topnavz { left:100px}
+ div#topnav a.mobile-menu, #GlobalNavigation a.mobile { margin-top:0}
+}
+ #topnavz a.main, #topnav .t li a.main { font-family:NeueHaasGroteskDisplay,Arial,Sans-Serif;font-weight:500}
+@media all and (min-width:480px) {
+ div#topnav .u>li>a { font-family:NeueHaasGrotesk,Arial,Sans-Serif;font-weight:500;color:#4b4b4b}
+ #topnavz dd p { font-family:NeueHaasGrotesk,Arial;font-weight:300}
+ button, a.button { font-family:NeueHaasGrotesk,Arial,Sans-Serif !important;font-weight:700 !important}
+ .widget3 dt { font-family:NeueHaasGrotesk,Arial,Sans-Serif}
+ div.anchors.left li a { font-family:NeueHaasGrotesk,Arial,Sans-Serif}
+ a.link, ul#icons a.link { font-family:NeueHaasGrotesk,Arial,Sans-Serif}
+}
+.share8 a, .smallshare a { width:30px;line-height:30px;background:no-repeat center center; margin:-6px 6px 0 6px;color:#999;font-size:28px}
+.sharepage>a {  width:30px;line-height:30px;background:no-repeat center center;margin:-4px 6px 0 6px;color:#999}
+.medium .share8 a { background-color:transparent !important}
+ h1,h2,h3,h4 {font-family:NeueHaasGroteskDisplay,NeueHaasGrotesk,Arial,Sans-Serif;font-weight:500}
+ p.h1.title { font-family:NeueHaasGroteskDisplay,NeueHaasGrotesk,Arial,Sans-Serif;margin-top:32px;margin-bottom:12px;color:#000;font-weight:normal}
+.crumbs a.last { font-family:NeueHaasGroteskDisplay,NeueHaasGrotesk,Arial,Sans-Serif;font-weight:500}
+ ol#heros h2 i, .box h2 i { font-style:normal;font-size:inherit;font-weight:inherit;display:inline}
+ div.box h2 { font-family:NeueHaasGroteskDisplay,Arial,Sans-Serif;font-weight:500;text-transform:none;color:#cd040b}
+ div.box h3, .box.contact .title, .belowbox h3, .contactbox h4 { font-family:NeueHaasGroteskDisplay,NeueHaasGrotesk,Arial,Sans-Serif;font-style:normal}
+ .heros h2,.limp .hero p.title { font-family:NeueHaasGroteskDisplay,NeueHaasGrotesk,Arial,Sans-Serif;font-weight:500;text-transform:none}
+ #mtaba li a, .box ul#mtabs li a { font-family:NeueHaasGroteskDisplay,NeueHaasGrotesk,Arial,Sans-Serif}
+ ol#heros li h2 { color:#cd040b}
+@media all and (min-width:1280px) {
+ div.box h2, ol#heros li h2 { font-size:48px}
+ .box>* { margin-left:54px}
+ .box>ul { margin-left:62px}
+ .box>div { margin-left:0}
+}
+ a.link, ul#icons a.link { color:#000 !important;font-size:16px;text-transform:none;display:inline-block;font-weight:700}
+ a.link::after { content:"\f054";font-family:vesicons;font-weight:normal;font-size:10px}
+ .insights li a span.link { text-transform:none;font-weight:500;font-size:14px;color:#06c}
+ .insights a .link::after { display:none}
+body.morefly { overflow:hidden}
+.limp .wrapper { margin:0 auto;padding-bottom:0}
+.limp section { clear:none;position:relative;margin-bottom:20px;padding-top:1px}
+.limp article { margin:102px 0 54px}
+.limp article.nogap, .limp article.shaded.nogap { margin:0 !important;padding:0;overflow:hidden}
+.limp div.leftindent { margin-left:320px;padding-top:12px;position:relative}
+.limp .leftindent>* { max-width:680px}
+.limp .leftindent img { max-width:100%;display:block}
+.limp .leftindent>div, .limp .leftindent>.wide { max-width:100%}
+.limp #vtabs { display:none}
+.limp .header { background:#e4e5e3}
+.limp .header.insightsLab { margin-top:42px}
+.limp .hero { position:relative;float:none;min-height:160px; margin-bottom:72px}
+.limp .hero.left { margin-bottom:54px}
+.limp .hero>div:first-child { padding:60px 30% 42px 0;min-height:240px}
+.limp .hero.carousel>div:first-child { padding:0;margin:0 -24px}
+.limp .hero.hasbg>div:first-child { min-height:306px;padding-right:40%}
+.limp .hero>div.short, .limp .hero.short>div { padding-top:42px;padding-bottom:40px;min-height:120px}
+.limp .hero.hasbg>div.short:first-child, .limp .hero.short.hasbg>div:first-child { min-height:240px}
+.limp .hero>ul { padding:42px 0 24px}
+.limp .hero.carousel .scroll>li:nth-child(n+2)>div { padding-left:42px}
+.limp .hero.carousel .dots { position:absolute;bottom:0;width:100%}
+.limp .hero.hasbg.half>div { padding:94px 54% 94px 0;margin-bottom:0}
+.limp .hero .img, .limp .hero .video { display:none}
+.limp .hero.hidden { visibility:hidden}
+.limp .hero .title { font-weight:500;font-size:60px;line-height:64px;margin:0;padding-bottom:12px}
+.limp .hero h1.licon + p.title { padding-top:28px;padding-bottom:12px}
+.limp h1 { font-size:16px;line-height:105%;margin:20px 0;float:none;font-weight:500}
+.limp .hero h1 { margin:0 0 16px}
+.limp .insightsLab .hero h1 { position:absolute;bottom:100%;margin-bottom:12px}
+.limp h2, .limp h1.h2 { font-weight:normal;font-size:36px;line-height:38px;margin-right:24px}
+.limp .leftindent h2 { color:#000;margin:20px 0 26px}
+.limp .shaded h2, .limp .bhero h2, .limp .next h2 { }
+.limp .subhead { font-size:24px;font-weight:700;margin:18px 0 24px}
+.limp .blade { position:relative;float:none;padding:60px 10% 60px 80px;max-width:760px;margin:0 12px 0 -24px;background-repeat:no-repeat}
+.limp a.anchor { display:block;position:absolute;top:0;left:24px;padding:8px 12px;background:#333;color:#fff;font-size:14px}
+.limp div.morefly { display:none}
+.limp p, .limp li { font-size:16px}
+.limp ul { margin:20px 0;padding-left:20px}
+.limp ul.c1, .limp ul.c2, .limp ul.c3, .limp ul.c4 { margin:0;padding:0}
+.limp li { margin-top:14px}
+.limp .mainleft { width:64%}
+.limp .rightcol { display:none}
+.limp .clap-more  { display:none}
+.VIaccount { display:none}
+@media all and (max-width:1278px) {
+ .limp .hero>div { padding:54px 40% 38px 0;min-height:240px}
+ .limp .hero.hasbg.half>div { padding-top:60px;padding-bottom:60px}
+ .limp .hero .title { font-size:50px;line-height:105%}
+}
+@media all and (max-width:992px) {
+ .limp .hero .title { font-size:36px}
+ .limp .hero>div:first-child, .limp .hero.hasbg>div:first-child { padding:42px 12px 32px;min-height:90px}
+ .limp .hero.hasbg>div.short:first-child { min-height:90px}
+ .limp .hero.half>div { padding-right:24px}
+ .limp .hero::before { display:none}
+ .limp .hero.left { background-image:none !important}
+ .limp .hero .img { display:none}
+ .limp div.leftindent { margin-left:24px}
+}
+@media all and (max-width:760px) {
+.limp .hero .title { font-size:32px;padding:0}
+.limp .hero.carousel>div:first-child { margin:0}
+}
+@media all and (max-width:640px) {
+ .limp nav.crumbs { display:block;min-height:12px}
+ .limp #vtabs { display:block;position:relative;left:0;top:0;padding:0;margin:0 0 12px;height:auto;border:1px solid #ccc}
+ .limp #vtabs>ul { width:auto;margin:0;padding:0}
+ .limp ul#mtabs li { display:none}
+ .limp #mtabs br { display:none}
+ .limp ul#mtabs li.on { display:block;margin:0}
+ .limp ul#mtabs li>a { display:block;padding:9px 12px;text-decoration:none}
+ .limp .hero.full a.img { display:none}
+}
+</style><link href="/templates/css.css/1499893451.css" id="mainCSS" media="all" rel="stylesheet" type="text/css">
+</head>
+
+<body class=" lang-en ctry- limp" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<!-- Google Tag Manager (noscript) --><noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-W7S76M" style="display:none;visibility:hidden" width="0"></iframe></noscript><!-- End Google Tag Manager (noscript) --><div  id="topnav"><div class="contain indent"><a class="logo" href="/">Verizon</a><div id="eyebrow"><nav aria-label="Verizon Navigation"><input checked="" id="EBnone" name="eyebrow" type="radio" value="none"><label class="none" for="EBnone"></label>
+<ul class="eyebrow" itemscope="itemscope" itemtype="http://schema.org/SiteNavigaionElement">
+<li aria-haspopup="true"><label class="wireless residential" for="EBwireless">Personal</label>
+ <input id="EBwireless" name="eyebrow" type="radio" value="wireless">
+ 
+<ul aria-hidden="true">
+  
+<li class="wireless"><a  href="http://www.verizonwireless.com/" target="_blank" title="Wireless"><strong>Wireless</strong> Service, devices and accessories.</a></li>
+  
+<li class="residential"><a  href="http://www.verizon.com/?lid=//global//residential" target="_blank" title="Residential"><strong>Internet, Phone, and TV</strong> FiOS service for the home.</a></li>
+ 
+</ul>
+</li>
+<li aria-haspopup="true"><label class="business active govt b2b smb" for="EBbusiness">Business</label>
+ <input id="EBbusiness" name="eyebrow" type="radio" value="business">
+ 
+<ul aria-hidden="true">
+  
+<li class="business active"><a  href="//www.verizonenterprise.com/" target="_blank" title="Enterprise Technology &#38; Wireless Solutions"><strong>Enterprise Technology &amp; Wireless Solutions</strong>
+  Solutions and services for organizations with 500 or more employees.</a></li>
+  
+<li class="smb"><a  href="http://www.verizonwireless.com/business" target="_blank" title="Business Wireless Phones and Solutions"><strong>Business Wireless Phones and Solutions</strong>
+  Devices, plans and wireless services for organizations with less than 500 employees.</a></li>
+  
+<li class="smb"><a  href="http://www.verizon.com/business/" target="_blank" title="Business Phone, Internet, TV &#38; Network Services"><strong>Business Phone, Internet, TV &amp; Network Services</strong>
+  Technology and network solutions designed for organizations with less than 500 employees.</a></li>
+  
+<li class="govt"><a  href="//www.verizonenterprise.com/industry/public_sector/federal/" target="_blank" title="Federal Government"><strong>Federal Government</strong>
+  Solutions to modernize federal agencies and empower workforces.</a></li>
+  
+<li class="govt"><a  href="//www.verizonenterprise.com/industry/public_sector/" target="_blank" title="State &#38; Local Government, Education"><strong>State &amp; Local Government, Education</strong>
+  Purpose-built services and solutions for the public sector.</a></li>
+  
+<li class="partner"><a  href="//www.verizonenterprise.com/partnerprogram/" target="_blank" title="Partners"><strong>Partners</strong>
+  Custom solutions designed to meet the needs of an ever-changing customer network.</a></li>
+  
+<li class="partner"><a  href="http://www22.verizon.com/wholesale/homepage.jsp" target="_blank" title="Wholesale"><strong>Verizon Partner Solutions/Wholesale</strong>
+  Global wholesale provider of choice for data, internet and voice solutions.</a></li>
+ 
+</ul>
+</li>
+<li aria-haspopup="true"><label class="about about-ves" for="EBabout">About Us</label>
+ <input id="EBabout" name="eyebrow" type="radio" value="about">
+ 
+<ul aria-hidden="true">
+  
+<li class="about"><a  href="http://www.verizon.com/about/" target="_blank" title="Verizon Corporate"><strong>Verizon Corporate</strong>
+  Global leader in innovative communications and technology solutions and services.</a></li>
+  
+<li class="about-ves"><a  href="//www.verizonenterprise.com/about/" target="_blank" title="Verizon Enterprise"><strong>Verizon Enterprise</strong>
+  Technologies, solutions, and services for enterprise and medium-sized businesses.</a></li>
+ 
+</ul>
+</li>
+</ul></nav></div><nav aria-label="Utility Navigation" class="u" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+<ul class="u" data-sales="/Support/sales/">
+<li class="ctry"><a class="u ctrysel">Language: English</a></li>
+<li class="contact"><a class="u" href="/Support/contact/"><span tabindex="2">Contact Us</span></a></li>
+<li class="sign-in"><a class="u" href="https://sso.verizonenterprise.com/amserver/sso/login.go" target="_blank"><span>Sign In / Register</span></a></li>
+</ul>
+</nav><div id="search"></div><nav aria-label="Main Navigation" class="t" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation"><a class="mobile-menu vzi-menu" href="/sitemap/mobile/"></a>
+<ul class="t" id="topnavz">
+<li aria-controls="topnav-industry" aria-haspopup="true" class="m" data-dir="industry"><a class="main Tindustry" data-dir="industry" href="/industry/" itemprop="url" target="_self"><span itemprop="name" tabindex="1">Industries</span></a></li>
+<li aria-controls="topnav-products" aria-haspopup="true" class="m" data-dir="products"><a class="main Tproducts" data-dir="products" href="/products/" itemprop="url" target="_self"><span itemprop="name" tabindex="1">Solutions & Products</span></a></li>
+<li aria-controls="topnav-sign-in" aria-haspopup="true" class="m" data-dir="sign-in"><a class="main Tsign-in" data-dir="sign-in" href="/sign-in/" itemprop="url" target="_self"><span itemprop="name" tabindex="1">Manage Accounts</span></a></li>
+<li aria-controls="topnav-Support" aria-haspopup="true" class="m" data-dir="Support"><a class="main TSupport" data-dir="Support" href="/us/Support/" itemprop="url" target="_self"><span itemprop="name" tabindex="1">Support</span></a></li>
+</ul>
+</nav></div></div><div class="wrapper" id="wrapper"><div class="contain indent"><nav aria-label="Breadcrumb" class="crumbs tabs" itemprop="breadcrumb"><span class="sep"> &gt; </span><a class="l2" href="/">Home</a><span class="sep"> &gt; </span><a class="l3" href="/industry/">Industries</a><span class="sep"> &gt; </span><a class="l4" href="/industry/public_sector/">Public Sector</a><span class="sep"> &gt; </span><a class="l5 last" href="/industry/public_sector/public_safety/">Public Safety Services</a></nav><div data-title="Public Safety Services | Verizon Enterprise Solutions" id="vtabs">
+<ul aria-label="Tabs" data-menu="/industry/public_sector/public_safety/tab.menu" id="mtabs" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+
+<li class="on"><a href="/industry/public_sector/public_safety/"  itemprop="url">Overview</a></li>
+
+<li class=""><a href="/industry/public_sector/public_safety/solutions/"  itemprop="url">Solutions</a></li>
+
+<li class=""><a href="/industry/public_sector/public_safety/our-commitment/"  itemprop="url">Our Commitment</a></li>
+
+<li class=""><a href="/industry/public_sector/public_safety/faq/"  itemprop="url">FAQ</a></li>
+
+<li class=""><a href="/industry/public_sector/public_safety/events/"  itemprop="url">Events</a></li>
+
+<li class=""><a href="/industry/public_sector/public_safety/announcements/"  itemprop="url">Announcements</a></li>
+
+<li class=""><a href="/industry/public_sector/public_safety/outreach/"  itemprop="url">Outreach Program</a>
+<ul class="subtab">
+
+<li itemprop="name"><a href="/industry/public_sector/public_safety/outreach/" itemprop="url">Overview</a></li>
+
+<li itemprop="name"><a href="/industry/public_sector/public_safety/outreach/vsat/" itemprop="url">Verizon Security <br/>Assistance Team (VSAT)</a></li>
+
+<li itemprop="name"><a href="/industry/public_sector/public_safety/outreach/vrt/" itemprop="url">Verizon Response <br/>Team (VRT)</a></li>
+
+<li itemprop="name"><a href="/industry/public_sector/public_safety/outreach/scc/" itemprop="url">Security <br/>Control Team</a></li>
+
+</ul>
+</li>
+
+</ul>
+</div></div>
+<div class="contain indent">
+<h1>Public Safety Services</h1>
+
+<div class="VIaccount"></div>
+</div>
+<section><div class="header"><div class="clap-blade contain indent  hero left carousel"><div>
+<div class="scroller first"><a class="left vzi-arrowleft"></a><a class="right vzi-arrowright"></a>
+<ul class="c1 equal auto scroll" data-p="0" style="left:0">
+
+
+
+<li class="hero hasbg containbg"><div>
+
+<!--
+ <a class="img" urlid="136820" target="_blank" data-imgtag="<img src='&page.dir;images/hero_responder_private_core.png'/>"></a>
+-->
+
+ <a  class="img" data-imgtag="<img src=&#39;/worldwide/industry/public_sector/public_safety/images/hero_hurricane_michael_video.png&#39;/>" href="https://youtu.be/DBa37qM0fGY" target="_blank"></a>
+ 
+<p class="title">Hurricane Michael Support</p>
+
+ 
+<p>See our latest hurricane response efforts.</p>
+
+ 
+<p><a  class="link" href="https://youtu.be/DBa37qM0fGY" target="_blank">Watch video</a></p>
+
+</div></li>
+
+
+
+<li class="hero hasbg containbg"><div>
+ <a  class="img" data-imgtag="<img src=&#39;/worldwide/industry/public_sector/public_safety/images/hero_responder_private_core.png&#39;/>" href="https://youtu.be/99s-R9Caq_c" target="_blank"></a>
+ 
+<p class="title">Verizon puts first responders first.</p>
+
+ 
+<p>In an emergency communication is critical. That’s why we took our world-class network and created a dedicated lane for first responders called Responder Private Core so you can communicate with key personnel even when everyone is calling for help at once. With our many solutions for public safety, we’re helping you do more today and preparing for the future with 5G. From preemption and deployables to priority access, we put first responders first. It's no surprise more first responders rely on us.*</p>
+
+ 
+<p><a  class="link" href="solutions/responder_private_core_sb.pdf" target="_blank">Learn more</a></p>
+
+ <!--<asset urlid="136284" img="" link="Watch video" title=""></asset>-->
+</div></li>
+
+
+<!--
+<li class="hero hasbg containbg"><div>
+ <a class="img" data-imgtag="<img src='&page.dir;images/hero_restriction_access.png'/>"></a>
+ <p class="title">Support where it matters, when it matters.</p>
+ <p>Verizon understands the important role first responders have in protecting and serving our communities. Please read about the changes we have made to support our first responders. </p>
+ <p><a class="linktrack inlink link" href="https://www.verizon.com/about/news/verizon-statement-california-wildfires-and-hurricane-lane-hawaii" target="_blank" class="link">Learn more</a></p>
+</div></li>
+
+<li class="hero hasbg containbg"><div>
+ <a class="img" data-imgtag="<img src='&page.dir;images/hero_hurricane_preparedness.png'/>"></a>
+ <p class="title">This is How Verizon Prepares for Hurricanes and Natural Disasters</p>
+ <p>When hurricanes, tornadoes and wildfires strike, Verizon is ready to keep customers and first responders connected.</p>
+ <p><a class="linktrack inlink link" href="https://www.gottabemobile.com/how-verizon-prepares-for-hurricanes-and-natural-disasters/" target="_blank" class="link">Learn more</a></p>
+</div></li>
+
+<li class="hero hasbg containbg"><div>
+ <a class="img" data-imgtag="<img src='&page.dir;images/hero_police_week.png'/>"></a>
+ <p class="title">Verizon is proud to support Police Week</p>
+ <p>Thank you to all first responders who answer the call. Verizon works hard to make sure you can get it.</p>
+ <p><a class="linktrack inlink link" href="http://www.verizon.com/about/news/verizon-proud-support-police-week-and-national-law-enforcement-memorial-fund" target="_blank" class="link">Learn more</a></p>
+</div></li>
+<li class="hero hasbg containbg"><div>
+ <a class="img" data-imgtag="<img src='&page.dir;images/hero_public_safety_core_open_business.png'/>"></a>
+ <p class="title">Verizon public safety private core is open for business</p>
+ <p>Public safety asked and Verizon delivered, just as we have always done. Verizon has been a leading provider of communications services to public safety for decades – we know what it takes to serve this most important customer base.</p>
+ <p><a class="linktrack inlink link" href="http://www.verizon.com/about/news/verizon-public-safety-private-core-open-business" target="_blank" class="link">Learn more</a></p>
+</div></li>
+-->
+
+
+</ul>
+<div class="dots"></div></div>
+<div class="sharepage "><span>Share </span><a class="vzi-facebook-square" href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.verizonenterprise.com%2Findustry%2Fpublic_sector%2Fpublic_safety%2F&#38;p%5Btitle%5D=Public%20Safety%20Services%20%7C%20Verizon%20Enterprise%20Solutions" onClick="return sharePage(this)" target="_blank" title="Facebook"></a><a class="vzi-twitter" href="https://twitter.com/intent/tweet?text=Public%20Safety%20Services%20%7C%20Verizon%20Enterprise%20Solutions&#38;url=http%3A%2F%2Fwww.verizonenterprise.com%2Findustry%2Fpublic_sector%2Fpublic_safety%2F" onClick="return sharePage(this)" target="_blank" title="twitter"></a><a class="vzi-linkedin-square" href="http://www.linkedin.com/shareArticle?mini=true&#38;url=http%3A%2F%2Fwww.verizonenterprise.com%2Findustry%2Fpublic_sector%2Fpublic_safety%2F&#38;title=Public%20Safety%20Services%20%7C%20Verizon%20Enterprise%20Solutions&#38;ro=false&#38;source=" onClick="return sharePage(this)" target="_blank" title="Linkedin"></a><a class="vzi-envelope" href="mailto:?subject=Public%20Safety%20Services%20%7C%20Verizon%20Enterprise%20Solutions&#38;body=Verizon%20has%20always%20been%20committed%20to%20supporting%20the%20%0D%0Acommunication%20needs%20of%20public%20safety%20agencies.%20You%20can%20%0D%0Acount%20on%20our%20network.%20It%27s%20proven%20to%20deliver%20the%20best%20%0D%0Aperformance%2C%20especially%20in%20times%20of%20critical%20need.%0d%0dhttp%3A%2F%2Fwww.verizonenterprise.com%2Findustry%2Fpublic_sector%2Fpublic_safety%2F%0d" title="E-mail"></a></div><div class="icons"><label>Contact Us</label><span class="vzi-phone"><div>1-877-288-9473</div></span><script>vzInit.onLoad(function(){
+  getCountry(function(c){
+   if (c && c!="us" && typeof(vzb.contact)!="undefined") {
+    var p=vzb.contact[c];
+    if (p) {
+     $('.hero .vzi-phone>div').text(p);
+    }
+   }
+  });
+ });</script><a class="vzi-mail" data-overlay="" href="/Support/sales/"></a></div></div></div></div></section>
+
+
+<div class="contain">
+<section><div class="anchors left">
+<ul>
+
+</ul>
+</div><div class="leftindent anchornav">
+
+ <a name="overview" title="Overview"></a>
+ 
+<h1>Overview</h1>
+
+ 
+<h2>Support where it matters, when it matters.</h2>
+
+ 
+<p>Verizon understands the important role first responders have in protecting and serving our communities and has always been committed to supporting the communication needs of public safety agencies. You can count on our network when you need it most. It's proven to deliver the best performance, especially in times of crisis. Verizon. Response Ready.</p>
+
+ 
+<p><a  class="linktrack inlink link" href="https://www.verizon.com/about/news-release-categories/emergency-management" target="_blank"> Hurricane Michael updates</a></p>
+
+ 
+<p><font size="2">*America’s leading wireless voice provider.</font></p>
+
+
+<article>
+<a name="solutions" title="Solutions"></a>
+ 
+<h3>Solutions</h3>
+
+ 
+<p class="subhead">Delivering the public safety promise.</p>
+ 
+ 
+<p>We are committed to providing reliable communications for first responders. Learn about how we invest in our network so you can stay connected during a crisis. <br>
+
+ <a  class="linktrack inlink link" href="solutions/10917688_public_safety_network_infographic.pdf" target="_blank"> View Infographic</a></p>
+
+ 
+<p>We understand public sector needs and offer a breadth of solutions for your specific challenges.</p>
+
+
+
+<ul class="c3">
+
+
+<li><img src="solutions/sol_private_core.png">
+<br>
+
+
+<h3>Responder Private Core</h3>
+
+
+<p>Your communications are first and secure - no matter what. A dedicated private core that’s available at no additional cost.</p>
+
+
+<p><a  class="linktrack inlink link" href="solutions/responder_private_core_sb.pdf" target="_blank">Solutions Brief</a></p>
+
+</li>
+
+
+
+<li><img src="solutions/sol_preemption.png">
+<br>
+
+
+<h3>Preemption</h3>
+
+
+<p>Keep first responder communications connected during emergencies, available at no additional cost.</p>
+
+
+<p><a  class="linktrack inlink link" href="solutions/10923981_SB_PriorityPrevention_V1e_FINAL_chi.pdf" target="_blank">Solutions Brief</a></p>
+
+</li>
+
+
+
+<li><img src="solutions/sol_priority_preemption.png">
+<br>
+
+
+<h3>Priority</h3>
+
+
+<p>Get voice and data priority access when your agency needs it most.</p>
+
+
+<p><a  class="linktrack inlink link" href="solutions/10923981_SB_MobileBroadband_V1c_FINAL_chi-1.pdf" target="_blank">Mobile Broadband Priority</a><br>
+
+<a  class="linktrack inlink link" href="solutions/10916764_SB_WPS_VoLTE_V1d_FINAL_chi.pdf" target="_blank">Wireless Priority Service</a></p>
+
+</li>
+
+
+</ul>
+
+<br>
+
+
+
+<ul class="c3">
+
+
+<li><img src="solutions/sol_deployables.png">
+<br>
+
+
+<h3>Deployables</h3>
+
+
+<p>Verizon Mobile Connectivity Trailer enables rapid communications setup for disaster response.</p>
+
+
+<p><a  class="linktrack inlink link" href="solutions/10969765_SB_MobileConnectivity_V2b_FINAL_chi.pdf" target="_blank">Solutions Brief</a></p>
+
+</li>
+
+
+
+<li><img src="solutions/sol_one_talk.png">
+<br>
+
+
+<h3>One Talk</h3>
+
+
+<p>One Talk from Verizon gives you one number for both your smartphones and desk phones.</p>
+
+
+<p><a  class="linktrack inlink link" href="solutions/one_talk_gov_uc.pdf" target="_blank">Use Cases</a></p>
+
+</li>
+
+
+
+<li><img src="solutions/sol_ptt.png">
+<br>
+
+
+<h3>Push to Talk</h3>
+
+
+<p>Instant communication is critical when every second counts while responding to an emergency.</p>
+
+
+<p><a  class="linktrack inlink link" href="https://enterprise.verizon.com/resources/solutionsbriefs/2018/push_to_talk_plus_overview_solutions_brief_en_xg.pdf" target="_blank">Solutions Brief</a></p>
+
+</li>
+
+
+
+</ul>
+
+
+
+<p><a  class="linktrack inlink link" href="/industry/public_sector/public_safety/solutions/">Learn more about our solutions</a></p>
+
+
+</article>
+
+<article>
+<a name="challenges" title="Our Commitment"></a>
+
+<h3>Our Commitment</h3>
+
+
+<p class="subhead">We run to a crisis, not away.</p>
+
+
+<p>Do more with less, as well as create advantages for you and the people you serve with advanced public safety communications systems.</p>
+
+
+
+<p><a  class="linktrack inlink link" href="/industry/public_sector/public_safety/our-commitment/">Learn more about our commitment to public safety</a></p>
+
+ 
+<div class="shaded">
+
+<ul class="equal c2">
+
+
+<li class="double" style="">
+<img alt="Use Cases" src="images/use_cases_th.png">
+</li>
+
+
+<li>
+
+<h4>Our commitment to public safety never wavers.</h4>
+
+
+<p class="summary">Learn how we responded to natural disasters and kept first responders, government agencies, and customers connected.</p>
+
+
+<p><a  class="linktrack inlink link" href="our-commitment/vz_disaster_recovery_use_cases.pdf" target="_blank">View use cases</a></p>
+
+</li>
+
+
+</ul>
+
+</div>
+
+</article>
+
+<article>
+<a name="faq" title="FAQ"></a>
+ 
+<h3>FAQ</h3>
+
+ 
+<p class="subhead">Common Questions about our Public Safety Program</p>
+
+ 
+<p>Your common questions answered here.</p>
+
+
+
+<p><a  class="linktrack inlink link" href="/industry/public_sector/public_safety/faq/">Access your frequently asked questions</a></p>
+
+
+<article>
+<div class="shaded" style="padding:0;">
+
+<ul class="c3 shaded">
+
+
+<li style="padding-right:0px;">
+<img align="right" alt="fact sheet" src="/industry/public_sector/public_safety/images/asset_clear_answers.png">
+</li>
+
+
+<li class="double" style="padding-left:10px;">
+Clear answers to common questions about public safety communications.
+<br>
+<a  class="link" href="faq/public_safety_top_five_common_questions_fs.pdf" target="_blank">View Fact Sheet</a> 
+</li>
+
+
+</ul>
+
+</div>
+
+<div class="shaded" style="padding:0;">
+
+<ul class="c3 shaded">
+
+
+<li style="padding-right:0px;">
+<img align="right" alt="infographic" src="/industry/public_sector/public_safety/images/asset_get_facts.png">
+</li>
+
+
+<li class="double" style="padding-left:10px;">
+Get the facts about public safety communications. Make a better-informed decision for your agency.
+<br>
+<a  class="link" href="faq/public_safety_myths_fs.pdf" target="_blank">View Fact Sheet</a> 
+</li>
+
+
+</ul>
+
+</div>
+</article>
+
+</article>
+
+<article>
+<a name="team" title="Events"></a>
+ 
+<h3>Events</h3>
+
+ 
+<p class="subhead">Verizon delivers value to public safety.</p>
+
+ 
+<p>Learn about events across the country to help you stay current on the solutions impacting your industry.</p>
+
+ 
+<p><a  class="linktrack inlink link" href="/industry/public_sector/public_safety/events/">Learn more</a></p>
+
+
+</article>
+
+<article>
+<a name="announcements" title="Announcements"></a>
+ 
+<h3>Announcements</h3>
+
+ 
+<p class="subhead">The latest news about Public Safety initiatives.</p>
+
+ 
+<p><strong><a  href="https://www.verizon.com/about/news/verizon-announces-strategic-agreement-mutualink" target="_blank">Verizon announces strategic agreement with Mutualink</a></strong></p>
+
+ 
+<p><a  class="linktrack inlink link" href="/industry/public_sector/public_safety/announcements/">More announcements</a></p>
+
+
+
+</article>
+
+<br>
+
+</div></section>
+
+<section><div class="contain indent next">
+ <div class="sharepage "><span>Share </span><a class="vzi-facebook-square" href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.verizonenterprise.com%2Findustry%2Fpublic_sector%2Fpublic_safety%2F&#38;p%5Btitle%5D=Public%20Safety%20Services%20%7C%20Verizon%20Enterprise%20Solutions" onClick="return sharePage(this)" target="_blank" title="Facebook"></a><a class="vzi-twitter" href="https://twitter.com/intent/tweet?text=Public%20Safety%20Services%20%7C%20Verizon%20Enterprise%20Solutions&#38;url=http%3A%2F%2Fwww.verizonenterprise.com%2Findustry%2Fpublic_sector%2Fpublic_safety%2F" onClick="return sharePage(this)" target="_blank" title="twitter"></a><a class="vzi-linkedin-square" href="http://www.linkedin.com/shareArticle?mini=true&#38;url=http%3A%2F%2Fwww.verizonenterprise.com%2Findustry%2Fpublic_sector%2Fpublic_safety%2F&#38;title=Public%20Safety%20Services%20%7C%20Verizon%20Enterprise%20Solutions&#38;ro=false&#38;source=" onClick="return sharePage(this)" target="_blank" title="Linkedin"></a><a class="vzi-envelope" href="mailto:?subject=Public%20Safety%20Services%20%7C%20Verizon%20Enterprise%20Solutions&#38;body=Verizon%20has%20always%20been%20committed%20to%20supporting%20the%20%0D%0Acommunication%20needs%20of%20public%20safety%20agencies.%20You%20can%20%0D%0Acount%20on%20our%20network.%20It%27s%20proven%20to%20deliver%20the%20best%20%0D%0Aperformance%2C%20especially%20in%20times%20of%20critical%20need.%0d%0dhttp%3A%2F%2Fwww.verizonenterprise.com%2Findustry%2Fpublic_sector%2Fpublic_safety%2F%0d" title="E-mail"></a></div>
+  <a name="contact-us" title="Contact Us"></a>
+ 
+<ul class="c2 wide shaded equal">
+
+  
+<li>
+   
+<h2>Existing customer?</h2>
+
+   
+<p>Speak with a public safety expert.</p>
+
+   
+<p class="subhead">800-922-0204</p>
+
+  </li>
+
+  
+<li>
+   
+<h2>New customer?</h2>
+
+   
+<p>Connect with a sales representative about our public safety solutions.</p>
+
+   <a  class="red button fancybox" href="/Support/sales/">Request a consultation</a>
+  </li>
+
+ 
+</ul>
+
+</div></section>
+
+
+</div>
+  
+  
+
+<div id="footnote"><?xml version='1.0' encoding='utf-8'?>
+<section><div class="contain indent">
+<br/><br/>
+<p class="small footnote">
+Services and/or features are not available in all countries/locations, and may be procured from in-country providers in select countries. 
+We continue to expand our service availability around the world. Please consult your Verizon Business representative for service availability. 
+<a href="/Support/overlay.html" class="fancybox">Contact us</a>
+</p>
+</div></section></div><div style="clear:both;"></div><div class="noshow" id="cookiealert"><div id="cookieclose"><a class="close" href="javascript:Bert.euClose()" onClick="Bert.euClose();return false;">Close <i class="vzi-close"></i></a></div><span data-msg="This Verizon website uses cookies. A cookie is a small file of letters and numbers that we place on your computer. These cookies allow us to distinguish you from other users of the website and allows us to provide you with an improved user experience. The cookies we use are purely for analytical purposes and for our own statistical research into the success of our site."></span><br>
+<a href="http://www.wikihow.com/Disable-Cookies" target="_new"><span data-msg="Click here to find out how to disable cookies"></span></a>.
+</div></div><div aria-label="Site Links" id="superfooter" role="navigation">
+<ul>
+<li class="col n1">
+<h4><b>Popular Links</b> <span class="show"></span></h4>
+<ul>
+<li><a href="http://news.verizonenterprise.com" target="_blank">News</a></li>
+<li><a href="/Resources/">Resource Center</a></li>
+<li><a href="/Support/sales/">Request a Consultation </a></li>
+<li><a href="/about/executivebriefingprogram/">Executive Briefing Program</a></li>
+<li><a href="http://network4g.verizonwireless.com/#/4g-network-verizon-wireless?CMP=VES-eHome-4glte-footer" target="_blank">4G LTE</a></li>
+<li><a href="http://responsibility.verizon.com/home/approach/shared-success/?CMP=VES-eHome-SharedSuccess-footer" target="_blank">Shared Success</a></li>
+<li><a href="http://www.verizon.com/about/responsibility/verizon-foundation/?CMP=VES-eHome-VerizonFoundation-footer" target="_blank">Verizon Foundation</a></li>
+<li><a href="http://solutionfinder.verizonwireless.com/?CMP=VES-eHome-WirelessMarketplace-footer" target="_blank">Wireless Business Solutions Marketplace</a></li>
+<li><a href="/about/events/">Events Calendar</a></li>
+</ul>
+</li>
+<li class="col n2">
+<h4><b>Key Topics</b> <span class="show"></span></h4>
+<ul>
+<li><a href="/products/business-communications/">Business Communications</a></li>
+<li><a href="/products/internet-of-things/">Internet of Things (IoT)</a></li>
+<li><a href="/products/mobility/">Mobility</a></li>
+<li><a href="/products/networking/connectivity/">Networks and Internet</a></li>
+<li><a href="/products/security/">Security</a></li>
+<li><a href="https://enterprise.verizon.com/products/customer-experience-services/" target="_blank">Customer Experience Services</a></li>
+</ul>
+</li>
+<li class="col n3">
+<h4><b>Enterprise</b> <span class="show"></span></h4>
+<ul>
+<li><a href="/industry/">Industries</a></li>
+<li><a href="/solutions/">Solutions</a></li>
+<li><a href="/products/">Products</a></li>
+<li><a href="/products/mobility/devices/wireless-deals-offers/">Wireless Promotions</a></li>
+<li><a href="/products/mobility/network/">Next Gen Network</a></li>
+</ul>
+</li>
+<li class="col n4">
+<h4><b>Support</b> <span class="show"></span></h4>
+<ul>
+<li><a href="/Support/">Enterprise</a></li>
+<li><a href="/Support/contact/">Contact Us</a></li>
+<li><a href="https://sso.verizonenterprise.com/amserver/sso/login.go" target="_blank">Login / Manage Account</a></li>
+<li><a href="http://support.verizonwireless.com/clc/" target="_blank">Wireless</a></li>
+<li><a href="http://www22.verizon.com/wholesale/homepage.jsp" target="_blank">Wholesale</a></li>
+<li><a href="http://www.verizonenterprise.com/partnerprogram/" target="_blank">Verizon Partner Program</a></li>
+<li><a href="/Support/myaccount/tools/">Customer Enablement Tools</a></li>
+<li><a href=" http://www.verizonwireless.com/landingpages/report-security-vulnerability/">Report a Security Vulnerability</a></li>
+<li><a href="/us/publications/">Service Guide</a></li>
+</ul>
+</li>
+<li class="col n5">
+<h4><b>Conversation</b> <span class="show"></span></h4>
+<ul>
+<li><a href="/verizon-insights-lab/">Verizon Insights Lab</a></li>
+<li><a href="/verizon-insights-lab/dbir/2017/">2017 Data Breach Investigations Report </a></li>
+<li><a href="/verizon-insights-lab/mobile-security-index/2018/">Mobile Security Index report</a></li>
+<li><a href="/verizon-insights-lab/?t=securityblog#security-risk-management">Security Blog</a></li>
+<li><a href="https://connect.verizon.com" target="_blank">Verizon B2B Communities</a></li>
+</ul>
+</li>
+<li class="end"></li>
+</ul>
+</div><div class="footer prefooter contain indent" rolw="region"><span class="copy">© 2018 Verizon.</span><span class="social"><div class="title">Connect With Us </div><div id="socialsitesicons"><a class="vzi-twitter" href="http://www.twitter.com/vzenterprise" onClick="trackLink(this)" target="_blank" title="Twitter"></a><a class="vzi-linkedin-square" href="http://www.linkedin.com/company/verizonenterprisesolutions" onClick="trackLink(this)" target="_blank" title="Linkedin"></a><a class="vzi-youtube" href="http://www.youtube.com/user/verizonenterprise" onClick="trackLink(this)" target="_blank" title="You Tube"></a><a class="vzi-slideshare" href="https://www.slideshare.net/VerizonEnterpriseSolutions" onClick="trackLink(this)" target="_blank" title="Slideshare"></a></div></span><div style="clear:both;"></div></div><footer aria-label="Footer" class="post page"><div class="footer contain indent"><nav aria-label="Legal Footer"><div class="links"><span aria-hidden="true" class="hosting" id="hostinfo">EMF1:​20181030</span><a href="http://www22.verizon.com/about" target="_blank">About Verizon</a><span class="sep">   </span><a href="/terms/">Legal Notices</a><span class="sep">   </span><a href="https://www.verizon.com/about/our-company/open-internet" target="_blank">Open Internet</a><span class="sep">   </span><a href="/us/publications/">Service Terms & Rates</a><span class="sep">   </span><a href="http://www.verizon.com/" target="_blank">Verizon.com</a><span class="sep">   </span><a href="/sitemap/">Site Map</a></div></nav></div></footer><script class="template" onLoad="this.className+=&#39; loaded&#39;" src="/templates/js.js/142.js" type="text/javascript"></script><script type="text/javascript">
+
+  function vztrackevent(a,b,c,d,e,f,g,h,i){
+    var label = e;
+    var value = (h || 0);
+    var nonint = (i || false);
+    if (g) {label = f+"."+g+": "+label;}
+    else if (f) {label = f+": "+label;}
+    var action = c+"/"+d;
+    var category = a+"/"+b;
+    if (typeof(dataLayer)!="undefined") {
+    dataLayer.push({
+      'event': 'vztrack',
+      'gaEvent': 'vztrack',
+      'gaEventCategory': category,
+      'gaEventAction': action,
+      'gaEventLabel': label,
+      'gaEventValue': value,
+      'gaNonInteraction': nonint
+    });
+    } else if (typeof(ga)!="undefined") {
+     ga('set', 'nonInteraction', i);
+     ga('send', {
+      'hitType': 'event', 
+      'eventCategory': category,
+      'eventAction': action,
+      'eventLabel': label,
+      'eventValue': value,
+      'nonInteraction': nonint
+     });
+    }
+
+    return true;
+
+  }
+
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,1572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.apple.com/itms/" lang="en">
+
+
+  <head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="keywords" content="Mac App Store" /><meta name="description" content="Mac App Store" /><meta name="platform-cache-id" content="13" />
+
+
+
+<title>Search Results</title>
+
+
+
+
+
+
+<script>
+if (!window.its) {
+    window.its = {};
+}
+its.markupLoadStartTime = new Date().getTime();
+
+if (!window.onerror) window.onerror = function(message, url, lineNumber) {
+    if (!window._earlyOnerrorException) {
+        window._earlyOnerrorException = {message: message,
+                                         url: url,
+                                         lineNumber: lineNumber};
+    }
+};
+</script>
+
+
+    
+    <link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/45a1392/da-storefront-base.css" />
+<link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/45a1392/da-storefront-search.css" />
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+<script type="text/javascript" charset="utf-8" src="/htmlResources/45a1392/frameworks-primaryinit01.js"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript" charset="utf-8">its.serverData={"storePlatformData":{},"constants":{"fetchSoftwareUpdatesUrl":"https://su.itunes.apple.com/WebObjects/MZSoftwareUpdate.woa/wa/fetchSoftwareUpdates","Urls":{"upgradeITunesUrl":"http://www.apple.com/itunes/download/","upgradeSafariUrl":"http://www.apple.com/safari/download/"},"MZMediaType":{"MobileSoftware":{"id":8,"name":"MobileSoftwareApplications"},"MacSoftware":{"id":12,"name":"DesktopApps"},"Audiobooks":{"id":3,"name":"Audiobooks"},"MusicVideos":{"id":5,"name":"MusicVideos"},"iTunesU":{"id":10,"name":"iTunesU"},"EBooks":{"id":11,"name":"EBooks"},"Music":{"id":1,"name":"Music"},"Podcasts":{"id":2,"name":"Podcasts"},"ClassicSoftware":{"id":7,"name":"iPodGames"},"TVShows":{"id":4,"name":"TVShows"},"Movies":{"id":6,"name":"Movies"},"Ringtones":{"id":9,"name":"Ringtones"},"Textbooks":{"id":13,"name":"Textbooks"}},"SFSortOrder":{"PlaylistName":{"id":9},"RecentBestSellers":{"id":18},"SeriesOrder":{"id":17},"CmcRecommended":{"id":10},"Popularity":{"id":3},"OriginalReleaseDate":{"id":19},"ArtistName":{"id":8},"Featured":{"id":1},"TopRated":{"id":5},"Duration":{"id":11},"ReleaseDate":{"id":2},"TrackNumber":{"id":13},"Name":{"id":0},"AllTimeBestSellers":{"id":14},"ExpirationDate":{"id":6},"Price":{"id":7},"MostRecent":{"id":16},"PurchaseDate":{"id":4},"DateAdded":{"id":15},"DiscNumber":{"id":12}},"SFEntityType":{"Artist":{"id":1},"Playlist":{"id":4},"TopContents":{"id":7},"MultiRoom":{"id":3},"Search":{"id":6},"WeMix":{"id":8},"Cmc":{"id":2},"Work":{"id":10},"Wishlist":{"id":9},"TopAuthors":{"id":12},"Room":{"id":5},"TheyMix":{"id":11}},"countryCode":"usa","languageCode":"en","SFCustomComponentCountryCode":"usa","IXDisplayableKind":{"Artist":{"id":20,"cssClasses":[],"name":"artist"},"MobileSoftware":{"id":11,"cssClasses":["application"],"name":"iosSoftware","mtId":"8"},"Album":{"id":2,"cssClasses":["album","music"],"name":"album","mtId":"1"},"ShortFilm":{"id":8,"cssClasses":["short-film","movie","video"],"name":"shortFilm","mtId":"6"},"PodcastEpisode":{"id":15,"cssClasses":["podcast-episode"],"name":"podcastEpisode","mtId":"2"},"ApplePubEBook":{"id":36,"cssClasses":["ebook"],"name":"ibook","mtId":"11"},"Song":{"id":1,"cssClasses":["song","music"],"name":"song","mtId":"1"},"MovieBundle":{"id":24,"cssClasses":["bundle","movie","video"],"name":"movieBundle","mtId":"6"},"RingtoneAlbum":{"id":22,"cssClasses":[],"name":"ringtoneAlbum","mtId":"9"},"Book":{"id":3,"cssClasses":["audiobook"],"name":"book","mtId":"3"},"ToneAlbum":{"id":32,"cssClasses":[],"name":"toneAlbum","mtId":"9"},"TVEpisode":{"id":6,"cssClasses":["tv-episode","tv","video"],"name":"tvEpisode","mtId":"4"},"TVSeason":{"id":7,"cssClasses":["tv-season","tv","video"],"name":"tvSeason","mtId":"4"},"Course":{"id":34,"cssClasses":["course","itunes-u"],"name":"course","mtId":"10"},"ClassicSoftwarePackage":{"id":18,"cssClasses":["ipod-game"],"name":"gamePackage","mtId":"7"},"Movie":{"id":9,"cssClasses":["movie","video"],"name":"movie","mtId":"6"},"Booklet":{"id":13,"cssClasses":["booklet","music"],"name":"booklet","mtId":"1"},"SocialArtist":{"id":28,"cssClasses":[],"name":"socialArtist"},"EBook":{"id":25,"cssClasses":["ebook"],"name":"epubBook","mtId":"11"},"MacSoftware":{"id":30,"cssClasses":["application","mac-application"],"name":"desktopApp","mtId":"12"},"MusicVideo":{"id":5,"cssClasses":["music-video","music","video"],"name":"musicVideo","mtId":"5"},"Ringtone":{"id":21,"cssClasses":[],"name":"ringtone","mtId":"9"},"Podcast":{"id":4,"cssClasses":["podcast"],"name":"podcast","mtId":"2"},"Concert":{"id":26,"cssClasses":[],"name":"concert","mtId":"1"},"ApplePubTextbook":{"id":37,"cssClasses":["ebook"],"name":"ibookTextbook","mtId":"13"},"SoftwareAddOn":{"id":16,"cssClasses":["software-add-on","application"],"name":"softwareAddOn","mtId":"8"},"Tone":{"id":31,"cssClasses":[],"name":"tone","mtId":"9"},"WeMix":{"id":19,"cssClasses":["wemix","music"],"name":"itunesMix","mtId":"1"},"SocialPerson":{"id":27,"cssClasses":[],"name":"socialPerson"},"ClassicSoftware":{"id":10,"cssClasses":["ipod-game"],"name":"ipodGame","mtId":"7"},"MetaEBook":{"id":35,"cssClasses":["ebook"],"name":"metaEbook","mtId":"13"},"iTunesPass":{"id":12,"cssClasses":["itunes-pass","album","music"],"name":"itunesPass","mtId":"1"},"Mix":{"id":14,"cssClasses":["mix","music"],"name":"mix","mtId":"1"},"TheyMix":{"id":33,"cssClasses":[],"name":"thirdPartyMix"}},"AddToWishlistResult":{"ItemIsFree":{"id":6},"ListFull":{"id":3},"SomeContentAlreadyOwnedButUnfulfilled":{"id":5},"SomeContentAlreadyInWishlist":{"id":1},"Success":{"id":0},"Failure":{"id":2},"SomeContentAlreadyOwned":{"id":4}},"getEmailUrl":"https://itunes.apple.com/WebObjects/MZStore.woa/wa/generateEmail?cc=us","resourceImagePathFrameworks":"https://s.mzstatic.com/htmlResources/45a1392/frameworks/images/","resourceBasePath":"https://s.mzstatic.com/htmlResources/45a1392"},"pageData":{},"properties":{"DAH.SharingMenu.WhitelistedServiceIds":["com.apple.share.Twitter.post","com.apple.share.Facebook.post","com.apple.share.Messages.compose"],"DAH.SharingMenu.HashTag":"#MacAppStore","DAH.SharingMenu.ServiceInfo":{"com.apple.share.Facebook.post":{"locKey":"DAH.SharingMenu.Facebook"},"com.apple.share.Twitter.post":{"locKey":"DAH.SharingMenu.Twitter"},"com.apple.share.Messages.compose":{"locKey":"DAH.SharingMenu.iChat"}},"clientStatsLoadTimeGroup":"4034","MZHtmlResourcesUtil.allowDeferJsLoad":true,"ITSServerEnvironment":"prod","ITSServerInstance":"205402","ITSResourceRevNum":"45a1392","resourceUrlPrefix":"https://s.mzstatic.com","ITSLogger.ServerReportingProtocol":"https","ITSLogger.ServerReportingDomain":"metrics.mzstatic.com","ITSLogger.ServerReportingApp":"MZUserXP","ITSLogger.RecordStatsAction":"recordStats","ITSLogger.SenderName":"ITSClient","ITSLogger.UseLegacyLogFormat":false,"ITSLogger.mirrorToServerByDefaultOnErrors":true,"DynaLoader.allowDynaLoading":true,"itsLoggerQueueProcessingInterval":10000,"cobaltBundleId":"com.apple.itunesu","getCobaltAppLink":"https://itunes.apple.com/us/app/id490217893","iTunesUEnrollLink":"https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us","cobaltLearnMore":"https://itunes.apple.com/us/learn-more?about=iTunesUUpgradePage\u0026type=2","isCobaltEnabled":true,"isCobaltJavascriptRedirectEnabled":true,"isCobaltUpsellPageEnabled":true,"personalizedButtonsEnabled":true,"SF6.Personalization.isCMAEnabled":true,"SF6.Personalization.isCMSEnabled":true,"SFJ.isNFAEnabledInStorefront":true,"SFJ.isRecommendationsSwooshEnabledInStorefront":true,"SF6.StorePlatform.whitelistParams":["caller","dsid","id","p"],"vendLastSupportedVersionIfAvailable":true,"vendLastSupportedVersionMacOs":true,"isBookGiftingEnabled":true,"metrics":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143441-1,13","language":"1","platformId":"13","platformName":"MacAppStore","storeFront":"143441","environmentDataCenter":"ST11"},"MacAppStore":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143441-1,13","language":"1","platformId":"13","platformName":"MacAppStore","storeFront":"143441","environmentDataCenter":"ST11"}}},"MZStore.shouldAttemptToEvaluateXpathSecondTime":true,"MZStore.shouldCacheElementTypeProtoObjects":true,"isStoweUpgradeDialogEnabled":false,"stoweUpgradeSize":1600000000,"isStopPageOneEnabled":false,"SF.isNotifyMeEnabled":false,"SF.notifyMeIds":[],"SF.notifyMeIdsWithAppleWatchApp":[],"SF.notifyMeIdsWithTvApp":[],"isMovieAnywhereEnabled":true}}</script>
+<script type="text/javascript" charset="utf-8">
+if (!window.iTSLocalization) { iTSLocalization = {}; }
+iTSLocalization._strings = {"Js.MyAlerts.GeniusActivationNeeded.Button":"Go to Genius", "DABuyButton.aria.accept":"Accept, @@name@@, Free", "DAH.SharingMenu.Twitter":"Share on Twitter", "Js.Wishlist.RemoveTooltip":"Remove from Wish List", "DABuyButtonAlreadyInstalledExplanation":"Do you want to buy @@name@@ @@version@@?", "MHJavascriptLocalizations.DIBuyButtonDownloading":"Downloading", "DAHSoftwareInstall.Status.EstimatedTime.LessThanAMinute":"less than a minute", "DAHSoftwareInstall.Status.EstimatedTime.SecondsLeft":"@@seconds@@ @@secondUnit@@", "Js.Showcase.Next":"Next Item", "Js.DA.BuyButton.Installed":"Installed", "Js.PreflightCheckWarning.Continue":"Continue", "DABuyButtonInstall":"Install App", "DABuyButtonNewerVersionAlreadyInstalledMessage":"A newer version of this app is already installed on this computer", "DAHSoftwareInstall.Status.Paused":"Paused", "Js.CNConnections.Dialog.GetStarted":"Get Started", "Js.ReportAConcern.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "DIBuyButtonDownloadingAria":"Downloading, @@name@@", "DABuyButton.aria.preOrder.buy":"Pre-order, @@name@@, @@price@@", "Js.TextTruncation.More":"More", "Js.QuickView.Unavailable.Title":"Quick View is currently unavailable for this item.", "CNConnections.Dialog.Post.Review.SignIn.Title":"Sign in to post.", "DAHSoftwareInstall.Status.EstimatedTime.hour":"hour", "CNConnections.Upload.UploadErrorHeading":"There is a Problem With Your Upload", "CNConnections.Dialog.StopFollowing.Message":"CNConnections.Dialog.StopFollowing.Message", "CNConnections.Dialog.OptIn.Title":"Ping Will No Longer Be Available as of September 30", "DIBuyButtonDownloadedAria":"Downloaded, @@name@@", "Js.MyAlerts.GeniusActivationNeeded.Explanation":"Alerts based on your library content will not be enabled until you have turned on Genius. To learn more, click Go to Genius.", "_thousandsSeparator":",", "InAppPurchases":"In-App Purchases", "DAHSoftwareInstall.Status.EstimatedTime.DaysLeft":"@@days@@ @@dayUnit@@ @@hours@@ @@hourUnit@@", 
+"Js.CNConnections.LoginRequired.Message":"This requires Ping. Ping will no longer be available as of September 30, and we are not accepting new members. If you are already a Ping member, sign in below to continue.", "Js.Pagination.PreviousPage":"Previous Page", "DAHSoftwareInstall.Status.Error.MultipleUsers.description":"To update, log out all other users who are currently logged in to this computer.", "Js.TellAFriend.SigninTitle":"Sign in to tell a friend.", "Js.InlineReview.RateThis":"Rate this", "Js.InlineReview.5":"it's great", "DAHSoftwareInstall.Status.EstimatedTime.minutes":"minutes", "Js.InlineReview.4":"it's good", "Js.InlineReview.3":"it's ok", "DABuyButtonPreOrdered":"Pre-Ordered", "DAHSoftwareInstall.Status.EstimatedTime.second":"second", "Js.InlineReview.2":"don't like it", "Js.InlineReview.1":"hate it", "Js.InlinePreview.StopPreview":"Stop preview of @@title@@", "DAPreordersNotAvailableOnYourOS":"To pre-order this app, update to macOS 10.13.2 or later.", "DAHSoftwareInstall.Status.WaitingToInstall":"Waiting to install…", "DABuyButtonAlreadyInstalledNoVersionMessage":"@@installedname@@ is already installed and was not purchased from the Mac App Store.", "Close":"Close", "CNConnections.Dialog.OptIn.Message":"CNConnections.Dialog.OptIn.Message", "Js.DA.BuyButton.Open":"Open", "Js.CreateAccount":"Create Apple ID", "DAHSoftwareInstall.Status.EstimatedTime.hours":"hours", "MZCommerce.Login_explanation":"Please enter your Apple ID and password and click Sign In.", "Js.CNConnections.OptInRequired.Title":"Ping", "Cancel":"Cancel", "DAHSoftwareInstall.Status.EstimatedTime.seconds":"seconds", "DABuyButton.aria.installed":"Installed, @@name@@", "DABuyButton.aria.preOrder.free":"Pre-order, @@name@@, Free", "Js.ManageArtistAlerts.CheckAll.Actors":"Check All Actors", "SF.AskToBuy.PermissionBannerText":"Your request was sent and is awaiting approval from a parent. They can also @@bannerLinkText@@ on this device.", "DABuyButtonSameVersionAlreadyInstalledExplanation":"Do you want to buy @@name@@ @@version@@ again?", "DAHSoftwareInstall.Status.FileSizeSeparator":".", "DAPreorderLabel":"Pre-Order", "More":"More", "DAHSoftwareInstall.Status.EstimatedTime.minute":"minute", "DABuyButtonPreOrder":"Pre-Order App", "Js.Pagination.DisabledButtonText":"disabled @@button_text@@", "Js.DA.BuyButton.Installing":"Installing", "Js.MyAlerts.CancelEmailSignUp.Message":"Are you sure you want to stop receiving email alerts?", "JS.errors.requiredLite":"Please fill in all required fields.", "CNConnections.Dialog.Post.Review.SignIn.Message":"CNConnections.Dialog.Post.Review.SignIn.Message", "SF.AskToBuy.PermissionBannerText.Free.bannerLinkText":"approve it in person", "MZCommerce.PurchaseBlockedForSpecialEdu_message":"This Apple ID can't be used to make purchases.", "Js.ManageArtistAlerts.UncheckAll.Artists":"Uncheck All Artists", "Buy":"Buy", "Js.InlineRating.SigninTitle":"Sign in to rate this item.", "Js.ManageArtistAlerts.UncheckAll.Actors":"Uncheck All Actors", "MHJavascriptLocalizations.DIBuyButtonDownload":"Download", 
+"Js.CNConnections.OptInRequired.Message":"This requires Ping. Ping will no longer be available as of September 30, and we are not accepting new members. If you are already a Ping member, sign in below to continue.", "DAHSoftwareInstall.Status.Downloading":"@@completed@@ of @@total@@", "DABuyButtonLearnMoreURL.Mavericks":"http://support.apple.com/kb/ht5842", "DABuyButtonLearnMoreURL.Lion":"http://support.apple.com/kb/ht4949", "DAHSoftwareInstall.Status.EstimatedTime.HoursLeft":"@@hours@@ @@hourUnit@@ @@minutes@@ @@minuteUnit@@", "Js.Search.HintsTitle":"Suggestions", "DAHSoftwareInstall.Status.EstimatedTime.MinutesLeft":"@@minutes@@ @@minuteUnit@@", "DABuyButtonLearnMoreURL.MtnLion":"http://support.apple.com/kb/ht5444", "DAHSoftwareInstall.Status.Error.MultipleUsers":"Multiple Users Logged In", "Js.InlinePreview.PlayPreview":"Play preview of @@title@@", "SignIn":"Sign In", "DAHSoftwareInstall.Status.Error":"An error has occurred", "Js.ManageArtistAlerts.UncheckAll":"Uncheck All", "Js.iTunesStoreError.Message":"We could not complete your request.", "DVHMusicPurchasesPage.Restored":"Unhidden", "DAHSoftwareInstall.Status.Waiting":"Waiting…", "Done":"Done", "DABuyButton.aria.open":"Open, @@name@@", "Js.Pagination.NextPage":"Next Page", "Js.CNConnections.RequestSent":"Request sent", "MHJavascriptLocalizations.DIBuyButtonDownloaded":"Downloaded", "DABuyButton.aria.install":"Install, @@name@@, Free", "DABuyButtonLearnMore":"Learn More", "DAH.SharingMenu.iChat":"Share in Messages", "CNConnections.Upload.UploadErrorMessage":"Sorry, there was an error during upload.", "Js.PreflightCheckFailedError.UpdateTitle":"We could not complete your update.", "Js.InlineReview.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "Js.PreflightCheckFailedError.Message":"This computer does not meet the minimum install requirements for the app", "Software.HasAddOns":"Offers In-App Purchases", "Less":"Less", "Js.MyAlerts.GeniusActivationNeeded.Message":"This requires Genius.", "Js.ManageArtistAlerts.CheckAll.Artists":"Check All Artists", "Js.TellAFriend.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "CNConnections.Dialog.StopFollowing.Title":"Are you sure you want to stop following @@fullName@@?", "Js.PreflightCheckFailedErrorWithAppName.Title":"We could not complete your purchase of @@appName@@", "DTHBuyInfo.actionText.Accept":"Accept", "Js.PreflightCheckFailedError.Title":"We could not complete your purchase.", "Js.InlineReview.SigninTitle":"Sign in to write a review.", "Js.InlineRating.SigninMessage":"Sign in to continue.", "DAHSoftwareInstall.Status.EstimatedTime.TimeLeft":"@@time@@ remaining", "Js.DA.BuyButton.Install":"Install", "DABuyButton.aria.confirm.buy":"Confirm, Buy, @@name@@, @@price@@", "DAHSoftwareInstall.Status.EstimatedTime.days":"days", "Js.Pagination.Back":"Back", "DABuyButton.aria.installing":"Installing, @@name@@", "DTHBuyInfo.actionText.Gratis":"Free", "CNConnections.Dialog.PrivateUser.IllegalAction.Message":"If you would like to perform this action, please change your privacy settings.", "DAPreorderedLabel":"Pre-Ordered", "DAHSoftwareInstall.Status.EstimatedTime.day":"day", "DVHMusicPurchasesPage.Restore":"Unhide", "DABuyButton.aria.confirm.install":"Confirm, Install, @@name@@, Free", "DAHSoftwareInstall.Status.Installing":"Installing", "Js.QuickView.Unavailable.Text":"Please try again later.", "Js.MyAlerts.ConfirmEmailSignUp.Explanation":"You can change this preference at any time from your My Alerts page.", "Js.CNConnections.Dialog.Cancel":"Cancel", "Js.CNConnections.PeoplePopupMore":"and @@count@@ other@@s@@...", "Js.CNConnections.Confirmed":"Confirmed", "Js.CNConnections.UserReview.YouLiked":"You Liked", "MHJavascriptLocalizations.DIBuyButtonUpdate":"Update", "Yes":"Yes", "Js.Pagination.Next":"Next", "DABuyButton.aria.preOrdered":"Pre-ordered, @@name@@", "Js.ManageArtistAlerts.CheckAll":"Check All", "Js.ReportAConcern.SigninTitle":"Sign in to report a concern.", "Js.MyAlerts.CancelEmailSignUp.Explanation":"You can change this preference at any time from your My Alerts page.", "CNConnections.Dialog.PrivateUser.LeakyAction.Message":"This action will make your profile photo and name visible to others.", "Js.TextLimit.Remaining":"@@count@@ characters remaining", "CNConnections.Dialog.PrivateUser.LeakyAction.Title":"Are you sure you want to perform this action?", "DABuyButtonBuyNow":"Buy App", "Js.Pagination.PageNumberTitle":"page @@num@@", "DABuyButtonPreOrderedAllCaps":"PRE-ORDERED", "SF.AskToBuy.PermissionBannerText.bannerLinkText":"approve it in person", "OK":"OK", "Js.InlineReview.Thanks":"Thanks!", "Js.InlineReview.Error":"Error", "CNConnections.Dialog.Like.Review.SignIn.Message":"CNConnections.Dialog.Like.Review.SignIn.Message", "Js.List.Item":"item", "DABuyButtonAlreadyInstalledMessage":"@@installedname@@ @@installedversion@@ is already installed and was not purchased from the Mac App Store.", "No":"No", "Js.iTunesStoreError.Explanation":"There was an error in the App Store. Please try again later.", "Js.InlineReview.ClickToRate":"Click to rate", "DABuyButtonNewerVersionAlreadyInstalledExplanation":"If you want to replace it with this version, move the existing app to the trash.", "CNConnections.Dialog.PrivateUser.IllegalAction.Title":"Private users may not perform this action.", "DABuyButton.aria.buy":"Buy, @@name@@, @@price@@", "Js.MyAlerts.ConfirmEmailSignUp.Message":"Are you sure you want to receive email alerts?", "CNConnections.Dialog.OptIn.ButtonSubmit":"Learn More", "_decimalSeparator":".", "CNConnections.Dialog.OptIn.ButtonCancel":"Cancel", "MZCommerce.Login_message":"Sign In", "DIBuyButtonRedownloadAria":"Download, @@name@@: Free", "Js.CNConnections.LoginRequired.Title":"Sign in to access Ping.", "CNConnections.Dialog.OptIn.ButtonSignIn":"Sign In", "Js.Pagination.PageNumber":"Page @@num@@", "DAHSoftwareInstall.Status.EstimatedTime.Calculating":"Calculating…", "DAH.SharingMenu.Facebook":"Share to Facebook", "DIBuyButtonUpdateAria":"Update, @@name@@", "CNConnections.Dialog.Like.Review.SignIn.Title":"Sign in to like a review.", "Js.PreflightCheckWarning.Title":"Would you like to continue?", "CNConnections.Upload.MaxPhotosErrorMessage":"You can have no more than 20 photos in one post."}
+</script>
+
+<script type="text/javascript" charset="utf-8" src="/htmlResources/45a1392/da-storefront-base.js"></script>
+<script type="text/javascript" charset="utf-8" src="/htmlResources/45a1392/da-storefront-sharing.js"></script>
+
+
+
+
+
+
+
+</head>
+
+  <body data-country="usa" buy-button-metadata-url="https://se-edge.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/buyButtonMetaData" class="usa en search">
+  <script type="text/javascript">
+    if (window['iTSKit']) { iTSKit.preLoad(); }
+    if (window.its && its.kit) { its.kit.preload(); }
+  </script>
+
+  
+
+  
+  <div id="page">
+    <div id="wrapper">
+
+      <div id="content">
+
+        <div class="background"></div>
+
+        
+
+        
+
+        
+
+    <div class="columns">
+      <div class="main">
+
+        
+          
+
+          
+          <div display-page-number-separately="true" page-number-parameter="page" pill-identifier-parameter="pill" sort-key-parameter="sortOrdering" goto-page-href="https://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?cc=us&pageCount=120&q=xcode" class="lockup-container paginate application mac-application numbered">
+  <div class="title">
+    <h2>Search Results for “xcode”</h2>
+    
+    
+    	
+	  
+    
+    <div class="select sort-controls">
+  <label>
+    <span>Sort By:</span>
+    <select metrics-loc="Selector">
+      
+        <option value="10" metrics-loc="Relevance">
+          Relevance
+        </option>
+      
+        <option value="6" metrics-loc="Most Popular">
+          Most Popular
+        </option>
+      
+        <option value="2" metrics-loc="Release Date">
+          Release Date
+        </option>
+      
+        <option value="13" metrics-loc="Customer Rating">
+          Customer Rating
+        </option>
+      
+    </select>
+  </label>
+</div>
+    
+  </div>
+  <div class="content-and-controls">
+    <div class="paginated-container">
+      <div page-number="1" sort-key pill-identifier="0" total-number-of-pages="1" class="paginated-content"><div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Xcode" adam-id="497799835" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/6e/9a/e6/6e9ae6c2-5613-997e-a7be-18690e0c3f61/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/6e/9a/e6/6e9ae6c2-5613-997e-a7be-18690e0c3f61/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12">Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='3 stars, 2231 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">2231 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=497799835&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828917606" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/xcode/id497799835?mt=12&#34;}" minimumOSVersion="10.13.6" bundle-id="com.apple.dt.Xcode" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/d7/76/65/d776650d-fff2-5029-580f-c9e865c6dcce/signed.dcr.4817363945867013164.pfpkg" versionID="828917606" adam-id="497799835" dk-id="30" item-name="Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=497799835&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828917606" version-string="10.1" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/6e/9a/e6/6e9ae6c2-5613-997e-a7be-18690e0c3f61/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=497799835&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Swiftify for Xcode" adam-id="1183412116" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/swiftify-for-xcode/id1183412116?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Swiftify for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/19/dc/a9/19dca928-4550-fefc-1f8e-9d1d79b34995/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/19/dc/a9/19dca928-4550-fefc-1f8e-9d1d79b34995/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/swiftify-for-xcode/id1183412116?mt=12">Swiftify for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 28 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">28 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1183412116&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828885029" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/swiftify-for-xcode/id1183412116?mt=12&#34;}" minimumOSVersion="10.12" bundle-id="com.Swiftify.Xcode" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/1f/74/5c/1f745cfb-5a66-d5f0-2727-cb14a6874d6e/signed.dcr.8197142456440368838.pfpkg" versionID="828885029" adam-id="1183412116" dk-id="30" item-name="Swiftify for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=1183412116&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828885029" version-string="4.4.3" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/19/dc/a9/19dca928-4550-fefc-1f8e-9d1d79b34995/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Swiftify for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/swiftify-for-xcode/id1183412116?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1183412116&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Code School for Xcode Free -Learn How to Make Apps" adam-id="1179007212" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/code-school-for-xcode-free-learn-how-to-make-apps/id1179007212?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Code School for Xcode Free -Learn How to Make Apps" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/c6/aa/c6/c6aac6ea-66b1-e8c0-e43c-738298218491/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/c6/aa/c6/c6aac6ea-66b1-e8c0-e43c-738298218491/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/code-school-for-xcode-free-learn-how-to-make-apps/id1179007212?mt=12">Code School for Xcode Free -Learn How to Make Apps</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1179007212&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=820658254" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/code-school-for-xcode-free-learn-how-to-make-apps/id1179007212?mt=12&#34;}" minimumOSVersion="10.9.0" bundle-id="com.9bestapp.xcodelessonfree" original-price="Get" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple111/v4/0f/45/59/0f455927-8a7e-4c9c-b882-fcf6ce3d7ff5/signed.dcr.3785003880682574919.pfpkg" versionID="820658254" adam-id="1179007212" dk-id="30" item-name="Code School for Xcode Free -Learn How to Make Apps" buy-params="productType=C&amp;price=0&amp;salableAdamId=1179007212&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=820658254" version-string="1.1.3" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/c6/aa/c6/c6aac6ea-66b1-e8c0-e43c-738298218491/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Code School for Xcode Free -Learn How to Make Apps">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/code-school-for-xcode-free-learn-how-to-make-apps/id1179007212?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1179007212&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="App School for Xcode and  iOS 10 Development Free" adam-id="1163893338" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/app-school-for-xcode-and-ios-10-development-free/id1163893338?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="App School for Xcode and  iOS 10 Development Free" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple71/v4/2d/c6/b4/2dc6b405-dbbb-f938-118a-86d0ba79ec87/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple71/v4/2d/c6/b4/2dc6b405-dbbb-f938-118a-86d0ba79ec87/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/app-school-for-xcode-and-ios-10-development-free/id1163893338?mt=12">App School for Xcode and  iOS 10 Development Free</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 stars, 10 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">10 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1163893338&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=819242853" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/app-school-for-xcode-and-ios-10-development-free/id1163893338?mt=12&#34;}" minimumOSVersion="10.6" bundle-id="com.taptopia.appschool2" original-price="Get" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple71/v4/28/42/d1/2842d139-dce9-1674-626d-fc400ced67a0/signed.dcr.1695877872522488680.pfpkg" versionID="819242853" adam-id="1163893338" dk-id="30" item-name="App School for Xcode and  iOS 10 Development Free" buy-params="productType=C&amp;price=0&amp;salableAdamId=1163893338&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=819242853" version-string="1.0" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple71/v4/2d/c6/b4/2dc6b405-dbbb-f938-118a-86d0ba79ec87/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for App School for Xcode and  iOS 10 Development Free">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/app-school-for-xcode-and-ios-10-development-free/id1163893338?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1163893338&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="BlockComment for Xcode" adam-id="1246672247" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/blockcomment-for-xcode/id1246672247?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="BlockComment for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple117/v4/c8/18/1c/c8181c2d-7246-f7de-297b-4b26ffc77f60/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple117/v4/c8/18/1c/c8181c2d-7246-f7de-297b-4b26ffc77f60/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/blockcomment-for-xcode/id1246672247?mt=12">BlockComment for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='5 stars, 7 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div><span class="rating-count">7 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1246672247&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=822490268" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/blockcomment-for-xcode/id1246672247?mt=12&#34;}" minimumOSVersion="10.12" bundle-id="com.zzk.BlockComment" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple127/v4/da/fa/9f/dafa9f17-84ee-90dd-d9c9-820d72b1c3dc/signed.dcr.8641767232630673231.pfpkg" versionID="822490268" adam-id="1246672247" dk-id="30" item-name="BlockComment for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=1246672247&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=822490268" version-string="1.0.0" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple117/v4/c8/18/1c/c8181c2d-7246-f7de-297b-4b26ffc77f60/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for BlockComment for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/blockcomment-for-xcode/id1246672247?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1246672247&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Watchdog for Xcode" adam-id="734258109" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/watchdog-for-xcode/id734258109?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Watchdog for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/61/50/e0/6150e0ee-31f7-5d95-391e-a882d64bbd34/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/61/50/e0/6150e0ee-31f7-5d95-391e-a882d64bbd34/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/watchdog-for-xcode/id734258109?mt=12">Watchdog for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 17 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">17 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=734258109&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=579892650" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/watchdog-for-xcode/id734258109?mt=12&#34;}" minimumOSVersion="10.11" bundle-id="com.cerebralgardens.watchdog" original-price="$4.99" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/9b/b9/72/9bb97243-a68d-5f91-8e08-d66e26b74e49/signed.dcr.1484643704748072395.pfpkg" versionID="579892650" adam-id="734258109" dk-id="30" item-name="Watchdog for Xcode" buy-params="productType=C&amp;price=4990&amp;salableAdamId=734258109&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=579892650" version-string="1.9" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/61/50/e0/6150e0ee-31f7-5d95-391e-a882d64bbd34/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$4.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$4.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Watchdog for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/watchdog-for-xcode/id734258109?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=734258109&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="IDAssetManager Lite for Xcode" adam-id="830464758" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/idassetmanager-lite-for-xcode/id830464758?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="IDAssetManager Lite for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple3/v4/93/73/8e/93738e7d-cec6-99fe-e83f-b1679c6e4b26/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple3/v4/93/73/8e/93738e7d-cec6-99fe-e83f-b1679c6e4b26/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/idassetmanager-lite-for-xcode/id830464758?mt=12">IDAssetManager Lite for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=830464758&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=734996149" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/idassetmanager-lite-for-xcode/id830464758?mt=12&#34;}" minimumOSVersion="10.8" bundle-id="dk.idealdev.idassetmanagerlite" original-price="Get" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple69/v4/15/14/ea/1514ead6-ac15-7624-049f-14b83fa14de8/encrypted8609710391032372077.pfpkg" versionID="734996149" adam-id="830464758" dk-id="30" item-name="IDAssetManager Lite for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=830464758&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=734996149" version-string="1.13" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple3/v4/93/73/8e/93738e7d-cec6-99fe-e83f-b1679c6e4b26/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for IDAssetManager Lite for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/idassetmanager-lite-for-xcode/id830464758?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=830464758&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Course for Xcode 7 Lite" adam-id="1083165894" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/course-for-xcode-7-lite/id1083165894?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Course for Xcode 7 Lite" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple69/v4/06/04/a9/0604a971-0caa-e807-b6db-fb26bd88b516/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple69/v4/06/04/a9/0604a971-0caa-e807-b6db-fb26bd88b516/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/course-for-xcode-7-lite/id1083165894?mt=12">Course for Xcode 7 Lite</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1083165894&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=816418377" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/course-for-xcode-7-lite/id1083165894?mt=12&#34;}" minimumOSVersion="10.6" bundle-id="com.bluewater.courseforxcode" original-price="Get" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple69/v4/a9/a4/7e/a9a47eee-4788-9b5e-1eb6-e6cdfca6432d/encrypted5105479803728196430.pfpkg" versionID="816418377" adam-id="1083165894" dk-id="30" item-name="Course for Xcode 7 Lite" buy-params="productType=C&amp;price=0&amp;salableAdamId=1083165894&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=816418377" version-string="1.0" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple69/v4/06/04/a9/0604a971-0caa-e807-b6db-fb26bd88b516/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Course for Xcode 7 Lite">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/course-for-xcode-7-lite/id1083165894?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1083165894&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="EnumHelper for Xcode" adam-id="1168548047" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/enumhelper-for-xcode/id1168548047?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="EnumHelper for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple71/v4/de/9b/1c/de9b1c09-fe95-f472-cdd9-f111fbd6370c/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple71/v4/de/9b/1c/de9b1c09-fe95-f472-cdd9-f111fbd6370c/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/enumhelper-for-xcode/id1168548047?mt=12">EnumHelper for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1168548047&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=819436866" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/enumhelper-for-xcode/id1168548047?mt=12&#34;}" minimumOSVersion="10.11" bundle-id="hideyuki.okuni.EnumHelperForXcode" original-price="Get" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple71/v4/3d/47/37/3d473741-f666-737c-63d4-ccf4fdfe3c90/signed.dcr.5662560137646606613.pfpkg" versionID="819436866" adam-id="1168548047" dk-id="30" item-name="EnumHelper for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=1168548047&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=819436866" version-string="1.0.0" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple71/v4/de/9b/1c/de9b1c09-fe95-f472-cdd9-f111fbd6370c/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for EnumHelper for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/enumhelper-for-xcode/id1168548047?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1168548047&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="LanguageTranslator for Xcode" adam-id="1218781096" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/languagetranslator-for-xcode/id1218781096?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="LanguageTranslator for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/af/b3/a9/afb3a95f-9d9d-4fd0-436a-aa45b1421c27/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/af/b3/a9/afb3a95f-9d9d-4fd0-436a-aa45b1421c27/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/languagetranslator-for-xcode/id1218781096?mt=12">LanguageTranslator for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1218781096&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=821462568" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/languagetranslator-for-xcode/id1218781096?mt=12&#34;}" minimumOSVersion="10.12" bundle-id="net.homeunix.hio.app.LanguageTranslator" original-price="Get" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple122/v4/08/70/3c/08703cd6-2950-ae8c-ff6a-602d655910f5/signed.dcr.2450111398039757493.pfpkg" versionID="821462568" adam-id="1218781096" dk-id="30" item-name="LanguageTranslator for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=1218781096&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=821462568" version-string="1.0.1" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/af/b3/a9/afb3a95f-9d9d-4fd0-436a-aa45b1421c27/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for LanguageTranslator for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/languagetranslator-for-xcode/id1218781096?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1218781096&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="NamingTranslator for Xcode" adam-id="1218784832" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/namingtranslator-for-xcode/id1218784832?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="NamingTranslator for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple111/v4/bd/9e/2b/bd9e2b25-57bf-07b8-3de0-ec59e045504e/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple111/v4/bd/9e/2b/bd9e2b25-57bf-07b8-3de0-ec59e045504e/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/namingtranslator-for-xcode/id1218784832?mt=12">NamingTranslator for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1218784832&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=821462713" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/namingtranslator-for-xcode/id1218784832?mt=12&#34;}" minimumOSVersion="10.12" bundle-id="net.homeunix.hio.app.NamingTranslator" original-price="Get" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple122/v4/53/22/56/53225684-7f84-ea37-8b57-66b5e6e89565/signed.dcr.5030370447040635775.pfpkg" versionID="821462713" adam-id="1218784832" dk-id="30" item-name="NamingTranslator for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=1218784832&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=821462713" version-string="1.0.1" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple111/v4/bd/9e/2b/bd9e2b25-57bf-07b8-3de0-ec59e045504e/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for NamingTranslator for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/namingtranslator-for-xcode/id1218784832?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1218784832&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Cleaner for Xcode" adam-id="1296084683" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/cleaner-for-xcode/id1296084683?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Cleaner for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2e/64/f1/2e64f159-d657-fc46-4dfc-81cbb713658a/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2e/64/f1/2e64f159-d657-fc46-4dfc-81cbb713658a/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/cleaner-for-xcode/id1296084683?mt=12">Cleaner for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='5 stars, 5 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div><span class="rating-count">5 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1296084683&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828931319" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/cleaner-for-xcode/id1296084683?mt=12&#34;}" minimumOSVersion="10.14" bundle-id="io.hyperapp.XcodeCleaner" original-price="$0.99" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/c4/2e/85/c42e85f2-6d64-b210-5e62-dfa29a88cea0/signed.dcr.5646991803892313903.pfpkg" versionID="828931319" adam-id="1296084683" dk-id="30" item-name="Cleaner for Xcode" buy-params="productType=C&amp;price=990&amp;salableAdamId=1296084683&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828931319" version-string="1.0.2" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2e/64/f1/2e64f159-d657-fc46-4dfc-81cbb713658a/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$0.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$0.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Cleaner for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/cleaner-for-xcode/id1296084683?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1296084683&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Code School for Xcode PRO - Learn Coding for iOS" adam-id="1159371870" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/code-school-for-xcode-pro-learn-coding-for-ios/id1159371870?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Code School for Xcode PRO - Learn Coding for iOS" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/74/a2/6f/74a26fea-3d44-5900-8b86-44926c1c5385/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/74/a2/6f/74a26fea-3d44-5900-8b86-44926c1c5385/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/code-school-for-xcode-pro-learn-coding-for-ios/id1159371870?mt=12">Code School for Xcode PRO - Learn Coding for iOS</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1159371870&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=819755121" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/code-school-for-xcode-pro-learn-coding-for-ios/id1159371870?mt=12&#34;}" minimumOSVersion="10.9.0" bundle-id="com.9bestapp.xcodelesson" original-price="$9.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple111/v4/23/64/fa/2364fa62-6dc3-091d-b5de-7b51f4ffadbd/signed.dcr.4758737041029687624.pfpkg" versionID="819755121" adam-id="1159371870" dk-id="30" item-name="Code School for Xcode PRO - Learn Coding for iOS" buy-params="productType=C&amp;price=9990&amp;salableAdamId=1159371870&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=819755121" version-string="1.1.2" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/74/a2/6f/74a26fea-3d44-5900-8b86-44926c1c5385/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$9.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$9.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Code School for Xcode PRO - Learn Coding for iOS">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/code-school-for-xcode-pro-learn-coding-for-ios/id1159371870?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1159371870&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="TabifyIndents for Xcode" adam-id="1179234554" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/tabifyindents-for-xcode/id1179234554?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="TabifyIndents for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple71/v4/bb/5a/d4/bb5ad48a-8f80-00e3-8e3e-c74eac450de4/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple71/v4/bb/5a/d4/bb5ad48a-8f80-00e3-8e3e-c74eac450de4/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/tabifyindents-for-xcode/id1179234554?mt=12">TabifyIndents for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1179234554&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=819868256" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/tabifyindents-for-xcode/id1179234554?mt=12&#34;}" minimumOSVersion="10.12" bundle-id="net.homeunix.hio.app.TabifyIndents" original-price="Get" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple71/v4/a9/2d/d2/a92dd261-f8a1-fc6e-dfb6-376da7227434/signed.dcr.8350551917892937024.pfpkg" versionID="819868256" adam-id="1179234554" dk-id="30" item-name="TabifyIndents for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=1179234554&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=819868256" version-string="1.0.1" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple71/v4/bb/5a/d4/bb5ad48a-8f80-00e3-8e3e-c74eac450de4/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for TabifyIndents for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/tabifyindents-for-xcode/id1179234554?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1179234554&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="App School for Xcode and  iOS 10 Development" adam-id="1153372713" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/app-school-for-xcode-and-ios-10-development/id1153372713?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="App School for Xcode and  iOS 10 Development" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/70/28/c2/7028c23a-b72b-383c-e5e8-fae10fd4f820/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/70/28/c2/7028c23a-b72b-383c-e5e8-fae10fd4f820/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/app-school-for-xcode-and-ios-10-development/id1153372713?mt=12">App School for Xcode and  iOS 10 Development</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1153372713&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=819564534" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/app-school-for-xcode-and-ios-10-development/id1153372713?mt=12&#34;}" minimumOSVersion="10.6" bundle-id="com.taptopia.appschool" original-price="$12.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple71/v4/ad/aa/ed/adaaedab-e537-f1f1-2c46-ac0f13f3da38/signed.dcr.9018756760227804254.pfpkg" versionID="819564534" adam-id="1153372713" dk-id="30" item-name="App School for Xcode and  iOS 10 Development" buy-params="productType=C&amp;price=12990&amp;salableAdamId=1153372713&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=819564534" version-string="1.2" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/70/28/c2/7028c23a-b72b-383c-e5e8-fae10fd4f820/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$12.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$12.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for App School for Xcode and  iOS 10 Development">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/app-school-for-xcode-and-ios-10-development/id1153372713?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1153372713&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Project Analyzer for Xcode 4" adam-id="451202534" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/project-analyzer-for-xcode-4/id451202534?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Project Analyzer for Xcode 4" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/ee/ca/68/eeca685b-0e13-9e15-8a59-4d9c9a6d0087/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/ee/ca/68/eeca685b-0e13-9e15-8a59-4d9c9a6d0087/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/project-analyzer-for-xcode-4/id451202534?mt=12">Project Analyzer for Xcode 4</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='3 stars, 6 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">6 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=451202534&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=6282570" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/project-analyzer-for-xcode-4/id451202534?mt=12&#34;}" minimumOSVersion="10.6" bundle-id="uk.co.insili.Project-Analyzer-for-Xcode-4" original-price="$5.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple49/v4/6c/6c/4c/6c6c4cdc-79fe-f690-5c45-80ffe93d8418/encrypted8107146237066897314.pfpkg" versionID="6282570" adam-id="451202534" dk-id="30" item-name="Project Analyzer for Xcode 4" buy-params="productType=C&amp;price=5990&amp;salableAdamId=451202534&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=6282570" version-string="1.3" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/ee/ca/68/eeca685b-0e13-9e15-8a59-4d9c9a6d0087/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$5.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$5.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Project Analyzer for Xcode 4">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/project-analyzer-for-xcode-4/id451202534?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=451202534&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Project Statistics for Xcode" adam-id="650764572" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/project-statistics-for-xcode/id650764572?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Project Statistics for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple/v4/db/7b/b5/db7bb5b9-43dd-e81a-6ef9-aa301caca671/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple/v4/db/7b/b5/db7bb5b9-43dd-e81a-6ef9-aa301caca671/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/project-statistics-for-xcode/id650764572?mt=12">Project Statistics for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='2 and a half stars, 12 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">12 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=650764572&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=460712642" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/project-statistics-for-xcode/id650764572?mt=12&#34;}" minimumOSVersion="10.8" bundle-id="com.lamobratory.prostxcode" original-price="$4.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple49/v4/e2/40/a8/e240a857-94aa-bf31-838f-8838e1e33d89/encrypted1621340674739072515.pfpkg" versionID="460712642" adam-id="650764572" dk-id="30" item-name="Project Statistics for Xcode" buy-params="productType=C&amp;price=4990&amp;salableAdamId=650764572&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=460712642" version-string="2.0.2" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple/v4/db/7b/b5/db7bb5b9-43dd-e81a-6ef9-aa301caca671/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$4.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$4.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Project Statistics for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/project-statistics-for-xcode/id650764572?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=650764572&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Templates SourceCode for Xcode" adam-id="882416115" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/templates-sourcecode-for-xcode/id882416115?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Templates SourceCode for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple127/v4/a5/47/19/a5471990-cbd2-51be-44c9-006c4d55fd07/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple127/v4/a5/47/19/a5471990-cbd2-51be-44c9-006c4d55fd07/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/templates-sourcecode-for-xcode/id882416115?mt=12">Templates SourceCode for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=882416115&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=592872778" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/templates-sourcecode-for-xcode/id882416115?mt=12&#34;}" minimumOSVersion="10.7" bundle-id="it.giuliocaruso.xcode" original-price="$0.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple49/v4/c3/a1/65/c3a16507-99c4-fb04-bff8-6bbbadef762c/encrypted7759362362455335687.pfpkg" versionID="592872778" adam-id="882416115" dk-id="30" item-name="Templates SourceCode for Xcode" buy-params="productType=C&amp;price=990&amp;salableAdamId=882416115&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=592872778" version-string="1.0" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple127/v4/a5/47/19/a5471990-cbd2-51be-44c9-006c4d55fd07/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$0.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$0.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Templates SourceCode for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/templates-sourcecode-for-xcode/id882416115?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=882416115&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Swiftly-Clean for Xcode and Swift" adam-id="1040160984" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/swiftly-clean-for-xcode-and-swift/id1040160984?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Swiftly-Clean for Xcode and Swift" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple71/v4/39/84/39/39843993-a2a2-9ed4-75be-e178281928a7/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple71/v4/39/84/39/39843993-a2a2-9ed4-75be-e178281928a7/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/swiftly-clean-for-xcode-and-swift/id1040160984?mt=12">Swiftly-Clean for Xcode and Swift</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1040160984&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=819956299" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/swiftly-clean-for-xcode-and-swift/id1040160984?mt=12&#34;}" minimumOSVersion="10.8" bundle-id="com.swiftClean" original-price="$9.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple122/v4/f6/00/df/f600df9a-d330-03a4-86be-edb8e1b99dd9/signed.dcr.673197176254908934.pfpkg" versionID="819956299" adam-id="1040160984" dk-id="30" item-name="Swiftly-Clean for Xcode and Swift" buy-params="productType=C&amp;price=9990&amp;salableAdamId=1040160984&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=819956299" version-string="2.0" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple71/v4/39/84/39/39843993-a2a2-9ed4-75be-e178281928a7/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$9.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$9.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Swiftly-Clean for Xcode and Swift">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/swiftly-clean-for-xcode-and-swift/id1040160984?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1040160984&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Pastery for Xcode" adam-id="1214720236" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/pastery-for-xcode/id1214720236?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Pastery for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/61/c4/ab/61c4abdc-e118-f210-4cd4-6468e1690563/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/61/c4/ab/61c4abdc-e118-f210-4cd4-6468e1690563/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/pastery-for-xcode/id1214720236?mt=12">Pastery for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1214720236&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=821582886" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/pastery-for-xcode/id1214720236?mt=12&#34;}" minimumOSVersion="10.12" bundle-id="net.pastery.xcode" original-price="Get" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple122/v4/5e/1d/98/5e1d98c1-6c72-2c11-5736-101ca7377be2/signed.dcr.6733407824198751299.pfpkg" versionID="821582886" adam-id="1214720236" dk-id="30" item-name="Pastery for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=1214720236&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=821582886" version-string="1.2" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/61/c4/ab/61c4abdc-e118-f210-4cd4-6468e1690563/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Pastery for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/pastery-for-xcode/id1214720236?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1214720236&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="AppIcon Maker for Xcode" adam-id="949142405" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/appicon-maker-for-xcode/id949142405?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="AppIcon Maker for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple5/v4/e7/5c/7d/e75c7d65-c98b-2757-79a1-11d510cdcb3a/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple5/v4/e7/5c/7d/e75c7d65-c98b-2757-79a1-11d510cdcb3a/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/appicon-maker-for-xcode/id949142405?mt=12">AppIcon Maker for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=949142405&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=811994566" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/appicon-maker-for-xcode/id949142405?mt=12&#34;}" minimumOSVersion="10.8" bundle-id="it.giuliocaruso.iconosx" original-price="$0.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple69/v4/61/12/01/61120102-8b78-e992-7778-b09f229f54f8/encrypted223517550642028031.pfpkg" versionID="811994566" adam-id="949142405" dk-id="30" item-name="AppIcon Maker for Xcode" buy-params="productType=C&amp;price=990&amp;salableAdamId=949142405&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=811994566" version-string="2.0" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple5/v4/e7/5c/7d/e75c7d65-c98b-2757-79a1-11d510cdcb3a/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$0.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$0.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for AppIcon Maker for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/appicon-maker-for-xcode/id949142405?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=949142405&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Protocol for Xcode" adam-id="1212245111" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/protocol-for-xcode/id1212245111?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Protocol for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple117/v4/ba/62/1e/ba621e7c-61f7-a821-8065-7371e1f6b6b9/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple117/v4/ba/62/1e/ba621e7c-61f7-a821-8065-7371e1f6b6b9/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/protocol-for-xcode/id1212245111?mt=12">Protocol for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1212245111&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=822059668" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/protocol-for-xcode/id1212245111?mt=12&#34;}" minimumOSVersion="10.11" bundle-id="de.pmw.ProtocolExtension" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple127/v4/40/24/4a/40244a04-6211-6ca4-5b3c-1bd208579e9d/signed.dcr.8662558666118706290.pfpkg" versionID="822059668" adam-id="1212245111" dk-id="30" item-name="Protocol for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=1212245111&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=822059668" version-string="0.1.0" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple117/v4/ba/62/1e/ba621e7c-61f7-a821-8065-7371e1f6b6b9/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Protocol for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/protocol-for-xcode/id1212245111?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1212245111&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="AssetsGenerator for Xcode" adam-id="1053790590" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/assetsgenerator-for-xcode/id1053790590?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="AssetsGenerator for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/4c/a3/22/4ca3225d-b061-8e62-c5bd-cba2ab710113/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/4c/a3/22/4ca3225d-b061-8e62-c5bd-cba2ab710113/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/assetsgenerator-for-xcode/id1053790590?mt=12">AssetsGenerator for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1053790590&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828599660" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/assetsgenerator-for-xcode/id1053790590?mt=12&#34;}" minimumOSVersion="10.10" bundle-id="tw.doitwell.AssetsGenerator" original-price="$1.99" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/9c/02/34/9c0234bf-06d1-d5b0-5d30-dcb6b8217e29/signed.dcr.2881263384064658545.pfpkg" versionID="828599660" adam-id="1053790590" dk-id="30" item-name="AssetsGenerator for Xcode" buy-params="productType=C&amp;price=1990&amp;salableAdamId=1053790590&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828599660" version-string="1.5.0" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/4c/a3/22/4ca3225d-b061-8e62-c5bd-cba2ab710113/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$1.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$1.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for AssetsGenerator for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/assetsgenerator-for-xcode/id1053790590?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1053790590&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="MetaObjects for Xcode" adam-id="1436310466" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/metaobjects-for-xcode/id1436310466?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="MetaObjects for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/18/29/c1/1829c103-3578-0afa-0bff-3ab924a88ef1/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/18/29/c1/1829c103-3578-0afa-0bff-3ab924a88ef1/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/metaobjects-for-xcode/id1436310466?mt=12">MetaObjects for Xcode</a></li><li class="genre">Productivity</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1436310466&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828598770" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/metaobjects-for-xcode/id1436310466?mt=12&#34;}" minimumOSVersion="10.12" bundle-id="com.sergiomtzlosa.filtervideo" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/06/3e/4e/063e4ed5-3607-03e4-bd9d-5613cea0cc63/signed.dcr.3903230166572428697.pfpkg" versionID="828598770" adam-id="1436310466" dk-id="30" item-name="MetaObjects for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=1436310466&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828598770" version-string="1.0" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/18/29/c1/1829c103-3578-0afa-0bff-3ab924a88ef1/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for MetaObjects for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/metaobjects-for-xcode/id1436310466?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1436310466&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Alignment for Xcode" adam-id="1168397789" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/alignment-for-xcode/id1168397789?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Alignment for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/bd/9c/35/bd9c35cf-dcb1-1a35-878d-a600a7159656/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/bd/9c/35/bd9c35cf-dcb1-1a35-878d-a600a7159656/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/alignment-for-xcode/id1168397789?mt=12">Alignment for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1168397789&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=821411801" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/alignment-for-xcode/id1168397789?mt=12&#34;}" minimumOSVersion="10.11" bundle-id="com.tid.Alignment-for-Xcode" original-price="Get" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple122/v4/c7/f0/49/c7f049fb-2986-ace1-b0b6-a1bf6458439a/signed.dcr.7122277713043480239.pfpkg" versionID="821411801" adam-id="1168397789" dk-id="30" item-name="Alignment for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=1168397789&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=821411801" version-string="1.1.1" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/bd/9c/35/bd9c35cf-dcb1-1a35-878d-a600a7159656/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Alignment for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/alignment-for-xcode/id1168397789?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1168397789&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Lessons for Xcode 7" adam-id="1076826166" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/lessons-for-xcode-7/id1076826166?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Lessons for Xcode 7" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple69/v4/fe/9a/64/fe9a6415-4ec5-8484-6156-5ca23dca22e4/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple69/v4/fe/9a/64/fe9a6415-4ec5-8484-6156-5ca23dca22e4/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/lessons-for-xcode-7/id1076826166?mt=12">Lessons for Xcode 7</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1076826166&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=816055693" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/lessons-for-xcode-7/id1076826166?mt=12&#34;}" minimumOSVersion="10.6" bundle-id="com.bluewater.lessonsxcode" original-price="$16.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple69/v4/22/d5/07/22d5078b-3a68-0bd4-acb7-b99e2651b508/encrypted20841801950184101.pfpkg" versionID="816055693" adam-id="1076826166" dk-id="30" item-name="Lessons for Xcode 7" buy-params="productType=C&amp;price=16990&amp;salableAdamId=1076826166&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=816055693" version-string="1.0" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple69/v4/fe/9a/64/fe9a6415-4ec5-8484-6156-5ca23dca22e4/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$16.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$16.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Lessons for Xcode 7">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/lessons-for-xcode-7/id1076826166?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1076826166&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="iConeer - iconset and asset creator for Xcode" adam-id="1004753760" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/iconeer-iconset-and-asset-creator-for-xcode/id1004753760?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="iConeer - iconset and asset creator for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple60/v4/b7/d0/9f/b7d09fbc-3e0e-3666-2502-46229aa284c1/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple60/v4/b7/d0/9f/b7d09fbc-3e0e-3666-2502-46229aa284c1/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/iconeer-iconset-and-asset-creator-for-xcode/id1004753760?mt=12">iConeer - iconset and asset creator for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1004753760&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=813078415" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/iconeer-iconset-and-asset-creator-for-xcode/id1004753760?mt=12&#34;}" minimumOSVersion="10.10" bundle-id="macoa.self.iconeer" original-price="$0.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple49/v4/b9/7e/c1/b97ec167-10ac-3fa1-ac8a-f3778e9ddb14/encrypted8332595189586545649.pfpkg" versionID="813078415" adam-id="1004753760" dk-id="30" item-name="iConeer - iconset and asset creator for Xcode" buy-params="productType=C&amp;price=990&amp;salableAdamId=1004753760&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=813078415" version-string="1.2" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple60/v4/b7/d0/9f/b7d09fbc-3e0e-3666-2502-46229aa284c1/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$0.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$0.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for iConeer - iconset and asset creator for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/iconeer-iconset-and-asset-creator-for-xcode/id1004753760?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1004753760&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Training for Xcode" adam-id="665134234" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/training-for-xcode/id665134234?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Training for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple/v4/d0/09/3f/d0093fc4-9a1d-12b5-3979-f65a8f39d687/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple/v4/d0/09/3f/d0093fc4-9a1d-12b5-3979-f65a8f39d687/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/training-for-xcode/id665134234?mt=12">Training for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='2 stars, 6 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">6 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=665134234&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=401463498" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/training-for-xcode/id665134234?mt=12&#34;}" minimumOSVersion="10.6.6" bundle-id="co.jameskelly.xcodetutorials" original-price="$6.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple69/v4/e1/6e/23/e16e2337-53be-345e-ad56-f4de44d4ac97/encrypted1965097519468543380.pfpkg" versionID="401463498" adam-id="665134234" dk-id="30" item-name="Training for Xcode" buy-params="productType=C&amp;price=6990&amp;salableAdamId=665134234&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=401463498" version-string="1.3" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple/v4/d0/09/3f/d0093fc4-9a1d-12b5-3979-f65a8f39d687/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$6.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$6.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Training for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/training-for-xcode/id665134234?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=665134234&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Character Commands for Xcode" adam-id="1360667102" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/character-commands-for-xcode/id1360667102?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Character Commands for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/3d/13/5e/3d135e9f-5672-ac30-b23d-1897330ae853/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/3d/13/5e/3d135e9f-5672-ac30-b23d-1897330ae853/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/character-commands-for-xcode/id1360667102?mt=12">Character Commands for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1360667102&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=826437882" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/character-commands-for-xcode/id1360667102?mt=12&#34;}" minimumOSVersion="10.12" bundle-id="com.ifswllc.charcmd" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/7b/c4/d8/7bc4d827-7cd4-0431-2e8e-2b10670c20d0/signed.dcr.1111057614336747976.pfpkg" versionID="826437882" adam-id="1360667102" dk-id="30" item-name="Character Commands for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=1360667102&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=826437882" version-string="1.1" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/3d/13/5e/3d135e9f-5672-ac30-b23d-1897330ae853/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Character Commands for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/character-commands-for-xcode/id1360667102?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1360667102&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Comment Wrapper for Xcode" adam-id="1377998565" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/comment-wrapper-for-xcode/id1377998565?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Comment Wrapper for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/d0/dd/0d/d0dd0d17-551b-9139-b7af-fd0f7d28aedb/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/d0/dd/0d/d0dd0d17-551b-9139-b7af-fd0f7d28aedb/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/comment-wrapper-for-xcode/id1377998565?mt=12">Comment Wrapper for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1377998565&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=826863540" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/comment-wrapper-for-xcode/id1377998565?mt=12&#34;}" minimumOSVersion="10.13" bundle-id="com.stevebarnegren.xcodecommentwrapper" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/0f/d3/fc/0fd3fca8-7c4f-efe6-e80d-4e3a06c6ad93/signed.dcr.5168083934751303817.pfpkg" versionID="826863540" adam-id="1377998565" dk-id="30" item-name="Comment Wrapper for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=1377998565&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=826863540" version-string="1.0" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/d0/dd/0d/d0dd0d17-551b-9139-b7af-fd0f7d28aedb/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Comment Wrapper for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/comment-wrapper-for-xcode/id1377998565?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1377998565&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Code School for Xcode and iOS 10 Development" adam-id="1203792119" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/code-school-for-xcode-and-ios-10-development/id1203792119?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Code School for Xcode and iOS 10 Development" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/36/32/98/36329816-892c-36bf-b244-1d09cd4fed1e/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/36/32/98/36329816-892c-36bf-b244-1d09cd4fed1e/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/code-school-for-xcode-and-ios-10-development/id1203792119?mt=12">Code School for Xcode and iOS 10 Development</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1203792119&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=820874892" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/code-school-for-xcode-and-ios-10-development/id1203792119?mt=12&#34;}" minimumOSVersion="10.11" bundle-id="com.analiaP.swiftschool3" original-price="$9.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple122/v4/69/81/2b/69812bd2-2bc4-c055-f062-02a590cc5daa/signed.dcr.4986108125922932091.pfpkg" versionID="820874892" adam-id="1203792119" dk-id="30" item-name="Code School for Xcode and iOS 10 Development" buy-params="productType=C&amp;price=9990&amp;salableAdamId=1203792119&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=820874892" version-string="1.2" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/36/32/98/36329816-892c-36bf-b244-1d09cd4fed1e/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$9.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$9.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Code School for Xcode and iOS 10 Development">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/code-school-for-xcode-and-ios-10-development/id1203792119?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1203792119&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Comments for Xcode" adam-id="1187815194" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/comments-for-xcode/id1187815194?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Comments for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/f3/34/e1/f334e18e-cc0e-2781-8200-d35b0345bc09/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/f3/34/e1/f334e18e-cc0e-2781-8200-d35b0345bc09/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/comments-for-xcode/id1187815194?mt=12">Comments for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1187815194&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=820226472" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/comments-for-xcode/id1187815194?mt=12&#34;}" minimumOSVersion="10.12" bundle-id="de.pmw.CommentExtension" original-price="Get" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple111/v4/e0/e7/4d/e0e74da0-80a3-e39f-3991-41897f1a1619/signed.dcr.2967108634736872382.pfpkg" versionID="820226472" adam-id="1187815194" dk-id="30" item-name="Comments for Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=1187815194&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=820226472" version-string="0.1.0" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/f3/34/e1/f334e18e-cc0e-2781-8200-d35b0345bc09/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Comments for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/comments-for-xcode/id1187815194?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1187815194&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="App Academy: Xcode Edition" adam-id="660835555" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/app-academy-xcode-edition/id660835555?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="App Academy: Xcode Edition" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple7/v4/8e/68/96/8e68967e-1057-8192-8f51-1f58c2d3cec6/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple7/v4/8e/68/96/8e68967e-1057-8192-8f51-1f58c2d3cec6/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/app-academy-xcode-edition/id660835555?mt=12">App Academy: Xcode Edition</a></li><li class="genre">Education</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=660835555&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=812818215" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/app-academy-xcode-edition/id660835555?mt=12&#34;}" minimumOSVersion="10.7" bundle-id="com.polemics.App-Academy" original-price="$3.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple69/v4/a7/c4/39/a7c43965-70ac-4fe1-14f4-73897e68558c/encrypted8503782047239634279.pfpkg" versionID="812818215" adam-id="660835555" dk-id="30" item-name="App Academy: Xcode Edition" buy-params="productType=C&amp;price=3990&amp;salableAdamId=660835555&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=812818215" version-string="1.3" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple7/v4/8e/68/96/8e68967e-1057-8192-8f51-1f58c2d3cec6/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$3.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$3.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for App Academy: Xcode Edition">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/app-academy-xcode-edition/id660835555?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=660835555&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="PrettyJSON for Xcode" adam-id="1396408074" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/prettyjson-for-xcode/id1396408074?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="PrettyJSON for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/5a/90/d1/5a90d1f5-43cd-345a-fa42-d2278ed75877/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/5a/90/d1/5a90d1f5-43cd-345a-fa42-d2278ed75877/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/prettyjson-for-xcode/id1396408074?mt=12">PrettyJSON for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1396408074&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828636715" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/prettyjson-for-xcode/id1396408074?mt=12&#34;}" minimumOSVersion="10.11" bundle-id="com.kukushi.JSONFormatter" original-price="$0.99" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/f9/c8/9b/f9c89b32-aa8a-f5dc-3aca-1f6b41869a3c/signed.dcr.445315539108109644.pfpkg" versionID="828636715" adam-id="1396408074" dk-id="30" item-name="PrettyJSON for Xcode" buy-params="productType=C&amp;price=990&amp;salableAdamId=1396408074&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828636715" version-string="1.3" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/5a/90/d1/5a90d1f5-43cd-345a-fa42-d2278ed75877/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$0.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$0.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for PrettyJSON for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/prettyjson-for-xcode/id1396408074?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1396408074&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Templates Apps For Xcode" adam-id="884971675" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/templates-apps-for-xcode/id884971675?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Templates Apps For Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple117/v4/dd/00/8e/dd008e7b-2125-0214-b63a-71f6288dca82/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple117/v4/dd/00/8e/dd008e7b-2125-0214-b63a-71f6288dca82/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/templates-apps-for-xcode/id884971675?mt=12">Templates Apps For Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=884971675&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=595202667" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/templates-apps-for-xcode/id884971675?mt=12&#34;}" minimumOSVersion="10.8" bundle-id="it.giuliocaruso.two" original-price="$0.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple49/v4/53/66/f7/5366f728-7bf3-1748-aa12-bbe184207706/encrypted3989711108129556353.pfpkg" versionID="595202667" adam-id="884971675" dk-id="30" item-name="Templates Apps For Xcode" buy-params="productType=C&amp;price=990&amp;salableAdamId=884971675&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=595202667" version-string="1.0" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple117/v4/dd/00/8e/dd008e7b-2125-0214-b63a-71f6288dca82/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$0.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$0.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Templates Apps For Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/templates-apps-for-xcode/id884971675?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=884971675&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Iconset for Xcode" adam-id="552799390" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/iconset-for-xcode/id552799390?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Iconset for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/a3/fb/82/a3fb826c-d0eb-068c-5422-32975192cbaf/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/a3/fb/82/a3fb826c-d0eb-068c-5422-32975192cbaf/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/iconset-for-xcode/id552799390?mt=12">Iconset for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=552799390&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828954512" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/iconset-for-xcode/id552799390?mt=12&#34;}" minimumOSVersion="10.7" bundle-id="com.macmedianet.iconset" original-price="$4.99" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/ed/05/3e/ed053ea4-3a7f-3581-6574-a3be4fafe738/signed.dcr.1587094544784442163.pfpkg" versionID="828954512" adam-id="552799390" dk-id="30" item-name="Iconset for Xcode" buy-params="productType=C&amp;price=4990&amp;salableAdamId=552799390&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828954512" version-string="1.3.3" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/a3/fb/82/a3fb826c-d0eb-068c-5422-32975192cbaf/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$4.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$4.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Iconset for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/iconset-for-xcode/id552799390?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=552799390&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Tutorial for Xcode and Swift Programming Language" adam-id="1185330099" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/tutorial-for-xcode-and-swift-programming-language/id1185330099?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Tutorial for Xcode and Swift Programming Language" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple111/v4/43/98/f2/4398f257-bfe1-d75b-eee6-34d6d2dbd94a/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple111/v4/43/98/f2/4398f257-bfe1-d75b-eee6-34d6d2dbd94a/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/tutorial-for-xcode-and-swift-programming-language/id1185330099?mt=12">Tutorial for Xcode and Swift Programming Language</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1185330099&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=820117279" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/tutorial-for-xcode-and-swift-programming-language/id1185330099?mt=12&#34;}" minimumOSVersion="10.6" bundle-id="com.taptopia.tutsforxcodepremium" original-price="$19.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple122/v4/36/17/b3/3617b356-17ee-639c-701a-0cadefe033f6/signed.dcr.1564625213728480132.pfpkg" versionID="820117279" adam-id="1185330099" dk-id="30" item-name="Tutorial for Xcode and Swift Programming Language" buy-params="productType=C&amp;price=19990&amp;salableAdamId=1185330099&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=820117279" version-string="1.0" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple111/v4/43/98/f2/4398f257-bfe1-d75b-eee6-34d6d2dbd94a/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$19.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$19.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Tutorial for Xcode and Swift Programming Language">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/tutorial-for-xcode-and-swift-programming-language/id1185330099?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1185330099&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Step by Step Tutorials for Xcode 8 and IOS 10" adam-id="1175032678" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/step-by-step-tutorials-for-xcode-8-and-ios-10/id1175032678?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Step by Step Tutorials for Xcode 8 and IOS 10" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ed/4c/0d/ed4c0dc4-e690-d90f-b665-82d26db94250/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ed/4c/0d/ed4c0dc4-e690-d90f-b665-82d26db94250/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/step-by-step-tutorials-for-xcode-8-and-ios-10/id1175032678?mt=12">Step by Step Tutorials for Xcode 8 and IOS 10</a></li><li class="genre">Education</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1175032678&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=819699574" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/step-by-step-tutorials-for-xcode-8-and-ios-10/id1175032678?mt=12&#34;}" minimumOSVersion="10.9" bundle-id="com.mehmetsuna.stepxcodetutorials" original-price="$7.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple71/v4/96/dc/c9/96dcc99f-579e-59b4-73a8-01c6fbadf26a/signed.dcr.5193694387120596508.pfpkg" versionID="819699574" adam-id="1175032678" dk-id="30" item-name="Step by Step Tutorials for Xcode 8 and IOS 10" buy-params="productType=C&amp;price=7990&amp;salableAdamId=1175032678&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=819699574" version-string="1.0" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ed/4c/0d/ed4c0dc4-e690-d90f-b665-82d26db94250/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$7.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$7.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Step by Step Tutorials for Xcode 8 and IOS 10">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/step-by-step-tutorials-for-xcode-8-and-ios-10/id1175032678?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1175032678&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Localizer Xcode Extension" adam-id="1424316531" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/localizer-xcode-extension/id1424316531?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Localizer Xcode Extension" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/b2/d3/9e/b2d39e7e-ebb1-91de-ef65-ccb08d7bea48/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/b2/d3/9e/b2d39e7e-ebb1-91de-ef65-ccb08d7bea48/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/localizer-xcode-extension/id1424316531?mt=12">Localizer Xcode Extension</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1424316531&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828177267" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/localizer-xcode-extension/id1424316531?mt=12&#34;}" minimumOSVersion="10.12" bundle-id="de.IBMobile.Xcode.Extension.Localizer" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/c1/ea/ca/c1eaca8a-d047-e405-abd5-54cbda9d4855/signed.dcr.4008020030466436799.pfpkg" versionID="828177267" adam-id="1424316531" dk-id="30" item-name="Localizer Xcode Extension" buy-params="productType=C&amp;price=0&amp;salableAdamId=1424316531&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828177267" version-string="1.0" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/b2/d3/9e/b2d39e7e-ebb1-91de-ef65-ccb08d7bea48/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Localizer Xcode Extension">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/localizer-xcode-extension/id1424316531?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1424316531&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Placeholders &bull; Create stand-in assets for Xcode and Android projects" adam-id="1042257116" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/placeholders-create-stand-in-assets-for-xcode-android/id1042257116?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Placeholders • Create stand-in assets for Xcode and Android projects" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple69/v4/58/02/0e/58020ebf-c949-5bf7-3c9e-8ceb859ce303/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple69/v4/58/02/0e/58020ebf-c949-5bf7-3c9e-8ceb859ce303/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/placeholders-create-stand-in-assets-for-xcode-android/id1042257116?mt=12">Placeholders • Create stand-in assets for Xcode and Android projects</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1042257116&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=813443658" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/placeholders-create-stand-in-assets-for-xcode-android/id1042257116?mt=12&#34;}" minimumOSVersion="10.10" bundle-id="io.gemba.Placeholders" original-price="$0.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple49/v4/5e/a4/24/5ea424f6-5f1b-e434-d5c4-bf144dbbc2c4/encrypted1719057019934255687.pfpkg" versionID="813443658" adam-id="1042257116" dk-id="30" item-name="Placeholders • Create stand-in assets for Xcode and Android projects" buy-params="productType=C&amp;price=990&amp;salableAdamId=1042257116&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=813443658" version-string="1.0" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple69/v4/58/02/0e/58020ebf-c949-5bf7-3c9e-8ceb859ce303/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$0.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$0.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Placeholders &bull; Create stand-in assets for Xcode and Android projects">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/placeholders-create-stand-in-assets-for-xcode-android/id1042257116?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1042257116&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Assets for Xcode: Resize images and icons for developers" adam-id="1003994181" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/assets-for-xcode-resize-images-and-icons-for-developers/id1003994181?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Assets for Xcode: Resize images and icons for developers" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple69/v4/c7/b1/ae/c7b1aea5-cdf9-9489-3d23-61575e218893/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple69/v4/c7/b1/ae/c7b1aea5-cdf9-9489-3d23-61575e218893/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/assets-for-xcode-resize-images-and-icons-for-developers/id1003994181?mt=12">Assets for Xcode: Resize images and icons for developers</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1003994181&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=816538033" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/assets-for-xcode-resize-images-and-icons-for-developers/id1003994181?mt=12&#34;}" minimumOSVersion="10.10" bundle-id="com.bravedevapps.assetsforxcode" original-price="$7.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple49/v4/32/1e/ad/321ead57-ea07-cc43-8bc5-014e9fd3a146/signed.dcr.1919273991466553131.pfpkg" versionID="816538033" adam-id="1003994181" dk-id="30" item-name="Assets for Xcode: Resize images and icons for developers" buy-params="productType=C&amp;price=7990&amp;salableAdamId=1003994181&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=816538033" version-string="3.1" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple69/v4/c7/b1/ae/c7b1aea5-cdf9-9489-3d23-61575e218893/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$7.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$7.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Assets for Xcode: Resize images and icons for developers">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/assets-for-xcode-resize-images-and-icons-for-developers/id1003994181?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1003994181&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Archive Cleaner for Xcode" adam-id="655575608" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/archive-cleaner-for-xcode/id655575608?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Archive Cleaner for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/5e/aa/cc/5eaaccbe-2477-8b40-93a1-4a42c587a6c6/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/5e/aa/cc/5eaaccbe-2477-8b40-93a1-4a42c587a6c6/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/archive-cleaner-for-xcode/id655575608?mt=12">Archive Cleaner for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=655575608&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827443518" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/archive-cleaner-for-xcode/id655575608?mt=12&#34;}" minimumOSVersion="10.7" bundle-id="com.joernhartmann.archivecleaner" original-price="$1.99" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple115/v4/aa/ec/09/aaec095f-bc21-5fbc-fb80-f13135118810/signed.dcr.4799960597739096470.pfpkg" versionID="827443518" adam-id="655575608" dk-id="30" item-name="Archive Cleaner for Xcode" buy-params="productType=C&amp;price=1990&amp;salableAdamId=655575608&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827443518" version-string="1.0.2" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/5e/aa/cc/5eaaccbe-2477-8b40-93a1-4a42c587a6c6/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$1.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$1.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Archive Cleaner for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/archive-cleaner-for-xcode/id655575608?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=655575608&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="XCArchiver - Archive Editor for Xcode" adam-id="1016279141" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/xcarchiver-archive-editor-for-xcode/id1016279141?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="XCArchiver - Archive Editor for Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple62/v4/f3/15/8a/f3158a69-6d92-56a5-e15e-83b92f6a1e21/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple62/v4/f3/15/8a/f3158a69-6d92-56a5-e15e-83b92f6a1e21/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/xcarchiver-archive-editor-for-xcode/id1016279141?mt=12">XCArchiver - Archive Editor for Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1016279141&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=814463652" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/xcarchiver-archive-editor-for-xcode/id1016279141?mt=12&#34;}" minimumOSVersion="10.10" bundle-id="vg.vox.XCArchiver" original-price="$9.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple49/v4/1e/34/4a/1e344a7f-df41-5c82-e14b-0fed0aa6e0fd/encrypted2734864861106870713.pfpkg" versionID="814463652" adam-id="1016279141" dk-id="30" item-name="XCArchiver - Archive Editor for Xcode" buy-params="productType=C&amp;price=9990&amp;salableAdamId=1016279141&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=814463652" version-string="1.4" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple62/v4/f3/15/8a/f3158a69-6d92-56a5-e15e-83b92f6a1e21/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$9.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$9.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for XCArchiver - Archive Editor for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/xcarchiver-archive-editor-for-xcode/id1016279141?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1016279141&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Tutorials for TVOS Swift Programming with XCODE" adam-id="1129885290" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/tutorials-for-tvos-swift-programming-with-xcode/id1129885290?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Tutorials for TVOS Swift Programming with XCODE" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple30/v4/45/65/91/456591c8-d13d-b6a8-672a-19ab0b3ff649/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple30/v4/45/65/91/456591c8-d13d-b6a8-672a-19ab0b3ff649/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/tutorials-for-tvos-swift-programming-with-xcode/id1129885290?mt=12">Tutorials for TVOS Swift Programming with XCODE</a></li><li class="genre">Education</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1129885290&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=817970587" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/tutorials-for-tvos-swift-programming-with-xcode/id1129885290?mt=12&#34;}" minimumOSVersion="10.6" bundle-id="com.cladi.tvos-swift-tutorial" original-price="$4.99" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple30/v4/d3/ca/7a/d3ca7a50-712c-68f6-f1ef-b0469f26f2bd/signed.dcr.5324575943085401655.pfpkg" versionID="817970587" adam-id="1129885290" dk-id="30" item-name="Tutorials for TVOS Swift Programming with XCODE" buy-params="productType=C&amp;price=4990&amp;salableAdamId=1129885290&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=817970587" version-string="1.0" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple30/v4/45/65/91/456591c8-d13d-b6a8-672a-19ab0b3ff649/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$4.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$4.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Tutorials for TVOS Swift Programming with XCODE">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/tutorials-for-tvos-swift-programming-with-xcode/id1129885290?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1129885290&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="XCFormat" adam-id="1165321484" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/xcformat/id1165321484?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="XCFormat" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/d2/93/89/d293896c-b15a-414b-ebd6-777a7341cea3/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/d2/93/89/d293896c-b15a-414b-ebd6-777a7341cea3/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/xcformat/id1165321484?mt=12">XCFormat</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1165321484&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828142255" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/xcformat/id1165321484?mt=12&#34;}" minimumOSVersion="10.11" bundle-id="com.sugarmo.XCFormat" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/3e/87/09/3e8709a0-11f4-940d-4090-2e65391e6082/signed.dcr.5068924702423183956.pfpkg" versionID="828142255" adam-id="1165321484" dk-id="30" item-name="XCFormat" buy-params="productType=C&amp;price=0&amp;salableAdamId=1165321484&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828142255" version-string="1.1.1" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/d2/93/89/d293896c-b15a-414b-ebd6-777a7341cea3/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for XCFormat">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/xcformat/id1165321484?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1165321484&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="18 Strings" adam-id="882419288" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/18-strings/id882419288?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="18 Strings" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/4a/f6/fc/4af6fcaa-18c7-8f6c-63ba-eceeba92e271/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/4a/f6/fc/4af6fcaa-18c7-8f6c-63ba-eceeba92e271/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/18-strings/id882419288?mt=12">18 Strings</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=882419288&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828037907" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/18-strings/id882419288?mt=12&#34;}" minimumOSVersion="10.13" bundle-id="com.cherpake.strings.manager" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/7f/e3/f4/7fe3f43b-581c-d5d0-54d6-b45072c76635/signed.dcr.6008502807791751891.pfpkg" versionID="828037907" adam-id="882419288" dk-id="30" item-name="18 Strings" buy-params="productType=C&amp;price=0&amp;salableAdamId=882419288&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828037907" version-string="2.0.1" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/4a/f6/fc/4af6fcaa-18c7-8f6c-63ba-eceeba92e271/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for 18 Strings">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/18-strings/id882419288?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=882419288&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="XcLauncher" adam-id="1234625785" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/xclauncher/id1234625785?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="XcLauncher" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/53/4f/5c/534f5c1f-7a14-96cb-8617-e7d8d3de2166/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/53/4f/5c/534f5c1f-7a14-96cb-8617-e7d8d3de2166/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/xclauncher/id1234625785?mt=12">XcLauncher</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1234625785&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828740547" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/xclauncher/id1234625785?mt=12&#34;}" minimumOSVersion="10.11" bundle-id="com.hacknicity.xcLauncher" original-price="$2.99" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/64/1e/88/641e88b1-a915-ad1c-1b1b-14455a76f9e4/signed.dcr.965689856258124703.pfpkg" versionID="828740547" adam-id="1234625785" dk-id="30" item-name="XcLauncher" buy-params="productType=C&amp;price=2990&amp;salableAdamId=1234625785&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828740547" version-string="1.3" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/53/4f/5c/534f5c1f-7a14-96cb-8617-e7d8d3de2166/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$2.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$2.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for XcLauncher">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/xclauncher/id1234625785?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1234625785&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="AssetSizer" adam-id="1058736889" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/assetsizer/id1058736889?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="AssetSizer" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/b9/4f/84/b94f8494-b091-c1c4-1414-7768efc8a606/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/b9/4f/84/b94f8494-b091-c1c4-1414-7768efc8a606/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/assetsizer/id1058736889?mt=12">AssetSizer</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1058736889&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=814463868" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/assetsizer/id1058736889?mt=12&#34;}" minimumOSVersion="10.10" bundle-id="com.chrisgalz.AssetSizer" original-price="$1.99" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple115/v4/9a/92/42/9a9242d6-ef7f-2aa8-846b-0db608016a36/signed.dcr.1254490274313609098.pfpkg" versionID="814463868" adam-id="1058736889" dk-id="30" item-name="AssetSizer" buy-params="productType=C&amp;price=1990&amp;salableAdamId=1058736889&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=814463868" version-string="1.0" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/b9/4f/84/b94f8494-b091-c1c4-1414-7768efc8a606/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$1.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$1.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for AssetSizer">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/assetsizer/id1058736889?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1058736889&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="LocalizeTranslator 2018" adam-id="1402327048" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/us/app/localizetranslator-2018/id1402327048?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="LocalizeTranslator 2018" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/17/98/d5/1798d525-c4a2-6185-ca4f-a50bfb8ba5f4/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/17/98/d5/1798d525-c4a2-6185-ca4f-a50bfb8ba5f4/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/84eb/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/us/app/localizetranslator-2018/id1402327048?mt=12">LocalizeTranslator 2018</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1402327048&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827626790" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/us/app/localizetranslator-2018/id1402327048?mt=12&#34;}" minimumOSVersion="10.13" bundle-id="com.chrisgalz.LocalizeTranslator" original-price="$9.99" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/67/1b/72/671b725b-ee57-9fb4-08ef-b581e47a5c89/signed.dcr.7668904966494724346.pfpkg" versionID="827626790" adam-id="1402327048" dk-id="30" item-name="LocalizeTranslator 2018" buy-params="productType=C&amp;price=9990&amp;salableAdamId=1402327048&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827626790" version-string="1.0" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/17/98/d5/1798d525-c4a2-6185-ca4f-a50bfb8ba5f4/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">$9.99</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>$9.99</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for LocalizeTranslator 2018">
+      
+        <option action="copy-link" href="https://itunes.apple.com/us/app/localizetranslator-2018/id1402327048?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1402327048&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+</div>
+    </div>
+    
+  </div>
+</div>
+
+        
+
+        
+
+      </div>
+    </div>
+
+  
+
+      </div>
+
+
+      
+      
+
+    </div>
+  </div>
+
+  <footer>
+  <div class="legal">
+    <span class="copyright">Copyright © 2018 Apple Inc. <a target="_blank" href="https://www.apple.com/legal/">All rights reserved.</a></span>
+    <ul class="list" role="presentation">
+      <li><a target="_blank" href="https://www.apple.com/legal/privacy/">Privacy Policy</a></li>
+      <li><a target="_blank" href="http://www.apple.com/legal/itunes/us/terms.html">Terms and Conditions</a></li>
+      
+      <li><a href="https://itunes.apple.com/us/faq">FAQ</a></li>
+    </ul>
+    
+    <div class="intl" metrics-loc="CountryPicker">
+      <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage"><img src-load-auto-after-dom-load="" width="30" height="30" src-swap-high-dpi="https://s.mzstatic.com/images/flags/-dsi-30/usa.png" alt="My Store: United States, Choose Store" src-swap="https://s.mzstatic.com/images/flags/30/usa.png"></img></a>
+      
+    </div>
+    
+  </div>
+</footer>
+
+
+  
+  <script type="text/javascript">
+    var pageMetricsUrl = 'https://xp.apple.com/report/2/xp_its_main?responseType=image&eventType=page&app=MacAppStore&pageId=DAHSearchPage&pageType=finance&eventSource=server&page=finance_DAHSearchPage';
+    if (pageMetricsUrl) {
+        pageMetricsUrl += "&eventTime=" + encodeURIComponent((new Date()).getTime());
+    }
+    var billingSection = document.querySelector(".edit-billing, .creditcard");
+    if (billingSection !== null) {
+        var selectedPaymentType = document.querySelector(".credit-card-picker input.selected, #paymentTypeField");
+        if (selectedPaymentType !== null) {
+            pageMetricsUrl += "&pageDetails=pmtTyp%3D" + selectedPaymentType.value;
+        } 
+    }
+    if (its && its.cookies) {
+        var itcCt = its.cookies.getUnescaped("itcCt");
+        var itscc = its.cookies.getUnescaped("itscc");
+        var hasitcCt = false;
+        if (itcCt && itcCt !== "") {
+            pageMetricsUrl += "&cookie=itcCt%3D" + itcCt;
+            hasitcCt = true;
+        }
+        if (itscc && itscc != "") {
+            pageMetricsUrl += (hasitcCt) ? "%26" : "&cookie=";
+            pageMetricsUrl += "itscc%3D" + itscc;
+        }
+    }
+    var containingDiv = document.createElement('div');
+    containingDiv.innerHTML = "<img width='0' height='0' border='0' alt='' aria-hidden=true src='" + pageMetricsUrl + "'/>";
+    document.body.appendChild(containingDiv);
+
+    // NOTE: This should be considered temporary and replaced when a better solution is available.
+    //      right now, SFMetrics should be referenced for all of these, but MZComponents can't access anything
+    //      in MZStoreComponents so we're going to have to go with this workaround.
+    var metricsConfig = {
+        'metricsUrl' : 'https://xp.apple.com/report/2/',
+        'compoundSeparator' : '_',
+        'tokenSeparator' : '|',
+        'postFrequency' : 60000,
+        'metricsBase' : {}
+    };
+</script>
+
+</body>
+
+
+</html>

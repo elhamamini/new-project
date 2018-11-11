@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UDID</key>
+	<string>621D55CE-7B25-4FAB-AF38-9F1C4F6B7AEB</string>
+	<key>deviceType</key>
+	<string>com.apple.CoreSimulator.SimDeviceType.iPhone-XS-Max</string>
+	<key>isDeleted</key>
+	<false/>
+	<key>name</key>
+	<string>iPhone XS Max</string>
+	<key>runtime</key>
+	<string>com.apple.CoreSimulator.SimRuntime.iOS-12-1</string>
+	<key>state</key>
+	<integer>1</integer>
+</dict>
+</plist>

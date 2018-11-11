@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UDID</key>
+	<string>99CABFB8-A296-4F88-BBAC-35C07A3FB8FB</string>
+	<key>deviceType</key>
+	<string>com.apple.CoreSimulator.SimDeviceType.Apple-TV-1080p</string>
+	<key>isDeleted</key>
+	<false/>
+	<key>name</key>
+	<string>Apple TV</string>
+	<key>runtime</key>
+	<string>com.apple.CoreSimulator.SimRuntime.tvOS-12-1</string>
+	<key>state</key>
+	<integer>1</integer>
+</dict>
+</plist>
